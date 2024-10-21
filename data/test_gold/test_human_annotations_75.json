@@ -1,0 +1,54 @@
+{
+  "text": "I further will, give, devise and bequeath unto my friend [Person-7], all gifts she has given me over the years including but not limited to the television, VCR and printer.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all gifts she has given me over the years",
+        "the television",
+        "VCR and printer"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "over the years"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "me",
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my friend",
+        "[Person-7]",
+        "she"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Testator": [
+        "e3"
+      ],
+      "Beneficiary": [
+        "e4"
+      ]
+    }
+  ]
+}

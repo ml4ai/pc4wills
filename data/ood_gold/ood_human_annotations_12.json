@@ -1,0 +1,49 @@
+{
+  "text": "SEVENTH: In the event any person claiming to be an heir contests this Will or any portion thereof, then he is to receive the sum of One Dollar ($1. 00) and no more.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "In the event any person claiming to be an heir contests this Will or any portion thereof"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "the sum of One Dollar ($1. 00)"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "he",
+        "any person claiming to be an heir"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Condition": [
+        "e2"
+      ],
+      "Asset": [
+        "e3"
+      ],
+      "Beneficiary": [
+        "e4"
+      ]
+    }
+  ]
+}

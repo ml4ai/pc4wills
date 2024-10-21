@@ -1,0 +1,92 @@
+{
+  "text": "THIRD: In the event I have prepared a list directing the disposition of certain items of personal property as authorized by Section 15-2-513 of the Idaho Code, I direct that said list shall govern the disposition of the specific items of personal property listed therein and shall take precedence over any inconsistent provisions of this Will.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "certain items of personal property",
+        "the specific items of personal property listed therein"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "as authorized by Section 15-2-513 of the Idaho Code"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "said list shall govern the disposition of the specific items of personal property listed therein",
+        "shall take precedence over any inconsistent provisions of this Will"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "In the event I have prepared a list directing the disposition of certain items of personal property as authorized by Section 15-2-513 of the Idaho Code"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "that said list",
+        "a list directing the disposition of certain items of personal property"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Testator": [
+        "e7"
+      ],
+      "Will": [
+        "e8"
+      ],
+      "Condition": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Condition": [
+        "e6"
+      ],
+      "Duty": [
+        "e5"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    }
+  ]
+}

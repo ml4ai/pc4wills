@@ -1,0 +1,101 @@
+{
+  "text": "SIXTH: I hereby nominate and appoint my daughter, [Person-2], as personal representative of this, my LAST WILL and TESTAMENT, PROVIDED that in the event said daughter does not survive me or in the event such daughter is unable or unwilling to act, then I hereby nominate and appoint [Person-3] to serve as personal representative.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "PROVIDED that in the event said daughter does not survive me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "in the event such daughter is unable or unwilling to act"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "I",
+        "my",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "personal representative",
+        "[Person-2]",
+        "said daughter",
+        "such daughter",
+        "my daughter"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my LAST WILL and TESTAMENT",
+        "this"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "[Person-3]",
+        "personal representative"
+      ],
+      "type": "Executor"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Nomination",
+      "Testator": [
+        "e3"
+      ],
+      "Executor": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Executor": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Disqualification",
+      "Executor": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Renunciation",
+      "Executor": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Nomination",
+      "Condition": [
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ],
+      "Executor": [
+        "e6"
+      ]
+    }
+  ]
+}

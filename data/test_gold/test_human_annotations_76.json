@@ -1,0 +1,121 @@
+{
+  "text": "ITEM Vlll. Furthermore, I instruct that all of my sons, [Person-2], [Person-4] and [Person-6], choose in fair rotation any furniture, pictures, knickknacks and any other property not heretofore bequeathed, that they may want. I further instruct that any unclaimed balance of these items be bequeathed unto my dear friend [Person-7].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all of my sons",
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "all of my sons",
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "all of my sons",
+        "[Person-6]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "in fair rotation"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "heretofore"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "any unclaimed balance"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "these items",
+        "any furniture, pictures, knickknacks and any other property not heretofore bequeathed"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "my dear friend",
+        "[Person-7]"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Bequest": [
+        "v2"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Condition": [
+        "e4"
+      ],
+      "Beneficiary": [
+        "e1",
+        "e2",
+        "e3"
+      ],
+      "Asset": [
+        "e8"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Direction",
+      "Bequest": [
+        "v4"
+      ],
+      "Testator": [
+        "e8"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Bequest",
+      "Asset": [
+        "e6"
+      ],
+      "Beneficiary": [
+        "e9"
+      ]
+    }
+  ]
+}

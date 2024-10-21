@@ -1,0 +1,86 @@
+{
+    "text": "If [Person-2] predeceases me, then I hereby give, devise and bequeath all of my property, real, personal or mixed to her two children, [Person-3], and [Person-4], in fee simple as tenants in common.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "her two children",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "her two children",
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in fee simple as tenants in common"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "If [Person-2] predeceases me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "all of my property, real, personal or mixed"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "I",
+                "me",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "her",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Condition": [
+                "e3",
+                "e4"
+            ],
+            "Asset": [
+                "e5"
+            ],
+            "Beneficiary": [
+                "e1",
+                "e2"
+            ],
+            "Testator": [
+                "e6"
+            ]
+        }
+    ]
+}

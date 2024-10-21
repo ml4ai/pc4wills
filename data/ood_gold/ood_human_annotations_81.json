@@ -1,0 +1,77 @@
+{
+  "text": "2. PAYMENT OF DEBTS: I direct that all my debts and funeral expenses be paid as soon as practical after my death.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all my debts"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "funeral expenses"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "after my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "all my debts and funeral expenses be paid"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "as soon as practical after my death"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "DEBTS"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Duty": [
+        "e4"
+      ],
+      "Condition": [
+        "e5"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+    "text": "I will, devise and bequeath the balance of the funds in the Trust Account as follows: 1/4 to my daughter, [Person-4]; 1/4 to my son, [Person-5]; and 1/2 to my son, [Person-6].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "1/4",
+                "the balance of the funds in the Trust Account"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my daughter",
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-5]",
+                "my son"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my son",
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "1/2",
+                "the balance of the funds in the Trust Account"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "1/4",
+                "the balance of the funds in the Trust Account"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Testator": [
+                "e1"
+            ],
+            "Asset": [
+                "e2"
+            ],
+            "Beneficiary": [
+                "e3"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Testator": [
+                "e1"
+            ],
+            "Asset": [
+                "e7"
+            ],
+            "Beneficiary": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Testator": [
+                "e1"
+            ],
+            "Asset": [
+                "e6"
+            ],
+            "Beneficiary": [
+                "e5"
+            ]
+        }
+    ]
+}

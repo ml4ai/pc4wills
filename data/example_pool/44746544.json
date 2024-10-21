@@ -1,0 +1,159 @@
+{
+    "text": "I direct that all debts that shall be legally owing by me at the time of my death, all estate, inheritance, legacy, and succession taxes which shall be imposed by reason of my death, and the expenses of administration of my estate be paid by my Executor from the principal of my estate as soon as practicable after my death except that as to any debts secured by real estate, whether by mortgage or by any other secured interest, my Executor shall permit such real estate to pass subject to such debt.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all estate, inheritance, legacy, and succession taxes which shall be imposed by reason of my death"
+            ],
+            "type": "Tax"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the expenses of administration of my estate"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my",
+                "me",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "as soon as practicable after my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "except that as to any debts secured by real estate, whether by mortgage or by any other secured interest"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "such debt",
+                "any debts secured by real estate, whether by mortgage or by any other secured interest"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "all debts that shall be legally owing by me at the time of my death"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "be paid by my Executor from the principal of my estate"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "shall permit such real estate to pass subject to such debt"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "such real estate",
+                "real estate",
+                "my estate",
+                "the principal of my estate"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Testator": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Direction",
+            "Time": [
+                "e5"
+            ],
+            "Tax": [
+                "e2"
+            ],
+            "Expense": [
+                "e3"
+            ],
+            "Condition": [
+                "e6"
+            ],
+            "Debt": [
+                "e8"
+            ],
+            "Duty": [
+                "e9"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Executor": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Authorization",
+            "Right": [
+                "e10"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Executor": [
+                "e11"
+            ]
+        }
+    ]
+}

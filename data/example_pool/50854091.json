@@ -1,0 +1,116 @@
+{
+    "text": "I name, nominate, constitute and appoint my nephew, [Person-2], to serve as Executor of this my Last Will and Testament, and request that the Court permit him to serve without bond, and that he be relieved of the necessity of filing an inventory, settlement, or any other accounting at any time in any Court.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the necessity of filing an inventory, settlement, or any other accounting"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "at any time"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-2]",
+                "him",
+                "my nephew",
+                "Executor",
+                "he"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my Last Will and Testament",
+                "this"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "in any Court"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e5"
+            ],
+            "Executor": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Excuse": [
+                "v3",
+                "v4"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Excuse",
+            "Bond": [
+                "e1"
+            ],
+            "Executor": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Excuse",
+            "Duty": [
+                "e2"
+            ],
+            "Time": [
+                "e3"
+            ],
+            "Executor": [
+                "e6"
+            ],
+            "Condition": [
+                "e8"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+  "text": "XVI I direct my Executor to sell my house and my GMC pick-up truck as soon after my death as can be conveniently done. I hereby convey unto my Executor all of such title as is necessary to convert this property to cash. After my house and truck have been sold, and all of my debts are paid, I hereby give, devise and bequeath this said money to be divided equally among my four children, [Person-11], [Person-3], [Person-4] and [Person-7].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "as soon after my death as can be conveniently done"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "to sell my house and my GMC pick-up truck"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "all of such title as is necessary to convert this property to cash"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "After my house and truck have been sold, and all of my debts are paid"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "all of my debts"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my four children",
+        "[Person-11]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my four children",
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "my four children",
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "my four children",
+        "[Person-7]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "to be divided equally"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "my Executor"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "my house and my GMC pick-up truck",
+        "this property",
+        "my house and truck"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e14",
+      "texts": [
+        "this said money",
+        "cash"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Time": [
+        "e1"
+      ],
+      "Duty": [
+        "e2"
+      ],
+      "Testator": [
+        "e11"
+      ],
+      "Executor": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Authorization",
+      "Right": [
+        "e3"
+      ],
+      "Testator": [
+        "e11"
+      ],
+      "Executor": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Testator": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Bequest",
+      "Time": [
+        "e4"
+      ],
+      "Beneficiary": [
+        "e6",
+        "e7",
+        "e8",
+        "e9"
+      ],
+      "Condition": [
+        "e10"
+      ],
+      "Testator": [
+        "e11"
+      ],
+      "Asset": [
+        "e14"
+      ]
+    }
+  ]
+}

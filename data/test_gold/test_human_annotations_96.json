@@ -1,0 +1,51 @@
+{
+  "text": "VIII. I give, devise and bequeath my wedding ring and my other diamond ring to my son, [Person-2].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my wedding ring"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my other diamond ring"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "[Person-2]",
+        "my son"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1",
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ],
+      "Beneficiary": [
+        "e4"
+      ]
+    }
+  ]
+}

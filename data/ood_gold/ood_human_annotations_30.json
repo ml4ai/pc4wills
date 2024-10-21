@@ -1,0 +1,267 @@
+{
+  "text": "FOURTH: In the event of the demise of [Person-2] before my death, I give, devise and bequeath all the residue of my estate, both real and personal of whatever kind the same may be and wherever situated of which I may die possessed, or to which I may be entitled, to my stepchildren, to-wit: [Person-3], [Person-4] and [Person-5] in equal shares, share and share alike. In the event of the death of any of my stepchildren without issue prior to my death, I direct the share to which said beneficiary would be entitled, had said beneficiary survived me, be distributed in equal shares, share and share alike, to my remaining surviving stepchildren; but if they leave children then their share shall go to their children by right of representation. ",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "all the residue of my estate, both real and personal of whatever kind the same may be and wherever situated of which I may die possessed, or to which I may be entitled"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my stepchildren",
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my stepchildren",
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my stepchildren",
+        "[Person-5]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "in equal shares"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "share and share alike"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "prior to my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "In the event of the death of any of my stepchildren without issue prior to my death"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "had said beneficiary survived me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "in equal shares"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "share and share alike"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "my remaining surviving stepchildren"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e14",
+      "texts": [
+        "children"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e15",
+      "texts": [
+        "their children"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e16",
+      "texts": [
+        "by right of representation"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e17",
+      "texts": [
+        "if they leave children"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e18",
+      "texts": [
+        "In the event of the demise of [Person-2] before my death"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e19",
+      "texts": [
+        "before my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e20",
+      "texts": [
+        "my",
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e21",
+      "texts": [
+        "said beneficiary",
+        "they",
+        "any of my stepchildren",
+        "their"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e22",
+      "texts": [
+        "the share to which said beneficiary would be entitled",
+        "their share"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Beneficiary": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Testator": [
+        "e20"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Bequest",
+      "Asset": [
+        "e2"
+      ],
+      "Condition": [
+        "e6",
+        "e7",
+        "e18"
+      ],
+      "Beneficiary": [
+        "e3",
+        "e4",
+        "e5"
+      ],
+      "Testator": [
+        "e20"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Death",
+      "Testator": [
+        "e20"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Death",
+      "Beneficiary": [
+        "e21"
+      ]
+    },
+    {
+      "id": "v6",
+      "type": "Direction",
+      "Condition": [
+        "e9",
+        "e17"
+      ],
+      "Bequest": [
+        "v7"
+      ],
+      "Testator": [
+        "e20"
+      ]
+    },
+    {
+      "id": "v7",
+      "type": "Bequest",
+      "Condition": [
+        "e10",
+        "e11",
+        "e12"
+      ],
+      "Beneficiary": [
+        "e13"
+      ],
+      "Testator": [
+        "e20"
+      ],
+      "Asset": [
+        "e23"
+      ]
+    },
+    {
+      "id": "v8",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e15"
+      ],
+      "Condition": [
+        "e16",
+        "e17"
+      ],
+      "Testator": [
+        "e20"
+      ],
+      "Asset": [
+        "e22"
+      ]
+    }
+  ]
+}

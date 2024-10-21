@@ -1,0 +1,69 @@
+{
+  "text": "It is made a condition of this will that my house and lot at [Address-1], as described in deed recorded in Deed Book 52, page 176, Register's Office of Lauderdale County, shall not be sold so long as at least two of my devisees are living.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Lauderdale County"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my devisees"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my house and lot at [Address-1], as described in deed recorded in Deed Book 52, page 176, Register's Office of Lauderdale County, shall not be sold"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my house and lot at [Address-1], as described in deed recorded in Deed Book 52, page 176, Register's Office of Lauderdale County"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "so long as at least two of my devisees are living"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Duty": [
+        "e4"
+      ],
+      "Condition": [
+        "e6"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    }
+  ]
+}

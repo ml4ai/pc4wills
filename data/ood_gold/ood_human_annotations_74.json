@@ -1,0 +1,80 @@
+{
+  "text": "In the event both of them shall die before me or decline or fail to act, I nominate the [Organization-3].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "both of them"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "[Organization-3]"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "In the event both of them shall die before me or decline or fail to act"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "before me"
+      ],
+      "type": "Time"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Disqualification",
+      "Executor": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Renunciation",
+      "Executor": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Executor": [
+        "e1"
+      ],
+      "Time": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Nomination",
+      "Executor": [
+        "e2"
+      ],
+      "Condition": [
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    }
+  ]
+}

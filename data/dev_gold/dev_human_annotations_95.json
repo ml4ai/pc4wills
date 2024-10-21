@@ -1,0 +1,43 @@
+{
+    "text": "f) I will, devise and bequeath one wedding band to my daughter-in-law, [Person-9].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "one wedding band"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my daughter-in-law",
+                "[Person-9]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Testator": [
+                "e2"
+            ],
+            "Beneficiary": [
+                "e3"
+            ]
+        }
+    ]
+}

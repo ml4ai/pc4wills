@@ -1,0 +1,70 @@
+{
+    "text": "ARTICLE 4. I appoint my husband, [Person-3], to be Executor of this my Last Will and Testament and direct that no security be required of him as such.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "security"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "this",
+                "my Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-3]",
+                "my husband",
+                "Executor",
+                "him"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e2"
+            ],
+            "Executor": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Excuse": [
+                "v3"
+            ],
+            "Testator": [
+                "e2"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Excuse",
+            "Duty": [
+                "e1"
+            ],
+            "Executor": [
+                "e4"
+            ]
+        }
+    ]
+}

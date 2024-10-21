@@ -1,0 +1,112 @@
+{
+    "text": "V I hereby direct my Executor to sell my condominium located at 214 Garden Place, Ripley, Tennessee, and any of my personal effects not hereinabove disposed of in paragraph IV above, as soon after my death as can conveniently be done. I hereby convey unto my Executor all such title as is necessary to convert this property to cash.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my condominium located at 214 Garden Place, Ripley, Tennessee",
+                "this property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "any of my personal effects not hereinabove disposed of in paragraph IV above",
+                "this property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "as soon after my death as can conveniently be done"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "all such title"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "as is necessary to convert this property to cash"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "to sell my condominium located at 214 Garden Place, Ripley, Tennessee, and any of my personal effects not hereinabove disposed of in paragraph IV above"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Time": [
+                "e4"
+            ],
+            "Duty": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Executor": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Authorization",
+            "Right": [
+                "e5"
+            ],
+            "Condition": [
+                "e6"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Executor": [
+                "e9"
+            ]
+        }
+    ]
+}

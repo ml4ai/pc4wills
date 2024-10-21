@@ -1,0 +1,69 @@
+{
+    "text": "V Should for any reason my son, [Person-5], predecease me, his share shall go to his wife, [Person-10].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "his share"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Should for any reason my son, [Person-5], predecease me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "me",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-5]",
+                "his",
+                "my son"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "his wife",
+                "[Person-10]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Condition": [
+                "e2"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Beneficiary": [
+                "e5"
+            ]
+        }
+    ]
+}

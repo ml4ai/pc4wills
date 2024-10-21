@@ -1,0 +1,64 @@
+{
+    "text": "ARTICLE 1. I direct my personal representative to first pay all of my just debts and funeral expenses out of any funds coming into their hands.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "funeral expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "any funds"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "to first pay all of my just debts and funeral expenses out of any funds coming into their hands"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "all of my just debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my personal representative",
+                "their"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Duty": [
+                "e3"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Executor": [
+                "e6"
+            ]
+        }
+    ]
+}

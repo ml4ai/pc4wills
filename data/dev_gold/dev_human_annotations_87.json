@@ -1,0 +1,58 @@
+{
+    "text": "I I direct my Executor, [Person-2], to pay all my just debts and all funeral expenses, including the exhumation of my husband, [Person-3]' remains and be reburied by me at Antioch Cemetery.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all my just debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "to pay all my just debts and all funeral expenses, including the exhumation of my husband, [Person-3]' remains and be reburied by me at Antioch Cemetery"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "all funeral expenses, including the exhumation of my husband, [Person-3]' remains and be reburied by me at Antioch Cemetery"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my",
+                "me",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-2]",
+                "my Executor"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Duty": [
+                "e2"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Executor": [
+                "e5"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "text": "5. I appoint [Person-2] executor waiving bond, inventory, and final accounting.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "[Person-2]",
+                "executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "inventory"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "final accounting"
+            ],
+            "type": "Duty"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e1"
+            ],
+            "Executor": [
+                "e2"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Excuse",
+            "Testator": [
+                "e1"
+            ],
+            "Executor": [
+                "e2"
+            ],
+            "Bond": [
+                "e3"
+            ],
+            "Duty": [
+                "e4",
+                "e5"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+  "text": "XIV I hereby give, devise and bequeath my metal shed and all of its contents to [Person-10], along with everything else remaining in my house seeing that he brought these items to the house when he moved in with me.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my metal shed and all of its contents"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my",
+        "me",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "he",
+        "[Person-10]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "everything else remaining in my house",
+        "these items"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1",
+        "e4"
+      ],
+      "Testator": [
+        "e2"
+      ],
+      "Beneficiary": [
+        "e3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+    "text": "The foregoing instrument, consisting of this and one (1) preceding typewritten pages, was signed, sealed, published and declared by [Person-1], the Testatrix to be her LAST WILL AND TESTAMENT, in our presence, and we, at her request and in her presence, and in the presence of each other, have hereunto subscribed our names as witnesses, this 7th day of April, 1990, at Gates, Lauderdale County, Tennessee.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this 7th day of April, 1990"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "in our presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "at her request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in her presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "her LAST WILL AND TESTAMENT",
+                "The foregoing instrument",
+                "this and one (1) preceding typewritten pages"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "her",
+                "[Person-1]",
+                "the Testatrix"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "our",
+                "we",
+                "witnesses",
+                "each other"
+            ],
+            "type": "Witness"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Condition": [
+                "e4"
+            ],
+            "Will": [
+                "e8"
+            ],
+            "Testator": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Condition": [
+                "e4"
+            ],
+            "Will": [
+                "e8"
+            ],
+            "Testator": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "SignWill",
+            "Date": [
+                "e1"
+            ],
+            "Condition": [
+                "e5",
+                "e6",
+                "e7"
+            ],
+            "Will": [
+                "e8"
+            ],
+            "Witness": [
+                "e10"
+            ]
+        }
+    ]
+}

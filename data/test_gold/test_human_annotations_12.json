@@ -1,0 +1,65 @@
+{
+  "text": "All the rest and residue of my property, including but not limited to, any certificates of deposit I own at my death, I will and bequeath to my daughter, [Person-9].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "All the rest and residue of my property"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "any certificates of deposit I own at my death"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "at my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my daughter",
+        "[Person-9]"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Testator": [
+        "e4"
+      ],
+      "Beneficiary": [
+        "e5"
+      ],
+      "Asset": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Testator": [
+        "e4"
+      ]
+    }
+  ]
+}

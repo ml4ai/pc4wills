@@ -1,0 +1,57 @@
+{
+    "text": "A) One-half of this remaining fund is to be divided in equal shares to [Person-4], [Person-5] and [Person-6].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "One-half of this remaining fund"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "in equal shares"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Condition": [
+                "e2"
+            ],
+            "Beneficiary": [
+                "e3",
+                "e4",
+                "e5"
+            ]
+        }
+    ]
+}

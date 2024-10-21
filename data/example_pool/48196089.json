@@ -1,0 +1,104 @@
+{
+    "text": "3) I hereby direct my Executor to pay all of my lawful debts and funeral expenses with the funds I have in the bank prior to the sale of any property, with the remaining balance to be paid out as follows:",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all of my lawful debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "funeral expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the funds I have in the bank"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "prior to the sale of any property"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "any property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "as follows"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "the remaining balance"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "pay all of my lawful debts and funeral expenses with the funds I have in the bank prior to the sale of any property"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Executor": [
+                "e1"
+            ],
+            "Duty": [
+                "e9"
+            ],
+            "Testator": [
+                "e10"
+            ],
+            "Bequest": [
+                "v2"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Condition": [
+                "e7"
+            ],
+            "Asset": [
+                "e8"
+            ]
+        }
+    ]
+}

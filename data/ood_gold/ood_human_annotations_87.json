@@ -1,0 +1,122 @@
+{
+  "text": "6. NO CONTEST: If any legatee, devisee, or taker under this will shall interpose objections to its probate or in any other way contest it, such person shall forfeit his entire interest under this will and the gift, bequest or devise made to such person shall pass as part of the residue of my estate, provided, however, that if such person is a residuary beneficiary, his or her interest shall be divided proportionately among the remaining residuary beneficiaries.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "the remaining residuary beneficiaries"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "If any legatee, devisee, or taker under this will shall interpose objections to its probate or in any other way contest it"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "if such person is a residuary beneficiary"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "proportionately"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "the residue of my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "his",
+        "a residuary beneficiary",
+        "such person",
+        "her",
+        "any legatee, devisee, or taker under this will"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "its",
+        "it",
+        "this will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "his entire interest under this will",
+        "the gift, bequest or devise made to such person"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "his or her interest"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Removal",
+      "Condition": [
+        "e2"
+      ],
+      "Beneficiary": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Residual",
+      "Condition": [
+        "e2"
+      ],
+      "Asset": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e1"
+      ],
+      "Condition": [
+        "e2",
+        "e3",
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Asset": [
+        "e10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+    "text": "VII. APPOINTMENT OF EXECUTOR I appoint my wife, [Person-2], as the Executrix of this my Last Will and Testament. (All references to Executor apply equally to Executrix). If and in the event she should fail or cease to serve in said capacity, then I appoint my daughter, [Person-3], to serve as said Executrix of my estate; I direct that no bond nor security be required of either of the above named fiduciaries for the faithful performance of their duties.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this my Last Will and Testament"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "If and in the event she should fail or cease to serve in said capacity"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "security"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "their duties"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "this my Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "Executor",
+                "said capacity",
+                "Executrix",
+                "EXECUTOR",
+                "either of the above named fiduciaries",
+                "their",
+                "the Executrix of this my Last Will and Testament",
+                "my wife",
+                "[Person-2]",
+                "she"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "Executor",
+                "said capacity",
+                "Executrix",
+                "EXECUTOR",
+                "either of the above named fiduciaries",
+                "said Executrix of my estate",
+                "[Person-3]",
+                "their",
+                "my daughter"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e8"
+            ],
+            "Executor": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Nomination",
+            "Testator": [
+                "e8"
+            ],
+            "Executor": [
+                "e10"
+            ],
+            "Condition": [
+                "e2"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Disqualification",
+            "Executor": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Renunciation",
+            "Executor": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Direction",
+            "Excuse": [
+                "v6"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Excuse",
+            "Bond": [
+                "e4"
+            ],
+            "Duty": [
+                "e5"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Executor": [
+                "e9",
+                "e10"
+            ]
+        }
+    ]
+}

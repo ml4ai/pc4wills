@@ -1,0 +1,136 @@
+{
+  "text": "THIRD: I give and devise all of my estate, both separate and community, both real and personal, in the following manner: I hereby give, devise and bequeath unto my beloved spouse, [Person-2], all of my estate, real, personal and mixed, of every nature, kind and description, wherever situated and however held, which is or may be subject to my testamentary disposition at the time of my death, except my undivided one-half (\u00bd) interest in [Location-1] which I give, devise and bequeath unto [Person-3] in satisfaction of money owed to him.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all of my estate, both separate and community, both real and personal"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "all of my estate, real, personal and mixed, of every nature, kind and description, wherever situated and however held, which is or may be subject to my testamentary disposition at the time of my death, except my undivided one-half (\u00bd) interest in [Location-1]"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my testamentary disposition"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "at the time of my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my undivided one-half (\u00bd) interest in [Location-1]"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "in satisfaction of money owed to him"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "money owed to him"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "in the following manner"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "[Person-2]",
+        "my beloved spouse"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "[Person-3]",
+        "him"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Condition": [
+        "e8"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Asset": [
+        "e2"
+      ],
+      "Testator": [
+        "e9"
+      ],
+      "Beneficiary": [
+        "e10"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Testator": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Bequest",
+      "Asset": [
+        "e5"
+      ],
+      "Testator": [
+        "e9"
+      ],
+      "Beneficiary": [
+        "e11"
+      ],
+      "Condition": [
+        "e6"
+      ]
+    }
+  ]
+}

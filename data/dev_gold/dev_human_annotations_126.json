@@ -1,0 +1,41 @@
+{
+    "text": "VII I hereby give, devise and bequeath $5,000.00 to [Organization-2].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "$5,000.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "[Organization-2]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Testator": [
+                "e1"
+            ],
+            "Asset": [
+                "e2"
+            ],
+            "Beneficiary": [
+                "e3"
+            ]
+        }
+    ]
+}

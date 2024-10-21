@@ -1,0 +1,133 @@
+{
+  "text": "In the event of the death of [Person-3], [Person-4], [Person-5] or [Person-6] without issue, prior to my death, I direct the share to which said beneficiary would be entitled had said beneficiary survived me be distributed in equal shares, share and share alike, to the remaining survivors of [Person-3], [Person-4], [Person-5] or [Person-6].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "In the event of the death of [Person-3], [Person-4], [Person-5] or [Person-6] without issue"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "prior to my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "the share to which said beneficiary would be entitled had said beneficiary survived me"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "in equal shares"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "share and share alike"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "the remaining survivors of [Person-3], [Person-4], [Person-5] or [Person-6]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "[Person-5]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "[Person-6]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "my",
+        "me",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "said beneficiary"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Beneficiary": [
+        "e7",
+        "e8",
+        "e9",
+        "e10"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Condition": [
+        "e1"
+      ],
+      "Time": [
+        "e2"
+      ],
+      "Bequest": [
+        "v4"
+      ],
+      "Testator": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Bequest",
+      "Asset": [
+        "e3"
+      ],
+      "Condition": [
+        "e4",
+        "e5"
+      ],
+      "Beneficiary": [
+        "e7"
+      ]
+    }
+  ]
+}

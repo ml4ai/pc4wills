@@ -1,0 +1,62 @@
+{
+    "text": "II (A) I give, devise and bequeath all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated, to my children, [Person-2] and [Person-3], per stirpes.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my children",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my children",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "per stirpes"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e1",
+                "e2"
+            ],
+            "Condition": [
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Asset": [
+                "e5"
+            ]
+        }
+    ]
+}

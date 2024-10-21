@@ -1,0 +1,21 @@
+{
+    "text": "This is the same property that was partitioned to [Person-2] on November 22, 1946 between the heirs of [Person-5].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "This",
+                "the same property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "on November 22, 1946"
+            ],
+            "type": "Date"
+        }
+    ],
+    "events": []
+}

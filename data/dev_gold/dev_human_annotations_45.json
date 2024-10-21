@@ -1,0 +1,123 @@
+{
+    "text": "If either or both of my children are under age 21 at the time of our death, I direct that [Person-5] be appointed Trustee and Guardian of all property bequeathed, given and devised to my children, that said property be held in trusts established by him for each child, and managed and used solely for the benefit of my children.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at the time of our death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "trusts"
+            ],
+            "type": "Trust"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "him",
+                "[Person-5]",
+                "Trustee"
+            ],
+            "type": "Trustee"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "If either or both of my children are under age 21 at the time of our death"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "either or both of my children",
+                "each child",
+                "my children"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "him",
+                "Guardian",
+                "[Person-5]"
+            ],
+            "type": "Guardian"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "that said property",
+                "all property bequeathed, given and devised to my children"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "managed and used solely for the benefit of my children"
+            ],
+            "type": "Duty"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Nomination": [
+                "v2"
+            ],
+            "NonProbateInstrumentCreation": [
+                "v3"
+            ],
+            "Condition": [
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Duty": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Nomination",
+            "Testator": [
+                "e5"
+            ],
+            "Trustee": [
+                "e3"
+            ],
+            "Guardian": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "NonProbateInstrumentCreation",
+            "Trust": [
+                "e2"
+            ],
+            "Trustee": [
+                "e3"
+            ],
+            "Asset": [
+                "e8"
+            ]
+        }
+    ]
+}

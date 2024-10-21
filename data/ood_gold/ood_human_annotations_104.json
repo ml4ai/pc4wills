@@ -1,0 +1,14 @@
+{
+  "text": "It is intended that this be a nonintervention Will.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this",
+        "a nonintervention Will"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": []
+}

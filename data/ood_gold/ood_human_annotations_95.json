@@ -1,0 +1,85 @@
+{
+  "text": "FOURTH: I have previously entered into a Revocable Trust Agreement (Inter Vivos Trust) with [Organization-1] at Twin Falls, Idaho. It is intended that almost all of my property will be controlled by that instrument and this Will shall simply operate to dispose of those few items not in the trust and otherwise to pour the rest, residue and remainder of my estate over into the Trust.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "Twin Falls"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "[Organization-1]"
+      ],
+      "type": "Trustee"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "those few items not in the trust"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "the trust"
+      ],
+      "type": "Trust"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "the Trust"
+      ],
+      "type": "Trust"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "almost all of my property"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "the rest, residue and remainder of my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "otherwise to pour the rest, residue and remainder of my estate over into the Trust"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "that instrument",
+        "this Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": []
+}

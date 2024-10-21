@@ -1,0 +1,59 @@
+{
+    "text": "II I give, devise and bequeath all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated, including but not limited to my one acre tract of land with dwelling, deed to which being recorded in Book 64, page 355, Register's Office of Lauderdale County, Tennessee, to my daughter, [Person-2] of Gates, Tennessee.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my daughter",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated",
+                "deed to which being recorded in Book 64, page 355, Register's Office of Lauderdale County, Tennessee",
+                "my one acre tract of land with dwelling"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Testator": [
+                "e3"
+            ],
+            "Beneficiary": [
+                "e4"
+            ],
+            "Asset": [
+                "e5"
+            ]
+        }
+    ]
+}

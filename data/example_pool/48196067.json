@@ -1,0 +1,162 @@
+{
+    "text": "ITEM III. In the event my wife predeceases me, or should we die in a common accident or disaster, then I direct that all my property be sold and the proceeds therefrom be devised and bequeathed equally unto [Person-3], [Person-4], [Person-5] and [Person-6].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all my property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all my property be sold"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the proceeds therefrom be devised and bequeathed equally unto [Person-3], [Person-4], [Person-5] and [Person-6]"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the proceeds therefrom"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "In the event my wife predeceases me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "should we die in a common accident or disaster"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "my",
+                "I",
+                "me",
+                "we"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "we",
+                "my wife"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "in a common accident or disaster"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e13"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e12"
+            ],
+            "Beneficiary": [
+                "e13"
+            ],
+            "Condition": [
+                "e14"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Direction",
+            "Duty": [
+                "e2"
+            ],
+            "Bequest": [
+                "v4"
+            ],
+            "Condition": [
+                "e9",
+                "e10"
+            ],
+            "Testator": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Bequest",
+            "Asset": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e5",
+                "e6",
+                "e7",
+                "e8"
+            ],
+            "Condition": [
+                "e11"
+            ]
+        }
+    ]
+}

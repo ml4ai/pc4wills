@@ -1,0 +1,210 @@
+{
+  "text": "ITEM X. I name, nominate and appoint by beloved son, [Person-4] and my beloved friend, [Person-7], as Co-Executors of this, my Last Will and Testament. I ask that the Court relieve them of making any bond, inventory, accounting or settlement of my estate. In the event that [Person-4] and [Person-7] should be unable to serve as Co-Executors, or in the event that we should die of a common disaster, then I name, nominate and appoint [Person-2] and [Person-3], as Co-Executors of this, my Last Will and Testament. I ask that the Court relieve them of making any bond, inventory, accounting or settlement of my estate.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "making any bond, inventory, accounting or settlement of my estate"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "In the event that [Person-4] and [Person-7] should be unable to serve as Co-Executors"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "in the event that we should die of a common disaster"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "[Person-2]",
+        "Co-Executors",
+        "them"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-3]",
+        "Co-Executors",
+        "them"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "making any bond, inventory, accounting or settlement of my estate"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "any bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "any bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "my Last Will and Testament",
+        "this"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "we",
+        "Co-Executors",
+        "them",
+        "[Person-4]",
+        "beloved son"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "my",
+        "we",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "we",
+        "Co-Executors",
+        "them",
+        "[Person-7]",
+        "my beloved friend",
+        "them"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e14",
+      "texts": [
+        "of a common disaster"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Nomination",
+      "Testator": [
+        "e12"
+      ],
+      "Executor": [
+        "e11",
+        "e13"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Disqualification",
+      "Executor": [
+        "e11",
+        "e13"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Executor": [
+        "e11",
+        "e13"
+      ],
+      "Testator": [
+        "e12"
+      ],
+      "Condition": [
+        "e14"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Nomination",
+      "Condition": [
+        "e2"
+      ],
+      "Executor": [
+        "e4",
+        "e5"
+      ],
+      "Testator": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Direction",
+      "Excuse": [
+        "v5"
+      ],
+      "Testator": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Excuse",
+      "Duty": [
+        "e1"
+      ],
+      "Executor": [
+        "e11",
+        "e13"
+      ]
+    },
+    {
+      "id": "v6",
+      "type": "Direction",
+      "Excuse": [
+        "v7"
+      ],
+      "Testator": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v7",
+      "type": "Excuse",
+      "Duty": [
+        "e6"
+      ],
+      "Executor": [
+        "e4",
+        "e5"
+      ]
+    }
+  ]
+}

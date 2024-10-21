@@ -1,0 +1,57 @@
+{
+    "text": "2. I specifically devise to my sister [Person-3] any automobile that I might own at the time of my demise.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "any automobile that I might own at the time of my demise"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "at the time of my demise"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-3]",
+                "my sister"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Beneficiary": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e3"
+            ]
+        }
+    ]
+}

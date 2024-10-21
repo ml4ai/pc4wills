@@ -1,0 +1,100 @@
+{
+    "text": "4.5 Beginning of Payments. Beginning immediately after my death, my personal representative may begin making payments to my beneficiaries during the administration of my estate and need not wait for the final settlement of the estate. My personal representative shall be given credit on the final settlement for all disbursements made to my beneficiaries under the provisions of this power.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "begin making payments to my beneficiaries during the administration of my estate and need not wait for the final settlement of the estate"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Beginning immediately after my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "this power",
+                "be given credit on the final settlement for all disbursements made to my beneficiaries"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "under the provisions of this power"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "My"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "My personal representative",
+                "my personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my beneficiaries"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "the estate",
+                "my estate"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Authorization",
+            "Right": [
+                "e1"
+            ],
+            "Time": [
+                "e2"
+            ],
+            "Executor": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Authorization",
+            "Right": [
+                "e3"
+            ],
+            "Condition": [
+                "e4"
+            ],
+            "Executor": [
+                "e6"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+  "text": "In the event that my sister, [Person-2], and I should die simultaneously, or my sister predeceases me, I hereby will, devise, and bequeath all of my property as described above to my nephew, [Person-3], of Lauderdale County, Tennessee, in fee simple.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "me",
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Lauderdale County"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "Tennessee"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "in fee simple"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "In the event that my sister, [Person-2], and I should die simultaneously"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my sister predeceases me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "all of my property"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "my sister",
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "[Person-3]",
+        "my nephew"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "simultaneously"
+      ],
+      "type": "Time"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Condition": [
+        "e4",
+        "e5",
+        "e6"
+      ],
+      "Asset": [
+        "e7"
+      ],
+      "Testator": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Beneficiary": [
+        "e8"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Testator": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e8"
+      ],
+      "Time": [
+        "e10"
+      ]
+    }
+  ]
+}

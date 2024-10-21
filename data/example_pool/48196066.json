@@ -1,0 +1,68 @@
+{
+    "text": "ITEM II. After payment of the above items and expenses, I will and devise and bequeath all of my property of every kind, character and description, both real and personal, unto my beloved wife, [Person-2], in fee simple.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "After payment of the above items and expenses"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "all of my property of every kind, character and description, both real and personal"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "in fee simple"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my beloved wife",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e3"
+            ],
+            "Condition": [
+                "e1",
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Beneficiary": [
+                "e6"
+            ]
+        }
+    ]
+}

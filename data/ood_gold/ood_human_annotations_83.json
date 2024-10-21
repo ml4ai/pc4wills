@@ -1,0 +1,89 @@
+{
+  "text": "4. RESIDUE: All of the rest, residue, and remainder of my estate, of whatsoever kind and nature and wheresoever situated, I bequeath and devise to [Person-6], and in the event that he shall predecease me, then to his issue by the right of representation.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "All of the rest, residue, and remainder of my estate, of whatsoever kind and nature and wheresoever situated"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "his issue"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "by the right of representation"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "in the event that he shall predecease me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "me",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "his",
+        "he",
+        "[Person-6]"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e2"
+      ],
+      "Condition": [
+        "e3",
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Beneficiary": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e6"
+      ],
+      "Testator": [
+        "e5"
+      ]
+    }
+  ]
+}

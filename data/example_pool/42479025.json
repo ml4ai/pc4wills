@@ -1,0 +1,82 @@
+{
+    "text": "If for any reason my wife is unable to serve, then I name and appoint [Person-4] as Executor, also without bond.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my wife"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "If for any reason my wife is unable to serve"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-4]",
+                "Executor"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Disqualification",
+            "Executor": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Nomination",
+            "Condition": [
+                "e3",
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Executor": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Excuse",
+            "Bond": [
+                "e2"
+            ],
+            "Executor": [
+                "e6"
+            ]
+        }
+    ]
+}

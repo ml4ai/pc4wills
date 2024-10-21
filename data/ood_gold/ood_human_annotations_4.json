@@ -1,0 +1,42 @@
+{
+  "text": "IN WITNESS WHEREOF I have hereunto set my hand this day of 1987.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "IN WITNESS WHEREOF"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "this day of 1987"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Condition": [
+        "e1"
+      ],
+      "Date": [
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ]
+    }
+  ]
+}

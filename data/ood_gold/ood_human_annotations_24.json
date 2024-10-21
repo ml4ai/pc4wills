@@ -1,0 +1,105 @@
+{
+  "text": "In the event neither of the above-named Personal Representatives shall be living or in the event they shall decline to act then, in that event, I nominate, constitute and appoint [Person-3] as Personal Representative without bond in their place.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "then"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "[Person-3]",
+        "Personal Representative"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "without bond in their place"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "they",
+        "their",
+        "the above-named Personal Representatives"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "In the event neither of the above-named Personal Representatives shall be living or in the event they shall decline to act then",
+        "in that event"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Executor": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Disqualification",
+      "Executor": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Renunciation",
+      "Executor": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Nomination",
+      "Testator": [
+        "e2"
+      ],
+      "Executor": [
+        "e3"
+      ],
+      "Condition": [
+        "e5",
+        "e7"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Excuse",
+      "Testator": [
+        "e2"
+      ],
+      "Bond": [
+        "e4"
+      ]
+    }
+  ]
+}

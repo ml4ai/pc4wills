@@ -1,0 +1,91 @@
+{
+    "text": "III. I name, nominate and appoint [Person-2], as Executor of this my will and estate, and direct that she be allowed to serve without bond and without accounting to any Court.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this my will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "accounting to any Court"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "without bond and without accounting to any Court"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "she",
+                "[Person-2]"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e6"
+            ],
+            "Executor": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Excuse": [
+                "v3"
+            ],
+            "Testator": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Excuse",
+            "Bond": [
+                "e3"
+            ],
+            "Duty": [
+                "e4"
+            ],
+            "Executor": [
+                "e7"
+            ]
+        }
+    ]
+}

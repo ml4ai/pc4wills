@@ -1,0 +1,42 @@
+{
+  "text": "VI I hereby give, devise and bequeath to [Person-5] my sling shot.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-5]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my sling shot"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e1"
+      ],
+      "Asset": [
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ]
+    }
+  ]
+}

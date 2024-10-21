@@ -1,0 +1,85 @@
+{
+    "text": "c) I will, devise and bequeath to my son, [Person-6], the John Deere mower, knife collection, car, house and property its on and all contents in said house.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "the John Deere mower"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "knife collection"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "car"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "property its on"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "all contents in said house"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "[Person-6]",
+                "my son"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "house",
+                "its",
+                "said house"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1",
+                "e2",
+                "e3",
+                "e4",
+                "e5",
+                "e8"
+            ],
+            "Testator": [
+                "e6"
+            ],
+            "Beneficiary": [
+                "e7"
+            ]
+        }
+    ]
+}

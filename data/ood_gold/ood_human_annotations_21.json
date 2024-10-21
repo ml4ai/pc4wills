@@ -1,0 +1,92 @@
+{
+  "text": "FIFTH: Having in mind at the time of making this my Last Will and Testament and any codicils thereto all my other relatives and their children and any other persons not herein named or in any codicils hereto, I declare that my failure to provide for them in this my Last Will and Testament is intentional and not accidental.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "at the time of making this my Last Will and Testament and any codicils thereto"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "hereto"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "Having in mind at the time of making this my Last Will and Testament and any codicils thereto all my other relatives and their children and any other persons not herein named or in any codicils hereto"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my Last Will and Testament",
+        "this"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "any codicils"
+      ],
+      "type": "Codicil"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "all my other relatives and their children and any other persons not herein named or in any codicils hereto",
+        "them"
+      ],
+      "type": "NonBeneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Will": [
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Codicil",
+      "Testator": [
+        "e5"
+      ],
+      "Codicil": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Removal",
+      "Testator": [
+        "e5"
+      ],
+      "NonBeneficiary": [
+        "e7"
+      ],
+      "Condition": [
+        "e3"
+      ]
+    }
+  ]
+}

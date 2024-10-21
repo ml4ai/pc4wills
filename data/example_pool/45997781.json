@@ -1,0 +1,59 @@
+{
+    "text": "I, [Person-1], [Number-1], a citizen and resident of Lauderdale County, Tennessee, being of sound mind and disposing memory, do hereby make and publish and declare this as my Last Will and Testament.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Lauderdale"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "being of sound mind and disposing memory"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my Last Will and Testament",
+                "this"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "I",
+                "a citizen and resident of Lauderdale County",
+                "my",
+                "[Person-1]"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Condition": [
+                "e3"
+            ],
+            "Will": [
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        }
+    ]
+}

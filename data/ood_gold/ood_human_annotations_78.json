@@ -1,0 +1,76 @@
+{
+  "text": "SUBSCRIBED AND SWORN to before me by [Person-1], the Testator, and [Person-5] and [Person-6], the witnesses, this 4th day of January 1989.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "me"
+      ],
+      "type": "NotaryPublic"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "this 4th day of January 1989"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "before me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "[Person-1]",
+        "the Testator"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-5] and [Person-6]",
+        "the witnesses"
+      ],
+      "type": "Witness"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Date": [
+        "e2"
+      ],
+      "Condition": [
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Witness": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Attestation",
+      "Date": [
+        "e2"
+      ],
+      "Condition": [
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Witness": [
+        "e5"
+      ]
+    }
+  ]
+}

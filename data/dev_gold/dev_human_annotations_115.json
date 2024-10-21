@@ -1,0 +1,20 @@
+{
+    "text": "STATE OF TENNESSEE COUNTY OF DYER",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "STATE OF TENNESSEE"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "COUNTY OF DYER"
+            ],
+            "type": "County"
+        }
+    ],
+    "events": []
+}

@@ -1,0 +1,53 @@
+{
+  "text": "EIGHTH: I hereby give, devise and bequeath all of the rest, residue and remainder of my estate to the [Organization-1] as trustee under the Revocable Trust Agreement and as thereafter amended to be distributed and disposed of pursuant to the terms of said Revocable Trust Agreement and any amendments thereto.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all of the rest, residue and remainder of my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "under the Revocable Trust Agreement and as thereafter amended to be distributed and disposed of pursuant to the terms of said Revocable Trust Agreement and any amendments thereto"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "trustee",
+        "the [Organization-1]"
+      ],
+      "type": "Trustee"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "NonProbateInstrumentCreation",
+      "Asset": [
+        "e1"
+      ],
+      "Condition": [
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ],
+      "Trustee": [
+        "e4"
+      ]
+    }
+  ]
+}

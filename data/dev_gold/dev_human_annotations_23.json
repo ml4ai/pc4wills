@@ -1,0 +1,125 @@
+{
+    "text": "3.1 Residuary Bequest. My entire estate, after payment of debts, taxes and expenses, shall be distributed to the Trustee of the Living Trust Agreement of [Person-1], entered into as of this same date of this my Last Will and Testament, to be administered and distributed under the terms of the trust created in the said Living Trust Agreement of [Person-1].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Residuary"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "My entire estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "taxes"
+            ],
+            "type": "Tax"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "after payment of debts, taxes and expenses"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "the Trustee"
+            ],
+            "type": "Trustee"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "this same date"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "this my Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "as of this same date of this my Last Will and Testament"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "under the terms of the trust"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "my",
+                "[Person-1]",
+                "My"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "the trust",
+                "the Living Trust Agreement",
+                "the said Living Trust Agreement"
+            ],
+            "type": "Trust"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Testator": [
+                "e12"
+            ],
+            "NonProbateInstrumentCreation": [
+                "v2"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "NonProbateInstrumentCreation",
+            "Trustee": [
+                "e7"
+            ],
+            "Asset": [
+                "e2"
+            ],
+            "Trust": [
+                "e13"
+            ]
+        }
+    ]
+}

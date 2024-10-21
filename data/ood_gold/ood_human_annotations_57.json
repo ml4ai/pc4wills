@@ -1,0 +1,118 @@
+{
+  "text": "SECOND: I hereby direct my personal representative to pay all of my just debts, including my funeral expenses and the expenses of my last illness as soon as conveniently possible after my death. I leave to the discretion of my personal representative to prepay any secured indebtedness which is payable in installments or to distribute the security subject to the indebtedness.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all of my just debts"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my funeral expenses and the expenses of my last illness"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "after my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "as soon as conveniently possible after my death"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "any secured indebtedness",
+        "the indebtedness"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "to prepay any secured indebtedness which is payable in installments or to distribute the security subject to the indebtedness"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "to pay all of my just debts, including my funeral expenses and the expenses of my last illness"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "the discretion of my personal representative"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "my personal representative"
+      ],
+      "type": "Executor"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Condition": [
+        "e4"
+      ],
+      "Duty": [
+        "e6", "e7"
+      ],
+      "Testator": [
+        "e9"
+      ],
+      "Executor": [
+        "e10"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Testator": [
+        "e10"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Authorization",
+      "Duty": [
+        "e6"
+      ],
+      "Right": [
+        "e8"
+      ],
+      "Testator": [
+        "e9"
+      ],
+      "Executor": [
+        "e10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+    "text": "4.6 Unproductive Assets. I authorize my personal representative and Trustees to hold unproductive assets in the absence of a specific written request to dispose of same and convert such assets to income producing property.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Trustees"
+            ],
+            "type": "Trustee"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "income producing property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "in the absence of a specific written request to dispose of same and convert such assets to income producing property"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "to hold unproductive assets"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "unproductive assets",
+                "such assets",
+                "Unproductive Assets",
+                "same"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Executor": [
+                "e1"
+            ],
+            "Trustee": [
+                "e2"
+            ],
+            "Condition": [
+                "e4"
+            ],
+            "Right": [
+                "e5"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        }
+    ]
+}

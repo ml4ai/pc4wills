@@ -1,0 +1,76 @@
+{
+  "text": "IV I hereby give devise and bequeath to [Person-3] my ceramic bird picture and my cast iron spoon and fork wall hangings, as well as my recliner, microwave and deep freezer which she already has in her possession.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my ceramic bird picture"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my cast iron spoon and fork wall hangings"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my recliner"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "microwave"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "deep freezer"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "her",
+        "she",
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1",
+        "e2",
+        "e3",
+        "e4",
+        "e5"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Beneficiary": [
+        "e7"
+      ]
+    }
+  ]
+}

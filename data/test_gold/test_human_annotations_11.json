@@ -1,0 +1,65 @@
+{
+  "text": "If I have any other grandchildren at the time of my death, they are to share equally.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "at the time of my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "If I have any other grandchildren at the time of my death"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "equally"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "they",
+        "any other grandchildren"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Testator": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Condition": [
+        "e2",
+        "e3"
+      ],
+      "Beneficiary": [
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ]
+    }
+  ]
+}

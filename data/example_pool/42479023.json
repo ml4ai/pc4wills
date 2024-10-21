@@ -1,0 +1,106 @@
+{
+    "text": "(B) Should my wife not survive me, or should we die at the same time, or as a result of a common disaster, then I will, devise and bequeath all my property to [Person-3], son of [Person-4], in fee simple.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at the same time"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all my property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in fee simple"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "Should my wife not survive me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "should we die at the same time, or as a result of a common disaster"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my",
+                "I",
+                "me",
+                "we"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "we",
+                "my wife"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "son of [Person-4]",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Time": [
+                "e1"
+            ],
+            "Testator": [
+                "e6"
+            ],
+            "Beneficiary": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Asset": [
+                "e2"
+            ],
+            "Condition": [
+                "e3",
+                "e4",
+                "e5"
+            ],
+            "Testator": [
+                "e6"
+            ],
+            "Beneficiary": [
+                "e8"
+            ]
+        }
+    ]
+}

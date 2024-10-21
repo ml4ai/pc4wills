@@ -1,0 +1,52 @@
+{
+    "text": "I am attaching to this will a handwritten list of personal property, including pictures, which I would like to go to specific persons named therein.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "a handwritten list of personal property, including pictures, which I would like to go to specific persons named therein"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "personal property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "specific persons named therein"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Will": [
+                "e2"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        }
+    ]
+}

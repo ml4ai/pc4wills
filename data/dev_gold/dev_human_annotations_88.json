@@ -1,0 +1,87 @@
+{
+    "text": "I also request that he pay all my just debts, which shall be probated, registered and allowed against my estate, as soon after my death as can conveniently be done.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "he"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all my just debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "pay all my just debts"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "as soon after my death as can conveniently be done"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "against my estate"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Executor": [
+                "e1"
+            ],
+            "Duty": [
+                "e3"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Probate",
+            "Debt": [
+                "e2"
+            ],
+            "Condition": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Testator": [
+                "e7"
+            ]
+        }
+    ]
+}

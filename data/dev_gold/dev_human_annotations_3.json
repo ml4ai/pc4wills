@@ -1,0 +1,340 @@
+{
+    "text": "(B) All the rest of my Certificates of Deposit are to be cashed and divided as follows: (1) $2,000.00 to [Organization-1] in memory of the [Last name] Family buried there; $2,000.00 to [Organization-2] at Durhamville in memory of my mother, [Person-3], and my family buried there; $500.00 to [Organization-3] in Ripley in memory of my brother, [Person-4], better known as [Nickname]; These three amounts are to be placed in perpetual funds with the earnings going to the upkeep of these cemeteries. (2) I leave $1,000.00 to [Person-5] for her college fund. (3) I leave $2,000.00 to [Person-6]. (4) I leave $200.00 to [Person-7]. (5) I leave $300.00 to [Person-8] and [Person-9]. (6) I leave $300.00 to [Person-10] and [Person-11]. (7) I leave $200.00 to [Person-12] of Memphis, Tennessee. (8) I leave $500.00 to [Person-13], our faithful friend. (9) I leave $100.00 to [Person-14] for being so good to [Person-15] and me.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "All the rest of my Certificates of Deposit"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "These three amounts",
+                "$2,000.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "These three amounts",
+                "$2,000.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "These three amounts",
+                "$500.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "$1,000.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "$2,000.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "$300.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "$500.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "$100.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "[Organization-1]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "[Organization-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "[Organization-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "[Person-7]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e15",
+            "texts": [
+                "$300.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e16",
+            "texts": [
+                "$200.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e17",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e18",
+            "texts": [
+                "Memphis"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e19",
+            "texts": [
+                "Durhamville"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e20",
+            "texts": [
+                "[Person-12]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e21",
+            "texts": [
+                "[Person-14]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e22",
+            "texts": [
+                "$200.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e23",
+            "texts": [
+                "[Person-10]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e24",
+            "texts": [
+                "[Person-11]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e25",
+            "texts": [
+                "[Person-8]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e26",
+            "texts": [
+                "[Person-9]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e27",
+            "texts": [
+                "I",
+                "my",
+                "me"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e28",
+            "texts": [
+                "[Person-5]",
+                "her"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e29",
+            "texts": [
+                "our faithful friend",
+                "[Person-13]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e2",
+                "e3",
+                "e4"
+            ],
+            "Beneficiary": [
+                "e10",
+                "e11",
+                "e12"
+            ],
+            "Testator": [
+                "e27"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Asset": [
+                "e5"
+            ],
+            "Testator": [
+                "e27"
+            ],
+            "Beneficiary": [
+                "e28"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Asset": [
+                "e6"
+            ],
+            "Beneficiary": [
+                "e13"
+            ],
+            "Testator": [
+                "e27"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e14"
+            ],
+            "Asset": [
+                "e22"
+            ],
+            "Testator": [
+                "e27"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Bequest",
+            "Asset": [
+                "e15"
+            ],
+            "Beneficiary": [
+                "e25",
+                "e26"
+            ],
+            "Testator": [
+                "e27"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Bequest",
+            "Asset": [
+                "e7"
+            ],
+            "Beneficiary": [
+                "e23",
+                "e24"
+            ],
+            "Testator": [
+                "e27"
+            ]
+        },
+        {
+            "id": "v7",
+            "type": "Bequest",
+            "Asset": [
+                "e16"
+            ],
+            "Beneficiary": [
+                "e20"
+            ],
+            "Testator": [
+                "e27"
+            ]
+        },
+        {
+            "id": "v8",
+            "type": "Bequest",
+            "Asset": [
+                "e8"
+            ],
+            "Testator": [
+                "e27"
+            ],
+            "Beneficiary": [
+                "e29"
+            ]
+        },
+        {
+            "id": "v9",
+            "type": "Bequest",
+            "Asset": [
+                "e9"
+            ],
+            "Beneficiary": [
+                "e21"
+            ],
+            "Testator": [
+                "e27"
+            ]
+        }
+    ]
+}

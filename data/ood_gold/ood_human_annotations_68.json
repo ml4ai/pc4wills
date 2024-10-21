@@ -1,0 +1,46 @@
+{
+  "text": "I hereby nominate [Person-4] of Burley, Idaho as Trustee of said trust.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "said trust"
+      ],
+      "type": "Trust"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "Trustee of said trust",
+        "[Person-4]"
+      ],
+      "type": "Trustee"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Nomination",
+      "Testator": [
+        "e1"
+      ],
+      "Trustee": [
+        "e4"
+      ]
+    }
+  ]
+}

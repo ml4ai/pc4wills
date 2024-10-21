@@ -1,0 +1,57 @@
+{
+  "text": "XIII I hereby give, devise and bequeath to [Person-10] any cash I have at the time of my death and any money I have in my checking account.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-10]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "any cash I have at the time of my death"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "any money I have in my checking account"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "at the time of my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e1"
+      ],
+      "Asset": [
+        "e2",
+        "e3"
+      ],
+      "Testator": [
+        "e5"
+      ]
+    }
+  ]
+}

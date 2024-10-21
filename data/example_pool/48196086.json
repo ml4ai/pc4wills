@@ -1,0 +1,66 @@
+{
+    "text": "B) In the event that my husband, [Person-2], does not survive me, then I hereby give, devise and bequeath my property in the following manner:",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "In the event that my husband, [Person-2], does not survive me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in the following manner"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my",
+                "me",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-2]",
+                "my husband"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Condition": [
+                "e2",
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        }
+    ]
+}

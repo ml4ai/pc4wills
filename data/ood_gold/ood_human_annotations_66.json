@@ -1,0 +1,121 @@
+{
+  "text": "In the event [Person-3] shall have died before my wife, [Person-2], I direct that the Trustee shall distribute the net trust estate, after the death of [Person-2] to [Organization-2] at Burley, Idaho.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the net trust estate"
+      ],
+      "type": "Trust"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my wife",
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "[Organization-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "the Trustee"
+      ],
+      "type": "Trustee"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "before my wife, [Person-2]"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "after the death of [Person-2]"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "In the event [Person-3] shall have died before my wife, [Person-2]"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Beneficiary": [
+        "e1"
+      ],
+      "Time": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Bequest": [
+        "v3"
+      ],
+      "Trustee": [
+        "e5"
+      ],
+      "Condition": [
+        "e9"
+      ],
+      "Testator": [
+        "e10"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Bequest",
+      "Trust": [
+        "e2"
+      ],
+      "Beneficiary": [
+        "e4"
+      ],
+      "Trustee": [
+        "e5"
+      ],
+      "Time": [
+        "e8"
+      ]
+    }
+  ]
+}

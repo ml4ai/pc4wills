@@ -1,0 +1,89 @@
+{
+    "text": "B) The other one-half of this fund is to be divided in equal shares to [Person-8], [Person-9], [Person-10], [Person-11], [Person-12], [Person-13] and [Person-14].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "The other one-half of this fund"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "in equal shares"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "[Person-8]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-9]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-10]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-11]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "[Person-12]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "[Person-13]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "[Person-14]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Condition": [
+                "e2"
+            ],
+            "Beneficiary": [
+                "e3",
+                "e4",
+                "e5",
+                "e6",
+                "e7",
+                "e8",
+                "e9"
+            ]
+        }
+    ]
+}

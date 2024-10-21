@@ -1,0 +1,41 @@
+{
+    "text": "X I hereby give, devise and bequeath $1,000.00 to [Person-4].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "$1,000.00"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Testator": [
+                "e1"
+            ],
+            "Asset": [
+                "e2"
+            ],
+            "Beneficiary": [
+                "e3"
+            ]
+        }
+    ]
+}

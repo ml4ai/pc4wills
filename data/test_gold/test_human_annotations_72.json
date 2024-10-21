@@ -1,0 +1,47 @@
+{
+  "text": "ITEM VI. I will give devise and bequeath unto my beloved son, [Person-6], my rock collection with the express instruction that before he decides to sell the collection, he realize that the large rock, an amethyst geode, is valued at $1,100.00 and the smaller rock, also an amethyst geode, is valued at $750.00.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "[Person-6]",
+        "he",
+        "my beloved son"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "an amethyst geode",
+        "the large rock",
+        "the smaller rock",
+        "my rock collection"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Testator": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e2"
+      ],
+      "Asset": [
+        "e3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+    "text": "I give, devise and bequeath all the rest, residue and remainder of my property, real, personal and mixed, of whatever kind and nature and wheresoever situated, to [Person-6], [Person-2] and [Person-18], equally.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all the rest, residue and remainder of my property, real, personal and mixed, of whatever kind and nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-18]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Condition": [
+                "e5"
+            ],
+            "Beneficiary": [
+                "e2",
+                "e3",
+                "e4"
+            ],
+            "Testator": [
+                "e6"
+            ]
+        }
+    ]
+}

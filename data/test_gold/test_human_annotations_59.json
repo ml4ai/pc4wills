@@ -1,0 +1,93 @@
+{
+  "text": "I direct my Executor to pay all my just debts and all funeral expenses, which shall be probated, registered and allowed against my estate, as soon after my death as can conveniently be done.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my just debts"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my Executor"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "all funeral expenses"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "as soon after my death as can conveniently be done"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "against my estate"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "to pay all my just debts and all funeral expenses"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Executor": [
+        "e2"
+      ],
+      "Time": [
+        "e4"
+      ],
+      "Duty": [
+        "e6"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Probate",
+      "Debt": [
+        "e1"
+      ],
+      "Expense": [
+        "e3"
+      ],
+      "Condition": [
+        "e5"
+      ]
+    }
+  ]
+}

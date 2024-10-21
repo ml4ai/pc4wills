@@ -1,0 +1,71 @@
+{
+  "text": "SECOND, I give, devise and bequeath unto my spouse, [Person-2] all real property, together with all the rest, residue, and remainder of my estate, real, personal and mixed, of every kind and nature and wheresoever situated, of which I now owned, possessed, including all other community personal property that may hereafter be acquired, or to which I may be entitled at the time of my decease.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all real property, together with all the rest, residue, and remainder of my estate, real, personal and mixed, of every kind and nature and wheresoever situated, of which I now owned, possessed, including all other community personal property that may hereafter be acquired, or to which I may be entitled at the time of my decease"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "now"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "hereafter"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "at the time of my decease"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my spouse",
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Beneficiary": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Testator": [
+        "e5"
+      ]
+    }
+  ]
+}

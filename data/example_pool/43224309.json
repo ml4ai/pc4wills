@@ -1,0 +1,52 @@
+{
+    "text": "I am making a list of items that I would like to go to specific persons that is attached to this Will.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "specific persons"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "items"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "a list of items"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "this Will"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Will": [
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        }
+    ]
+}

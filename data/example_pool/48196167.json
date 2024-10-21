@@ -1,0 +1,205 @@
+{
+    "text": "ARTICLE III I nominate and appoint my granddaughter, [Person-2], Executrix of this my LAST WILL AND TESTAMENT, and direct that no bond or sureties be required for the faithful performance of her duties. If my granddaughter shall predecease me, or for any reason shall fail to qualify as Executrix hereunder, or having qualified shall die or resign, then I appoint my great grandson, [Person-3], as substitute Executor, and direct that no bond or sureties be required for the faithful performance of his duties.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this my LAST WILL AND TESTAMENT"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "sureties"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "her duties"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "sureties"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "his duties"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "If my granddaughter shall predecease me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "for any reason shall fail to qualify as Executrix hereunder"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "having qualified shall die or resign"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "my",
+                "I",
+                "me"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "[Person-2]",
+                "Executrix",
+                "her",
+                "my granddaughter"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "my great grandson",
+                "[Person-3]",
+                "substitute Executor",
+                "his"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e11"
+            ],
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Excuse": [
+                "v3"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Excuse",
+            "Bond": [
+                "e2"
+            ],
+            "Duty": [
+                "e3"
+            ],
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Death",
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Disqualification",
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Death",
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v7",
+            "type": "Renunciation",
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v8",
+            "type": "Nomination",
+            "Condition": [
+                "e8",
+                "e9",
+                "e10"
+            ],
+            "Testator": [
+                "e11"
+            ],
+            "Executor": [
+                "e13"
+            ]
+        },
+        {
+            "id": "v9",
+            "type": "Direction",
+            "Excuse": [
+                "v10"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v10",
+            "type": "Excuse",
+            "Bond": [
+                "e5"
+            ],
+            "Duty": [
+                "e6"
+            ],
+            "Executor": [
+                "e13"
+            ]
+        }
+    ]
+}

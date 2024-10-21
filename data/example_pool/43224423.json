@@ -1,0 +1,83 @@
+{
+    "text": "ARTICLE 2. I give and bequeath to my son, [Person-2], the following property, to-wit: (1) Any automobile I own at my death; (2) All the property I have in the nature of profit sharing in the Tupperware Corporation of Halls, Tennessee; and (3) All the money I have in the Lauderdale County Bank of Halls, Tennessee.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my son",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "at my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the following property",
+                "All the money I have in the Lauderdale County Bank of Halls, Tennessee"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the following property",
+                "All the property I have in the nature of profit sharing in the Tupperware Corporation of Halls, Tennessee"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "the following property",
+                "Any automobile I own at my death"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e3",
+                "e4",
+                "e5"
+            ],
+            "Beneficiary": [
+                "e1"
+            ],
+            "Testator": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e6"
+            ]
+        }
+    ]
+}

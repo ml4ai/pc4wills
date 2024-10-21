@@ -1,0 +1,62 @@
+{
+  "text": "SECOND: It is my will that my debts and the charges of my funeral be paid as soon as conveniently may be after my death.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my debts"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the charges of my funeral"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my debts and the charges of my funeral be paid"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "as soon as conveniently may be after my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Duty": [
+        "e3"
+      ],
+      "Time": [
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Testator": [
+        "e5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+    "text": "ARTICLE III Some of my furniture, household goods, jewelry, and personal effects should be distributed in accordance with the provisions of a certain Memorandum written entirely in my handwriting and signed by me, which will be found with this Will.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Some of my furniture"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "household goods"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "jewelry"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "personal effects"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "this Will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in accordance with the provisions of a certain Memorandum written entirely in my handwriting and signed by me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "me",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "a certain Memorandum written entirely in my handwriting and signed by me"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "which will be found with this Will"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1",
+                "e2",
+                "e3",
+                "e4"
+            ],
+            "Condition": [
+                "e6"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Testator": [
+                "e7"
+            ],
+            "Will": [
+                "e8"
+            ],
+            "Condition": [
+                "e9"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "text": "I, [Person-1], a citizen and resident of Tennessee, being of sound mind and disposing memory, do hereby make, publish and declare this as my Last Will and Testament.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "being of sound mind and disposing memory"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my",
+                "[Person-1]",
+                "a citizen and resident of Tennessee",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my Last Will and Testament",
+                "this"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Condition": [
+                "e2"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Will": [
+                "e4"
+            ]
+        }
+    ]
+}

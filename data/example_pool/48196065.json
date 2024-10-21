@@ -1,0 +1,94 @@
+{
+    "text": "ITEM I. I will and direct that all my just and lawful debts shall be paid by my personal representative hereinafter named as soon after my death as practicable, including the expenses of my last illness, the expenses of my funeral, and the expenses of the administration of my estate.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all my just and lawful debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all my just and lawful debts shall be paid"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my personal representative hereinafter named"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "as soon after my death as practicable"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "the expenses of my last illness"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "the expenses of my funeral"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "the expenses of the administration of my estate"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Duty": [
+                "e2"
+            ],
+            "Executor": [
+                "e3"
+            ],
+            "Time": [
+                "e4"
+            ],
+            "Testator": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e9"
+            ]
+        }
+    ]
+}

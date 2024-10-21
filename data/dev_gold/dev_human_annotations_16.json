@@ -1,0 +1,98 @@
+{
+    "text": "1.3 Bond is Excused. I direct that each personal representative or Executor named herein be permitted to serve without bond. If the law should require a bond for such personal representative or Executor, I then authorize such bond to be purchased using funds of my estate.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "If the law should require a bond for such personal representative or Executor"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "such bond to be purchased using funds of my estate"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "each personal representative",
+                "such personal representative",
+                "Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "Bond",
+                "bond",
+                "such bond"
+            ],
+            "type": "Bond"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Excuse",
+            "Bond": [
+                "e7"
+            ],
+            "Executor": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Excuse": [
+                "v1"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Authorization",
+            "Condition": [
+                "e1"
+            ],
+            "Right": [
+                "e3"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Executor": [
+                "e6"
+            ]
+
+        }
+    ]
+}

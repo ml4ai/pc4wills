@@ -1,0 +1,211 @@
+{
+    "text": "We, the undersigned, being first duly sworn, make oath that [Person-1], on the day and date above written, declared and signified to us that the foregoing instrument was her Last Will and Testament, and that she thereupon signed the same in our sight and presence; that we, at her request and in her presence, and in the sight and presence of each other, then subscribed our names as attesting witnesses; that the time of execution the Testatrix was more than eighteen (18) years of age, of sound mind and disposing memory, and did not appear under any undue influence; and that the undersigned, each being more than eighteen (18) years of age, make and sign this Affidavit at the request of the Testatrix, on the day and year below written.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "being first duly sworn"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the time of execution"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "more than eighteen (18) years of age"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "of sound mind and disposing memory"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "did not appear under any undue influence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "this Affidavit"
+            ],
+            "type": "Affidavit"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "in our sight and presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "at her request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "in her presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "in the sight and presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "at the request of the Testatrix"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "each being more than eighteen (18) years of age"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "the Testatrix",
+                "[Person-1]",
+                "she",
+                "her"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "the same",
+                "her Last Will and Testament",
+                "the foregoing instrument"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e15",
+            "texts": [
+                "the undersigned",
+                "our",
+                "each other",
+                "we",
+                "us",
+                "witnesses",
+                "We"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e16",
+            "texts": [
+                "on the day and date above written",
+                "on the day and year below written"
+            ],
+            "type": "Date"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Attestation",
+            "WillCreation": [
+                "v2"
+            ],
+            "SignWill": [
+                "v3",
+                "v4"
+            ],
+            "Condition": [
+                "e3",
+                "e4",
+                "e5",
+                "e12"
+            ],
+            "Witness": [
+                "e15"
+            ],
+            "Date": [
+                "e16"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Testator": [
+                "e13"
+            ],
+            "Will": [
+                "e14"
+            ],
+            "Date": [
+                "e16"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "SignWill",
+            "Condition": [
+                "e7"
+            ],
+            "Testator": [
+                "e13"
+            ],
+            "Will": [
+                "e14"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "SignWill",
+            "Condition": [
+                "e8",
+                "e9",
+                "e10"
+            ],
+            "Will": [
+                "e14"
+            ],
+            "Witness": [
+                "e15"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Attestation",
+            "Affidavit": [
+                "e6"
+            ],
+            "Condition": [
+                "e11"
+            ],
+            "Witness": [
+                "e15"
+            ],
+            "Date": [
+                "e16"
+            ]
+        }
+    ]
+}

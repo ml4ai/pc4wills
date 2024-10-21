@@ -1,0 +1,61 @@
+{
+    "text": "b) I will, devise and bequeath to my son, [Person-5], one porcelain piece, the large shed and contents, except for property stored there by my son, [Person-6].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "one porcelain piece"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the large shed and contents"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my son",
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "except for property stored there by my son, [Person-6]"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1",
+                "e2"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Beneficiary": [
+                "e4"
+            ],
+            "Condition": [
+                "e5"
+            ]
+        }
+    ]
+}

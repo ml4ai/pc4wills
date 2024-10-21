@@ -1,0 +1,145 @@
+{
+    "text": "ITEM IV. Furthermore, if at the time of my death, there is a Promissory Note still due and payable by [Person-7] and wife, [Person-8], I direct that an account be set up and that all payments made be deposited into said account. At the time said Promissory Note is paid in full, I hereby devise and bequeath said monies to the following, equally: [Person-3], [Person-9], [Person-5] and [Person-6].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "[Person-7]"
+            ],
+            "type": "NonBeneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "an account be set up and that all payments made be deposited into said account"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "At the time said Promissory Note is paid in full"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-9]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "if at the time of my death, there is a Promissory Note still due and payable by [Person-7] and wife, [Person-8]"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "a Promissory Note still due and payable by [Person-7] and wife, [Person-8]",
+                "said Promissory Note",
+                "said monies",
+                "all payments"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "[Person-8]",
+                "wife"
+            ],
+            "type": "NonBeneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Duty": [
+                "e3"
+            ],
+            "Condition": [
+                "e10"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Time": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e5",
+                "e6",
+                "e7",
+                "e8"
+            ],
+            "Condition": [
+                "e9"
+            ],
+            "Testator": [
+                "e11"
+            ],
+            "Asset": [
+                "e12"
+            ]
+        }
+    ]
+}

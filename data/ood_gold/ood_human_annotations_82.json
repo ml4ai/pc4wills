@@ -1,0 +1,129 @@
+{
+  "text": "3. DISPOSITION OF TANGIBLE PERSONAL PROPERTY: I bequeath to [Person-6], if living at my death, all of my clothing and other tangible personal property, including cash on hand, owned by me at the time of my death. In the event of the death of [Person-6], I bequeath the same to his issue by the right of representation.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "TANGIBLE PERSONAL PROPERTY",
+        "all of my clothing and other tangible personal property, including cash on hand, owned by me at the time of my death",
+        "the same"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "In the event of the death of [Person-6]"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "by the right of representation"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "at my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "if living at my death"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "at the time of my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "his issue"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "I",
+        "my",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "[Person-6]",
+        "his"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Testator": [
+        "e8"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Condition": [
+        "e5"
+      ],
+      "Testator": [
+        "e8"
+      ],
+      "Beneficiary": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Death",
+      "Beneficiary": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Bequest",
+      "Condition": [
+        "e2",
+        "e3"
+      ],
+      "Asset": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e7"
+      ],
+      "Testator": [
+        "e10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+    "text": "I. PAYMENT OF DEBTS AND TAXES I direct that all my just debts, funeral expenses, expenses of my last illness, and any inheritance or estate taxes that may be imposed by reason of my death, be paid out of my residuary estate without proration among my several beneficiaries.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "DEBTS",
+                "all my just debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "funeral expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "expenses of my last illness"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my several beneficiaries"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my residuary estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "all my just debts, funeral expenses, expenses of my last illness, and any inheritance or estate taxes that may be imposed by reason of my death, be paid out of my residuary estate"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "without proration among my several beneficiaries"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "TAXES",
+                "any inheritance or estate taxes"
+            ],
+            "type": "Tax"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Duty": [
+                "e6"
+            ],
+            "Condition": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e8"
+            ]
+        }
+    ]
+}

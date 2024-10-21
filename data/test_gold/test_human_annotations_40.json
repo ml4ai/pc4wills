@@ -1,0 +1,42 @@
+{
+  "text": "VII I hereby give, devise and bequeath to [Person-6] my gold plated silverware.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-6]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my gold plated silverware"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e1"
+      ],
+      "Asset": [
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ]
+    }
+  ]
+}

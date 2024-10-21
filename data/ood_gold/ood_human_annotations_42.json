@@ -1,0 +1,88 @@
+{
+  "text": "KNOW ALL MEN BY THESE PRESENTS, That I, [Person-1], of Burley, Cassia County, State of Idaho, being over the age of 18 years and of sound and disposing mind and memory, and not acting under duress, menace, fraud or the undue influence of any person whomsoever, and being mindful of the uncertainties of life, do make, publish and declare this to be my Last Will and Testament in the manner following, that is to say:",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "being over the age of 18 years and of sound and disposing mind and memory"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "not acting under duress, menace, fraud or the undue influence of any person whomsoever"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "being mindful of the uncertainties of life"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "[Person-1]"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "Cassia"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "in the manner following"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "this",
+        "my Last Will and Testament"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Condition": [
+        "e1",
+        "e2",
+        "e3",
+        "e7"
+      ],
+      "Testator": [
+        "e8"
+      ],
+      "Will": [
+        "e9"
+      ]
+    }
+  ]
+}

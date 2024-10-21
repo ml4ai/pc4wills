@@ -1,0 +1,58 @@
+{
+  "text": "X I hereby give, devise and bequeath to [Person-9] my lighthouse waterfall and the picture of my dog halo and his collar.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-9]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my lighthouse waterfall"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "the picture of my dog halo"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "his collar"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e1"
+      ],
+      "Asset": [
+        "e2",
+        "e3",
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+    "text": "IN TESTIMONY WHEREOF, I have on February 15, 2001, executed this my will in the presence of the two undersigned attesting witnesses.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "on February 15, 2001"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the two undersigned attesting witnesses"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in the presence of the two undersigned attesting witnesses"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "IN TESTIMONY WHEREOF"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my will",
+                "this"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Date": [
+                "e1"
+            ],
+            "Condition": [
+                "e3",
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Will": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "SignWill",
+            "Date": [
+                "e1"
+            ],
+            "Condition": [
+                "e3",
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Will": [
+                "e6"
+            ]
+        }
+    ]
+}

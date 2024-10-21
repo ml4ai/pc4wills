@@ -1,0 +1,134 @@
+{
+    "text": "We, the undersigned subscribing witnesses, do hereby certify that we witnessed the foregoing Last Will and Testament of [Person-1] at his request, in his presence and in the presence of each other, and that he signed the same in our presence, and in the presence of each of us, declaring the same to be his Last Will and Testament. This 30 day of October, 2001.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at his request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "in his presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "in our presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in the presence of each of us"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "This 30 day of October, 2001"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "our",
+                "each of us",
+                "each other",
+                "We",
+                "we",
+                "the undersigned subscribing witnesses"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "the same",
+                "the foregoing Last Will and Testament",
+                "his Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "[Person-1]",
+                "he",
+                "his"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Attestation",
+            "Attestation": [
+                "v2"
+            ],
+            "SignWill": [
+                "v3"
+            ],
+            "Date": [
+                "e6"
+            ],
+            "Witness": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Attestation",
+            "Condition": [
+                "e1",
+                "e2",
+                "e3"
+            ],
+            "Witness": [
+                "e7"
+            ],
+            "Will": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "SignWill",
+            "Condition": [
+                "e4",
+                "e5"
+            ],
+            "Will": [
+                "e8"
+            ],
+            "Testator": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "WillCreation",
+            "Will": [
+                "e8"
+            ],
+            "Testator": [
+                "e9"
+            ]
+        }
+    ]
+}

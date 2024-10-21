@@ -1,0 +1,248 @@
+{
+    "text": "XI I hereby make the following bequests: A) [Person-2]: 25% of my remaining estate B) [Person-3]: 25% of my remaining estate C) [Person-5]: 11 % of my remaining estate D) [Person-6]: 11 % of my remaining estate E) [Person-7]: 11 % of my remaining estate F) [Person-8]: 11 % of my remaining estate G) : 2.5% of my remaining estate H) [Person-9]: 1.0% of my remaining estate I) [Person-10]: 2.5% of my remaining estate",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "25% of my remaining estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "25% of my remaining estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "11 % of my remaining estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "11 % of my remaining estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "[Person-7]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "11 % of my remaining estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "[Person-8]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "11 % of my remaining estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "2.5% of my remaining estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "[Person-9]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e15",
+            "texts": [
+                "1.0% of my remaining estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e16",
+            "texts": [
+                "[Person-10]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e17",
+            "texts": [
+                "2.5% of my remaining estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e18",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e1"
+            ],
+            "Asset": [
+                "e2"
+            ],
+            "Testator": [
+                "e18"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e3"
+            ],
+            "Asset": [
+                "e4"
+            ],
+            "Testator": [
+                "e18"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e5"
+            ],
+            "Asset": [
+                "e6"
+            ],
+            "Testator": [
+                "e18"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e7"
+            ],
+            "Asset": [
+                "e8"
+            ],
+            "Testator": [
+                "e18"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e9"
+            ],
+            "Asset": [
+                "e10"
+            ],
+            "Testator": [
+                "e18"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e11"
+            ],
+            "Asset": [
+                "e12"
+            ],
+            "Testator": [
+                "e18"
+            ]
+        },
+        {
+            "id": "v7",
+            "type": "Bequest",
+            "Asset": [
+                "e13"
+            ],
+            "Testator": [
+                "e18"
+            ]
+        },
+        {
+            "id": "v8",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e14"
+            ],
+            "Asset": [
+                "e15"
+            ],
+            "Testator": [
+                "e18"
+            ]
+        },
+        {
+            "id": "v9",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e16"
+            ],
+            "Asset": [
+                "e17"
+            ],
+            "Testator": [
+                "e18"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+  "text": "I give, devise and bequeath all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated, including but not limited to my house and lot, all contents of my house, any automobile I have at the time of my death, and any other property I own, to my niece, [Person-2] of [Address-2].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "at the time of my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated, including but not limited to my house and lot",
+        "all contents of my house",
+        "any automobile I have at the time of my death",
+        "any other property I own"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "[Person-2]",
+        "my niece"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Testator": [
+        "e2"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Testator": [
+        "e2"
+      ],
+      "Asset": [
+        "e3"
+      ],
+      "Beneficiary": [
+        "e4"
+      ]
+    }
+  ]
+}

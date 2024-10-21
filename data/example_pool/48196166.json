@@ -1,0 +1,41 @@
+{
+    "text": "I am intentionally not leaving my other relatives anything under this will, not out of lack of love and affection, but because they have sufficient resources to provide for themselves.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my other relatives",
+                "they",
+                "themselves"
+            ],
+            "type": "NonBeneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Removal",
+            "Testator": [
+                "e2"
+            ],
+            "NonBeneficiary": [
+                "e3"
+            ]
+        }
+    ]
+}

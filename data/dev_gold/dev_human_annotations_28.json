@@ -1,0 +1,137 @@
+{
+    "text": "4.4 Payments to Minor, etc. If my personal representative determines that income or principal is payable to a minor or to a person under mental or physical disability, whether or not adjudicated, then my fiduciary shall have the discretion to either make payments directly to the beneficiary, to the legally appointed guardian or conservator, or to distribute and pay such amounts directly for the benefit of such beneficiary. No recipient of payments from my fiduciaries for the benefit of a minor or incompetent shall be required to furnish bond with respect to any such funds, nor make reports as to the disposition of same.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "If my personal representative determines that income or principal is payable to a minor or to a person under mental or physical disability"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "whether or not adjudicated"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the discretion to either make payments directly to the beneficiary, to the legally appointed guardian or conservator, or to distribute and pay such amounts directly for the benefit of such beneficiary"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "to furnish bond with respect to any such funds, nor make reports as to the disposition of same"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "income",
+                "any such funds",
+                "same",
+                "principal"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "for the benefit of a minor or incompetent"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "a person under mental or physical disability",
+                "incompetent",
+                "such beneficiary",
+                "recipient",
+                "Minor",
+                "a minor",
+                "the beneficiary"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "my fiduciaries",
+                "my personal representative",
+                "my fiduciary"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "recipient",
+                "the legally appointed guardian"
+            ],
+            "type": "Guardian"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "recipient",
+                "conservator"
+            ],
+            "type": "Conservator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Condition": [
+                "e2",
+                "e3"
+            ],
+            "Right": [
+                "e4"
+            ],
+            "Executor": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Excuse",
+            "Duty": [
+                "e6"
+            ],
+            "Condition": [
+                "e8"
+            ],
+            "Beneficiary": [
+                "e9"
+            ],
+            "Guardian": [
+                "e11"
+            ],
+            "Conservator": [
+                "e12"
+            ]
+        }
+    ]
+}

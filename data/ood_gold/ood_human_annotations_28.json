@@ -1,0 +1,30 @@
+{
+  "text": "FIRST: I declare that my estate whereof I may die possessed is my sole and separate property and I am a widower.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my sole and separate property",
+        "my estate"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Testator": [
+        "e1"
+      ]
+    }
+  ]
+}

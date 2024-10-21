@@ -1,0 +1,116 @@
+{
+    "text": "The foregoing paper writing consisting of Four (IV) Articles was upon this the 15th day of March, 1982, by the said [Person-1], signed, sealed, published and declared to be his Last Will and Testament, in the presence of us, who at the Testator's request and in his presence and in the presence of each other, hereto affix our signatures as witnesses.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "upon this the 15th day of March, 1982"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "us",
+                "each other",
+                "our",
+                "witnesses"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in the presence of us"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "at the Testator's request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in his presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "The foregoing paper writing consisting of Four (IV) Articles",
+                "his Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "his",
+                "the Testator",
+                "the said [Person-1]"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Date": [
+                "e1"
+            ],
+            "Condition": [
+                "e3"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Date": [
+                "e1"
+            ],
+            "Condition": [
+                "e3"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "SignWill",
+            "Witness": [
+                "e2"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Condition": [
+                "e4",
+                "e5",
+                "e6"
+            ]
+        }
+    ]
+}

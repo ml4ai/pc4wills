@@ -1,0 +1,50 @@
+{
+    "text": "I direct that my Executor shall receive a fee for his services of five (5) percent of my net estate after the above specific bequests are made.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "five (5) percent of my net estate after the above specific bequests are made"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "his",
+                "my Executor"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Give": [
+                "v2"
+            ],
+            "Testator": [
+                "e2"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Give",
+            "Asset": [
+                "e1"
+            ],
+            "Executor": [
+                "e3"
+            ]
+        }
+    ]
+}

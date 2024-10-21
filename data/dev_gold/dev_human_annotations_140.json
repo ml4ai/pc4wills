@@ -1,0 +1,13 @@
+{
+    "text": "ATTESTATION CLAUSE AND AFFIDAVIT",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "AFFIDAVIT"
+            ],
+            "type": "Affidavit"
+        }
+    ],
+    "events": []
+}

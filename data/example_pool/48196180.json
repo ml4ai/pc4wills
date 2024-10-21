@@ -1,0 +1,80 @@
+{
+    "text": "(B) In the event I have no living heirs at the time of my death, then I will, devise and bequeath all my property to [Organization-1], Ripley, Tennessee.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "living heirs"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "In the event I have no living heirs at the time of my death"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "all my property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Organization-1]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Condition": [
+                "e3"
+            ],
+            "Asset": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e5"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        }
+    ]
+}

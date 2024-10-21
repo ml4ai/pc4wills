@@ -1,0 +1,35 @@
+{
+    "text": "(Signature of witness 1) (Signature of witness 2)",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "witness 1"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "witness 2"
+            ],
+            "type": "Witness"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Witness": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "SignWill",
+            "Witness": [
+                "e2"
+            ]
+        }
+    ]
+}

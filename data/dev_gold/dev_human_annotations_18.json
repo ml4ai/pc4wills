@@ -1,0 +1,94 @@
+{
+    "text": "2.1 Expenses, Debts, and Taxes. All of my lawful debts, funeral expenses, and expenses of the administration of my estate are to be paid from my general estate as soon as is practicable after my death at the direction of my personal representative.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Taxes"
+            ],
+            "type": "Tax"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Expenses",
+                "funeral expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "Expenses",
+                "expenses of the administration of my estate"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "as soon as is practicable after my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "All of my lawful debts, funeral expenses, and expenses of the administration of my estate are to be paid from my general estate"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my lawful debts",
+                "Debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my general estate",
+                "my estate"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Time": [
+                "e4"
+            ],
+            "Executor": [
+                "e5"
+            ],
+            "Duty": [
+                "e6"
+            ]
+        }
+    ]
+}

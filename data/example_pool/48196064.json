@@ -1,0 +1,120 @@
+{
+    "text": "I, [Person-1], a resident and citizen of Lauderdale County, Tennessee, being of sound mind, disposing memory, and of legal age, do make, publish and declare this to be my Last Will and Testament, hereby revoking and making void any and all other wills or codicils by me at any time heretofore made.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "being of sound mind, disposing memory, and of legal age"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "any and all other wills"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "codicils"
+            ],
+            "type": "Codicil"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "at any time heretofore"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "me",
+                "I",
+                "a resident and citizen",
+                "my",
+                "[Person-1]"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "this",
+                "my Last Will and Testament"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Testator": [
+                "e7"
+            ],
+            "Will": [
+                "e8"
+            ],
+            "Condition": [
+                "e3"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Revocation",
+            "Will": [
+                "e4"
+            ],
+            "Codicil": [
+                "e5"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "WillCreation",
+            "Will": [
+                "e4"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Time": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Codicil",
+            "Codicil": [
+                "e5"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Time": [
+                "e6"
+            ]
+        }
+    ]
+}

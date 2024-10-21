@@ -1,0 +1,85 @@
+{
+    "text": "IV A) I hereby give, devise and bequeath all of my property, real, personal and mixed, and wheresoever situated, that I may own at the time of my death, to my sons, [Person-2], [Person-3] and [Person-4], in equal shares.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my sons",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my sons",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my sons",
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in equal shares"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "all of my property, real, personal and mixed, and wheresoever situated, that I may own at the time of my death"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Condition": [
+                "e5"
+            ],
+            "Beneficiary": [
+                "e2",
+                "e3",
+                "e4"
+            ],
+            "Testator": [
+                "e6"
+            ],
+            "Asset": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e6"
+            ]
+        }
+    ]
+}

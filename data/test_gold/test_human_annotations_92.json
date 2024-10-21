@@ -1,0 +1,98 @@
+{
+  "text": "I appoint his mother, [Person-7], to serve as Trustee without bond. I specifically vest in her all of the fiduciary powers set forth in Tennessee Code Annotated \u00a735-50-110.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "his"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "all of the fiduciary powers set forth in Tennessee Code Annotated \u00a735-50-110"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "Tennessee"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "without bond"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "his mother",
+        "[Person-7]",
+        "Trustee",
+        "her"
+      ],
+      "type": "Trustee"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Nomination",
+      "Condition": [
+        "e5"
+      ],
+      "Trustee": [
+        "e6"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Excuse",
+      "Bond": [
+        "e2"
+      ],
+      "Trustee": [
+        "e6"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Authorization",
+      "Right": [
+        "e3"
+      ],
+      "Trustee": [
+        "e6"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+    "text": "Signed by the said [Person-1] as and for her Last Will and Testament in the presence of us, the undersigned, who at his request and in her presence and in the presence of each other have hereto signed our names as attesting witnesses the day and year written above.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "her Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the day and year written above"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in the presence of us"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "at his request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in her presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "the said [Person-1]",
+                "his",
+                "her"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "us",
+                "each other",
+                "the undersigned",
+                "our",
+                "witnesses"
+            ],
+            "type": "Witness"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Will": [
+                "e1"
+            ],
+            "Condition": [
+                "e3"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "SignWill",
+            "Will": [
+                "e1"
+            ],
+            "Date": [
+                "e2"
+            ],
+            "Condition": [
+                "e4",
+                "e5",
+                "e6"
+            ],
+            "Witness": [
+                "e8"
+            ]
+        }
+    ]
+}

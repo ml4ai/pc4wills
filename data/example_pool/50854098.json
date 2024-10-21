@@ -1,0 +1,150 @@
+{
+    "text": "I hereby will and bequeath one-half(1/2) of the balance of my estate to [Person-11] or to her children, if she is not living and the other one-half(1/2) of my estate to [Person-3], [Person-2], [Person-9], [Person-10] and [Person-8], equally.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "one-half(1/2) of the balance of my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "her children"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "if she is not living"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the other one-half(1/2) of my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "[Person-9]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "[Person-10]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "[Person-8]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "[Person-11]",
+                "she",
+                "her"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Beneficiary": [
+                "e12"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Beneficiary": [
+                "e2"
+            ],
+            "Condition": [
+                "e3"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Asset": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e5",
+                "e6",
+                "e7",
+                "e8",
+                "e9"
+            ],
+            "Condition": [
+                "e10"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Death",
+            "Beneficiary": [
+                "e12"
+            ]
+        }
+    ]
+}

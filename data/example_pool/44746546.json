@@ -1,0 +1,77 @@
+{
+    "text": "If my wife, [Person-2], does not survive me, I will, devise, and bequeath all of the property to my son, [Person-3], in fee simple.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "in fee simple"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all of the property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "If my wife, [Person-2], does not survive me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "me",
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my wife",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-3]",
+                "my son"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Condition": [
+                "e1",
+                "e3"
+            ],
+            "Asset": [
+                "e2"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e6"
+            ]
+        }
+    ]
+}

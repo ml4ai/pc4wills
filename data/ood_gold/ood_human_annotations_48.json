@@ -1,0 +1,118 @@
+{
+  "text": "SIXTH: Providing further that in the event either or any of my beloved children shall precede me in death, then and in that event, I do hereby devise and bequeath his or her share to the issue of his or her body, and in the event he or she shall leave no issue, then and in that event I do hereby devise and bequeath his or her share to the surviving sons and/or daughters, to have and hold equally, share and share alike.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "share and share alike"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "to have and hold equally"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "the issue of his or her body"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "the surviving sons and/or daughters"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "I",
+        "me",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "he or she",
+        "either or any of my beloved children",
+        "his or her"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "his or her share"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "in that event",
+        "in the event either or any of my beloved children shall precede me in death"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "in that event",
+        "in the event he or she shall leave no issue"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Beneficiary": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e3"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Asset": [
+        "e7"
+      ],
+      "Condition": [
+        "e8"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Bequest",
+      "Condition": [
+        "e1",
+        "e2",
+        "e8",
+        "e9"
+      ],
+      "Beneficiary": [
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Asset": [
+        "e7"
+      ]
+    }
+  ]
+}

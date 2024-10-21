@@ -1,0 +1,124 @@
+{
+  "text": "We, the undersigned and subscribing witnesses, do hereby certify that we witnessed the foregoing Last Will and Testament of [Person-1], at her request, in her presence, and in the presence of each other, and that she signed the same in our presence, and in the presence of each of us, declaring the same to be her Last Will and Testament.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "at her request"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "in her presence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "in the presence of each other"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "in our presence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "in the presence of each of us"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "the undersigned and subscribing witnesses",
+        "each of us",
+        "We",
+        "each other",
+        "our",
+        "we"
+      ],
+      "type": "Witness"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "the same",
+        "her Last Will and Testament",
+        "the foregoing Last Will and Testament"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "her",
+        "[Person-1]",
+        "she"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Attestation",
+      "Attestation": [
+        "v2"
+      ],
+      "SignWill": [
+        "v3"
+      ],
+      "Witness": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Attestation",
+      "Condition": [
+        "e1",
+        "e2",
+        "e3"
+      ],
+      "Witness": [
+        "e6"
+      ],
+      "Will": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "SignWill",
+      "Condition": [
+        "e4",
+        "e5"
+      ],
+      "Will": [
+        "e7"
+      ],
+      "Testator": [
+        "e8"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "WillCreation",
+      "Will": [
+        "e7"
+      ],
+      "Testator": [
+        "e8"
+      ]
+    }
+  ]
+}

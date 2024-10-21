@@ -1,0 +1,102 @@
+{
+    "text": "I, [Person-1], domiciled in Memphis, Tennessee, do make, publish and declare this to be my Last Will and Testament, hereby revoking all wills and codicils heretofore made by me.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all wills"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "codicils"
+            ],
+            "type": "Codicil"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "heretofore"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "I",
+                "[Person-1]",
+                "me",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "this",
+                "my Last Will and Testament"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Testator": [
+                "e5"
+            ],
+            "Will": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Will": [
+                "e2"
+            ],
+            "Time": [
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Codicil",
+            "Codicil": [
+                "e3"
+            ],
+            "Time": [
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Revocation",
+            "Will": [
+                "e2"
+            ],
+            "Codicil": [
+                "e3"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        }
+    ]
+}

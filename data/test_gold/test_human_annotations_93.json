@@ -1,0 +1,152 @@
+{
+  "text": "VI. As soon as practicable after my death, I direct that each of my six above named grandchildren, if they survive me, shall have the right to choose one item of furniture or other item of personal property from my residence and, if any of my grandchildren are minors, I direct that their parent or guardian shall have the right to choose on their behalf.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "As soon as practicable after my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the right to choose one item of furniture or other item of personal property from my residence"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "one item of furniture"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "other item of personal property"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my residence"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "their parent"
+      ],
+      "type": "NonBeneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "guardian"
+      ],
+      "type": "Guardian"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "the right to choose on their behalf"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "if they survive me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "if any of my grandchildren are minors"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "my",
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "any of my grandchildren",
+        "their",
+        "each of my six above named grandchildren",
+        "they"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Testator": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Authorization": [
+        "v3"
+      ],
+      "Testator": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Authorization",
+      "Right": [
+        "e2"
+      ],
+      "Condition": [
+        "e9"
+      ],
+      "Beneficiary": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Direction",
+      "Authorization": [
+        "v5"
+      ],
+      "Condition": [
+        "e10"
+      ],
+      "Testator": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Authorization",
+      "NonBeneficiary": [
+        "e6"
+      ],
+      "Guardian": [
+        "e7"
+      ],
+      "Right": [
+        "e8"
+      ]
+    }
+  ]
+}

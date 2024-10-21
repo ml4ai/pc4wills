@@ -1,0 +1,92 @@
+{
+  "text": "If [Person-3] and [Person-2] both shall die before me, I give and bequeath all of the rest, residue and remainder of my estate to the [Organization-2] at Burley, Idaho.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "all of the rest, residue and remainder of my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "[Organization-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "before me"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "If [Person-3] and [Person-2] both shall die before me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "me",
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Beneficiary": [
+        "e1", 
+        "e2"
+      ],
+      "Time": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Asset": [
+        "e3"
+      ],
+      "Beneficiary": [
+        "e4"
+      ],
+      "Condition": [
+        "e7"
+      ],
+      "Testator": [
+        "e8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+    "text": "II I hereby direct that [Person-2] shall have first option to purchase my house and two acres of land in Lauderdale County at fair market value (fair market value to be obtained by an appraisal of the property), which option is to be exercised within nine months of my death. My Executor is authorized to execute and deliver a deed of [Person-2] in the event he elects to buy the property.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "at fair market value"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "within nine months of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "My Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "to execute and deliver a deed of [Person-2]"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in the event he elects to buy the property"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my",
+                "I",
+                "My"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "[Person-2]",
+                "he"
+            ],
+            "type": "NonBeneficiary"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "the property",
+                "my house and two acres of land"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "first option to purchase my house and two acres of land",
+                "which option"
+            ],
+            "type": "Right"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Authorization": [
+                "v2"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Authorization",
+            "Condition": [
+                "e2"
+            ],
+            "Time": [
+                "e3"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "NonBeneficiary": [
+                "e8"
+            ],
+            "Right": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Testator": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Authorization",
+            "Executor": [
+                "e4"
+            ],
+            "Right": [
+                "e5"
+            ],
+            "Condition": [
+                "e6"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        }
+    ]
+}

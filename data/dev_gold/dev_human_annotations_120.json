@@ -1,0 +1,121 @@
+{
+    "text": "I hereby name, nominate and appoint [Person-2] as Executor of this my Last Will and Estate. I further direct that my Executor be allowed to serve in this capacity without bond or other security for the faithful performance of his duties as Executor. I direct that my Executor not be required to make an accounting to the Court.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "other security"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "his duties"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "make an accounting to the Court"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my Last Will",
+                "this"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "his",
+                "this capacity",
+                "my Executor",
+                "[Person-2]"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e6"
+            ],
+            "Executor": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Excuse": [
+                "v3"
+            ],
+            "Testator": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Excuse",
+            "Bond": [
+                "e2"
+            ],
+            "Duty": [
+                "e3"
+            ],
+            "Executor": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Direction",
+            "Excuse": [
+                "v5"
+            ],
+            "Testator": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Excuse",
+            "Duty": [
+                "e5"
+            ],
+            "Executor": [
+                "e8"
+            ]
+        }
+    ]
+}

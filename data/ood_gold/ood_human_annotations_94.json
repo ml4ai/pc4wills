@@ -1,0 +1,49 @@
+{
+  "text": "SECOND: I direct my personal representative hereinafter named to have my body cremated and the ashes buried next to and in the same cemetery where the ashes of my dear departed first husband are buried at the [Location-1] in Buhl, Idaho.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my personal representative hereinafter named"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "to have my body cremated and the ashes buried next to and in the same cemetery where the ashes of my dear departed first husband are buried at the [Location-1] in Buhl, Idaho"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Executor": [
+        "e1"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Duty": [
+        "e2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "text": "SELF-PROVED WILL STATE OF IDAHO, County of Minidoka. ss. We, [Person-1], [Person-9] and [Person-10], the testator and the witnesses, respectively, whose names are signed to the attached or foregoing instrument, being first duly sworn, do hereby declare to the undersigned authority that the testator signed and executed the instrument as his last Will and that he had signed willingly, and that he executed it as his free and voluntary act for the purposes therein expressed; and that each of the witnesses, in the presence and hearing of the testator, signed the Will as witness and that to the best of their knowledge the testator was at the time an adult, of sound mind and under no constraint or undue influence.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "IDAHO"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "SELF-PROVED WILL",
+        "it",
+        "the instrument",
+        "the Will",
+        "the attached or foregoing instrument",
+        "his last Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "Minidoka"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "being first duly sworn"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "the undersigned authority"
+      ],
+      "type": "NotaryPublic"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "willingly"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "free and voluntary act"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "in the presence and hearing of the testator"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "to the best of their knowledge"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "an adult, of sound mind"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "under no constraint or undue influence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "his",
+        "the testator",
+        "he",
+        "[Person-1]",
+        "We"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "We",
+        "witness",
+        "the witnesses",
+        "[Person-9] and [Person-10]",
+        "each of the witnesses"
+      ],
+      "type": "Witness"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Testator": [
+        "e12"
+      ],
+      "Witness": [
+        "e13"
+      ],
+      "Will": [
+        "e2"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Attestation",
+      "Condition": [
+        "e4", "e9", "e10", "e11"
+      ],
+      "NotaryPublic": [
+        "e5"
+      ],
+      "SignWill": [
+        "v4", "v6", "v8"
+      ],
+      "WillCreation": [
+        "v5", "v7"
+      ],
+      "Testator": [
+        "e12"
+      ],
+      "Witness": [
+        "e13"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "SignWill",
+      "Testator": [
+        "e12"
+      ],
+      "Will": [
+        "e2"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "WillCreation",
+      "Testator": [
+        "e12"
+      ],
+      "Will": [
+        "e2"
+      ]
+    },
+    {
+      "id": "v6",
+      "type": "SignWill",
+      "Condition": [
+        "e6"
+      ],
+      "Testator": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v7",
+      "type": "WillCreation",
+      "Testator": [
+        "e12"
+      ],
+      "Will": [
+        "e2"
+      ],
+      "Condition": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v8",
+      "type": "SignWill",
+      "Condition": [
+        "e8"
+      ],
+      "Witness": [
+        "e13"
+      ],
+      "Will": [
+        "e2"
+      ]
+    }
+  ]
+}

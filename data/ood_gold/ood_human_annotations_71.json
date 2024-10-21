@@ -1,0 +1,78 @@
+{
+  "text": "I authorize the Trustee to receive reasonable compensation for administration of the trust and, I authorize the Trustee to employ accountants and attorneys to assist the Trustee in administration of the trust in preparation of any applicable tax returns.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "to receive reasonable compensation for administration of the trust"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "to employ accountants and attorneys to assist the Trustee"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "in administration of the trust in preparation of any applicable tax returns"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "the Trustee"
+      ],
+      "type": "Trustee"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "the trust"
+      ],
+      "type": "Trust"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Authorization",
+      "Right": [
+        "e1"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Trustee": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Authorization",
+      "Right": [
+        "e2"
+      ],
+      "Condition": [
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Trustee": [
+        "e5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "text": "FOURTH: In the event of the demise of my beloved spouse, [Person-2], before my death, I give, devise and bequeath 10% of my net estate to the [Organization-1], Idaho, and all the residue of my estate, both real and personal of whatever kind the same may be and wherever situated of which I may die possessed, or to which I may be entitled, to [Person-3], [Person-4], [Person-5] and [Person-6] in equal shares, share and share alike.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "10% of my net estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "[Organization-1]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "all the residue of my estate, both real and personal of whatever kind the same may be and wherever situated of which I may die possessed, or to which I may be entitled"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "[Person-5]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "[Person-6]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "in equal shares"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "share and share alike"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "In the event of the demise of my beloved spouse, [Person-2], before my death"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "before my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e14",
+      "texts": [
+        "[Person-2]",
+        "my beloved spouse"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Testator": [
+        "e13"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Testator": [
+        "e13"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Beneficiary": [
+        "e14"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e2"
+      ],
+      "Condition": [
+        "e11"
+      ],
+      "Testator": [
+        "e13"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Bequest",
+      "Asset": [
+        "e4"
+      ],
+      "Beneficiary": [
+        "e5",
+        "e6",
+        "e7",
+        "e8"
+      ],
+      "Condition": [
+        "e9",
+        "e10",
+        "e11"
+      ],
+      "Testator": [
+        "e13"
+      ]
+    }
+  ]
+}

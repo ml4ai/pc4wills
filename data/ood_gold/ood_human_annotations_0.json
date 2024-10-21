@@ -1,0 +1,82 @@
+{
+  "text": "I, [Person-1] of the [Address-1], County of Cassia and State of Idaho, of the age of 72 years, being of sound mind and memory, and not acting under duress, menace, fraud or undue influence of any person whomsoever, do make, publish, and declare this my Last Will and Testament in manner and form following, to-wit: ",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "County of Cassia"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "State of Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "of the age of 72 years"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "being of sound mind and memory"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "not acting under duress, menace, fraud or undue influence of any person whomsoever"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my",
+        "I",
+        "[Person-1]"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "in manner and form following"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "this",
+        "my Last Will and Testament"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Testator": [
+        "e6"
+      ],
+      "Condition": [
+        "e3",
+        "e4",
+        "e5",
+        "e7"
+      ],
+      "Will": [
+        "e8"
+      ]
+    }
+  ]
+}

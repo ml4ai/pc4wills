@@ -1,0 +1,123 @@
+{
+    "text": "If for any reason my wife is unable to serve as Executor, then I name, nominate and appoint my children, [Person-3] and [Person-4], as Co-Executors, and direct that they be allowed to serve without bond and without accounting to any Court.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Executor",
+                "my wife"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my children",
+                "[Person-3]",
+                "Co-Executors",
+                "they"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my children",
+                "[Person-4]",
+                "Co-Executors",
+                "they"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "accounting to any Court"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "If for any reason my wife is unable to serve as Executor"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "without accounting to any Court"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Disqualification",
+            "Executor": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Nomination",
+            "Condition": [
+                "e7"
+            ],
+            "Executor": [
+                "e3",
+                "e4"
+            ],
+            "Testator": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Direction",
+            "Excuse": [
+                "v4"
+            ],
+            "Testator": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Excuse",
+            "Duty": [
+                "e6"
+            ],
+            "Bond": [
+                "e5"
+            ],
+            "Executor": [
+                "e3",
+                "e4"
+            ]
+        }
+    ]
+}

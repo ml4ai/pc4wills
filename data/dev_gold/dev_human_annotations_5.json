@@ -1,0 +1,68 @@
+{
+    "text": "I am making individual gifts of personal property to persons named in a list in my own handwriting which is attached and made a part of this will by reference, and in addition I have tagged items of personal property with the names of beneficiaries.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "a list in my own handwriting"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "this will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "personal property",
+                "items of personal property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "beneficiaries",
+                "persons named in a list in my own handwriting"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Will": [
+                "e1"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        }
+    ]
+}

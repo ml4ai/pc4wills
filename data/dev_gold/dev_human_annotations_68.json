@@ -1,0 +1,121 @@
+{
+    "text": "The foregoing instrument, consisting of this and Three (3) preceding typewritten pages, was signed and declared by [Person-1], the Testatrix, to be her Last Will and Testament, in our presence, and we, at her request and in her presence and in the presence of each other, have hereunto subscribed our names as witnesses on this the 22nd day of October, 2001 Crossville, Tennessee.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "on this the 22nd day of October, 2001"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in our presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "at her request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in her presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "this and Three (3) preceding typewritten pages",
+                "her Last Will and Testament",
+                "The foregoing instrument"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "her",
+                "the Testatrix",
+                "[Person-1]"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "our",
+                "each other",
+                "we",
+                "witnesses"
+            ],
+            "type": "Witness"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Condition": [
+                "e3"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Condition": [
+                "e3"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "SignWill",
+            "Date": [
+                "e1"
+            ],
+            "Condition": [
+                "e4",
+                "e5",
+                "e6"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Witness": [
+                "e9"
+            ]
+        }
+    ]
+}

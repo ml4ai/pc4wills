@@ -1,0 +1,57 @@
+{
+  "text": "XII I hereby direct that all of my pictures of my children and grandchildren go back to the parents of the children or go to the children.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all of my pictures of my children and grandchildren"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the parents of the children"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "the children"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Bequest": [
+        "v2"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e2",
+        "e3"
+      ]
+    }
+  ]
+}

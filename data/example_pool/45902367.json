@@ -1,0 +1,147 @@
+{
+    "text": "IN WITNESS WHEREOF, I have hereunto set my hand this 14th day of March, 1990, and do publish and declare this as my Last Will and Testament in the presence of each and all of the subscribing witnesses whom I have requested to act as such by signing their names as attesting witnesses in my presence and in the presence of each other and by signing the Affidavit below pursuant to the provisions of T.C.A. \u00a732-2-110.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this 14th day of March, 1990"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "in my presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the Affidavit below"
+            ],
+            "type": "Affidavit"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "IN WITNESS WHEREOF"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in the presence of each and all of the subscribing witnesses"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "to act as such"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "this",
+                "my Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "each other",
+                "their",
+                "attesting witnesses",
+                "each and all of the subscribing witnesses"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "signing the Affidavit below pursuant to the provisions of T.C.A. \u00a732-2-110."
+            ],
+            "type": "Duty"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Date": [
+                "e1"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Will": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Condition": [
+                "e5",
+                "e6"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Will": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "SignWill",
+            "Condition": [
+                "e2",
+                "e3"
+            ],
+            "Will": [
+                "e9"
+            ],
+            "Witness": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Direction",
+            "SignWill": [
+                "v3"
+            ],
+            "Duty": [
+                "e7",
+                "e11"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Witness": [
+                "e10"
+            ]
+        }
+    ]
+}

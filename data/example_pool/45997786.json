@@ -1,0 +1,134 @@
+{
+    "text": "If [Person-2] predeceases me, and if at the time of my death her two children are minors, then I direct that [Person-5] be appointed Trustee of all property bequeathed, given and devised to said children. That property be held in trust by him and managed and used solely for the benefit of said children.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "If [Person-2] predeceases me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "if at the time of my death her two children are minors"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "trust"
+            ],
+            "type": "Trust"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "her",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "said children",
+                "her two children"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "him",
+                "Trustee",
+                "[Person-5]"
+            ],
+            "type": "Trustee"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I",
+                "me"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "That property",
+                "all property bequeathed, given and devised to said children"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "managed and used solely for the benefit of said children"
+            ],
+            "type": "Duty"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Condition": [
+                "e2",
+                "e3"
+            ],
+            "Nomination": [
+                "v3"
+            ],
+            "NonProbateInstrumentCreation": [
+                "v4"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Duty": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Nomination",
+            "Trustee": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "NonProbateInstrumentCreation",
+            "Trust": [
+                "e4"
+            ],
+            "Trustee": [
+                "e7"
+            ],
+            "Asset": [
+                "e9"
+            ]
+        }
+    ]
+}

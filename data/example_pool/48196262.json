@@ -1,0 +1,152 @@
+{
+    "text": "In the event that my grandson, becomes incapacitated refuses to serve or is deceased, I hereby nominate and appoint my daughter, [Person-3], as Substitute Executrix of my estate to serve without bond, and request that she be relieved of the necessity of filing an inventory, settlement, or any other accounting at any time in any Court.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my grandson"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the necessity of filing an inventory, settlement, or any other accounting"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "at any time"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "In the event that my grandson, becomes incapacitated refuses to serve or is deceased"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my daughter",
+                "[Person-3]",
+                "Substitute Executrix",
+                "she"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "in any Court"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Disqualification",
+            "Executor": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Renunciation",
+            "Executor": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Executor": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Nomination",
+            "Condition": [
+                "e6",
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Executor": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Excuse",
+            "Bond": [
+                "e3"
+            ],
+            "Executor": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Direction",
+            "Excuse": [
+                "v7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v7",
+            "type": "Excuse",
+            "Duty": [
+                "e4"
+            ],
+            "Time": [
+                "e5"
+            ],
+            "Executor": [
+                "e9"
+            ],
+            "Condition": [
+                "e10"
+            ]
+        }
+    ]
+}

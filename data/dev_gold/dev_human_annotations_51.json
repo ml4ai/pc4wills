@@ -1,0 +1,97 @@
+{
+    "text": "The foregoing instrument consisting of two pages was on this the 10th day of April, 1996, signed and subscribed by the said [Person-1], as and for her Last Will and Testament, in the presence of us and each of us, the undersigned, who, at the request of and in the sight of and presence of us and in the presence of each other, have subscribed our names as attesting witness the day and date above indicated.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "in the presence of us and each of us"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "at the request of and in the sight of and presence of us"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "witness",
+                "us",
+                "the undersigned",
+                "each other",
+                "each of us",
+                "our"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "her Last Will and Testament",
+                "The foregoing instrument consisting of two pages"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "the said [Person-1]",
+                "her"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "the day and date above indicated",
+                "on this the 10th day of April, 1996"
+            ],
+            "type": "Date"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Condition": [
+                "e1"
+            ],
+            "Will": [
+                "e5"
+            ],
+            "Testator": [
+                "e6"
+            ],
+            "Date": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "SignWill",
+            "Condition": [
+                "e2",
+                "e3"
+            ],
+            "Will": [
+                "e5"
+            ],
+            "Witness": [
+                "e4"
+            ],
+            "Date": [
+                "e7"
+            ]
+        }
+    ]
+}

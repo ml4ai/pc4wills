@@ -1,0 +1,175 @@
+{
+  "text": "I will my homeplace on [Address-2], about 63 acres, more or less, with dwelling house, including all furnishings and contents, and the automobile I own at my death, to my son, [Person-2], for his lifetime, with remainder interest to my grandchildren, [Person-3], [Person-4], [Person-5], [Person-6], [Person-7], and [Person-8], equally.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "dwelling house"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "all furnishings and contents"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "the automobile I own at my death"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "remainder interest"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my grandchildren",
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my grandchildren",
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my grandchildren",
+        "[Person-5]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "my grandchildren",
+        "[Person-6]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "my grandchildren",
+        "[Person-7]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "my grandchildren",
+        "[Person-8]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "for his lifetime"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "equally"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "my homeplace on [Address-2]"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e14",
+      "texts": [
+        "at my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e15",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e16",
+      "texts": [
+        "[Person-2]",
+        "my son",
+        "his"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1",
+        "e2",
+        "e3",
+        "e13"
+      ],
+      "Beneficiary": [
+        "e16"
+      ],
+      "Condition": [
+        "e11"
+      ],
+      "Testator": [
+        "e15"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Asset": [
+        "e4"
+      ],
+      "Beneficiary": [
+        "e5",
+        "e6",
+        "e7",
+        "e8",
+        "e9",
+        "e10"
+      ],
+      "Condition": [
+        "e12"
+      ],
+      "Testator": [
+        "e15"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Testator": [
+        "e15"
+      ]
+    }
+  ]
+}

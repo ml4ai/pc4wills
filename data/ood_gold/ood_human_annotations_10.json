@@ -1,0 +1,128 @@
+{
+  "text": "FIFTH: I direct that all estate, inheritance, transfer, legacy, succession, and other death taxes and duties of any nature by reason of my death which may be assessed or imposed upon or with respect to property passing under this Will shall be paid out of my estate as an expense of administration and no part of said taxes shall be apportioned or prorated to any legatee or devisee under this Will or any person owning or receiving any property, including life insurance not passing under this Will.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "duties of any nature"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "by reason of my death"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "an expense of administration"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "legatee"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "devisee"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "any person owning or receiving any property"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "life insurance not passing under this Will"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "all estate, inheritance, transfer, legacy, succession, and other death taxes and duties of any nature by reason of my death which may be assessed or imposed upon or with respect to property passing under this Will shall be paid out of my estate as an expense of administration"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "no part of said taxes shall be apportioned or prorated to any legatee or devisee under this Will or any person owning or receiving any property, including life insurance not passing under this Will"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "property passing under this Will"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "any property"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e14",
+      "texts": [
+        "this Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e15",
+      "texts": [
+        "all estate, inheritance, transfer, legacy, succession, and other death taxes",
+        "said taxes"
+      ],
+      "type": "Tax"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Condition": [
+        "e2"
+      ],
+      "Duty": [
+        "e9",
+        "e10"
+      ],
+      "Testator": [
+        "e13"
+      ]
+    }
+  ]
+}

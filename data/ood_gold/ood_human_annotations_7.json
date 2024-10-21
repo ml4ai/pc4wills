@@ -1,0 +1,73 @@
+{
+  "text": "FIRST: I direct that my personal representative, as soon as sufficient funds are on hand, pay the expenses of my last illness and funeral, together with all of my just debts.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my personal representative"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "as soon as sufficient funds are on hand"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "sufficient funds"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "the expenses of my last illness and funeral"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "all of my just debts"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "pay the expenses of my last illness and funeral, together with all of my just debts"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Executor": [
+        "e1"
+      ],
+      "Time": [
+        "e2"
+      ],
+      "Duty": [
+        "e6"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    }
+  ]
+}

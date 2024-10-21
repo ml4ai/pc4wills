@@ -1,0 +1,60 @@
+{
+    "text": "1.2 Accounting and Inventory of Estate. Unless such is required by applicable state law, I hereby excuse my personal representative from the requirement of filing an accounting or a detailed inventory of my estate in the probate proceedings.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Unless such is required by applicable state law"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my estate",
+                "Estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the requirement of filing an accounting or a detailed inventory of my estate in the probate proceedings"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Excuse",
+            "Executor": [
+                "e1"
+            ],
+            "Condition": [
+                "e2"
+            ],
+            "Duty": [
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "text": "2.2 Secured Debts. I do provide, however, that any debts of mine which are secured by mortgages, deeds of trust, or other security instruments may be paid from my general estate, or such debts may be continued according to their terms and the property interest delivered to the beneficiary subject to the unpaid balance of the obligation, with the option at the discretion of my personal representative.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my general estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the property interest"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the beneficiary"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "such debts may be continued according to their terms and the property interest delivered to the beneficiary subject to the unpaid balance of the obligation"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "with the option at the discretion of my personal representative"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "any debts of mine which are secured by mortgages, deeds of trust, or other security instruments may be paid from my general estate"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I",
+                "mine"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "their",
+                "such debts",
+                "Secured Debts",
+                "any debts of mine which are secured by mortgages, deeds of trust, or other security instruments"
+            ],
+            "type": "Debt"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Executor": [
+                "e2"
+            ],
+            "Right": [
+                "e5",
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Condition": [
+                "e6"
+            ]
+        }
+    ]
+}

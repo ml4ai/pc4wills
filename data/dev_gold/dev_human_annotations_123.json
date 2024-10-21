@@ -1,0 +1,71 @@
+{
+    "text": "IV I hereby direct that [Person-2] and [Person-3] dispose of all of my furniture, appliances and personal effects as they see fit.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "as they see fit"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all of my furniture, appliances and personal effects"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "dispose of all of my furniture, appliances and personal effects as they see fit"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-2]",
+                "they"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-3]",
+                "they"
+            ],
+            "type": "NonBeneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Condition": [
+                "e1"
+            ],
+            "Duty": [
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Executor": [
+                "e5"
+            ],
+            "NonBeneficiary": [
+                "e6"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+  "text": "IN WITNESS WHEREOF, I have hereto signed, published and declared this instrument and Testament in Lauderdale County, Tennessee, on this 20th day of September, 2000.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Lauderdale County"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "Tennessee"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "this 20th day of September, 2000"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "IN WITNESS WHEREOF"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "this instrument",
+        "Testament"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Testator": [
+        "e1"
+      ],
+      "Date": [
+        "e4"
+      ],
+      "Condition": [
+        "e5"
+      ],
+      "Will": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "WillCreation",
+      "Testator": [
+        "e1"
+      ],
+      "Date": [
+        "e4"
+      ],
+      "Condition": [
+        "e5"
+      ],
+      "Will": [
+        "e6"
+      ]
+    }
+  ]
+}

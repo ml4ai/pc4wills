@@ -1,0 +1,80 @@
+{
+    "text": "I direct that he pay all of my just debts, funeral expenses and death taxes out of the assets of my estate as soon as practicable.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "as soon as practicable"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the assets of my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "he"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my just debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "funeral expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "death taxes"
+            ],
+            "type": "Tax"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "pay all of my just debts, funeral expenses and death taxes out of the assets of my estate"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Time": [
+                "e1"
+            ],
+            "Executor": [
+                "e3"
+            ],
+            "Duty": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        }
+    ]
+}

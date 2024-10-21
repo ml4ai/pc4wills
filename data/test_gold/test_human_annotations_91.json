@@ -1,0 +1,82 @@
+{
+  "text": "V. I give, devise and bequeath the sum of five thousand dollars ($5,000.00) to my greatgrandson [Person-11] to be held in trust for his future use and benefit until he reaches the age of twenty-five (25).",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "the sum of five thousand dollars ($5,000.00)"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "trust"
+      ],
+      "type": "Trust"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "until he reaches the age of twenty-five (25)"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "his",
+        "he",
+        "my greatgrandson",
+        "[Person-11]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "for his future use and benefit"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Beneficiary": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "NonProbateInstrumentCreation",
+      "Asset": [
+        "e1"
+      ],
+      "Trust": [
+        "e2"
+      ],
+      "Time": [
+        "e3"
+      ],
+      "Condition": [
+        "e6"
+      ]
+    }
+  ]
+}

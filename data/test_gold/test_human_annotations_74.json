@@ -1,0 +1,76 @@
+{
+  "text": "ITEM VII. I will, give, devise and bequeath unto my very dear friend, [Person-7] my peacock collection, my humming birds, my sewing machine my jewelry armoire and all personal items (clothing, shoes coats etc.) which she may like.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my peacock collection"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my humming birds"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my sewing machine"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my jewelry armoire"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "all personal items (clothing, shoes coats etc.)"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "[Person-7]",
+        "she",
+        "my very dear friend"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1",
+        "e2",
+        "e3",
+        "e4",
+        "e5"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Beneficiary": [
+        "e7"
+      ]
+    }
+  ]
+}

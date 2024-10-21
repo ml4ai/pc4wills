@@ -1,0 +1,35 @@
+{
+  "text": "I have an adopted son, [Person-3]. I have intentionally omitted to provide for the children of my son [Person-3], because his children have become estranged from him as a result of the divorce of their parents.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the children of my son", 
+        "[Person-3]",
+        "his children",
+        "their"
+      ],
+      "type": "NonBeneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Removal",
+      "Testator": [
+        "e1"
+      ],
+      "NonBeneficiary": [
+        "e2"
+      ]
+    }
+  ]
+}

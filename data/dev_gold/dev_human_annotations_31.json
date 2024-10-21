@@ -1,0 +1,61 @@
+{
+    "text": "4.7 Insurance Policies. My fiduciaries are authorized to hold, own and pay premiums on life insurance policies owned by me and to continue same in force for so long as they deem appropriate.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "to hold, own and pay premiums on life insurance policies owned by me"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "for so long as they deem appropriate"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "to continue same in force"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "My",
+                "me"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "they",
+                "My fiduciaries"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Right": [
+                "e1",
+                "e3"
+            ],
+            "Condition": [
+                "e2"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Executor": [
+                "e5"
+            ]
+        }
+    ]
+}

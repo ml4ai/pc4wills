@@ -1,0 +1,55 @@
+{
+    "text": "IV A) I hereby give, devise and bequeath all of my property, real, personal and mixed, and wheresoever situated, to my husband, [Person-2], provided that he survives me.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all of my property, real, personal and mixed, and wheresoever situated"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "provided that he survives me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my",
+                "me",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "he",
+                "my husband",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Condition": [
+                "e2"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Beneficiary": [
+                "e4"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "text": "IN TESTIMONY WHEREOF, I have hereunto subscribed my name to this my Last Will and Testament, consisting of this and one additional page, and for the purpose of identification I have signed the additional page all in the presence of the persons witnessing it at my request on this the 11 day of July 1985.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this the 11 day of July 1985"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the persons"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "IN TESTIMONY WHEREOF"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "at my request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "for the purpose of identification"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in the presence of the persons witnessing it at my request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "the additional page",
+                "my Last Will and Testament",
+                "this and one additional page",
+                "this"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Condition": [
+                "e3"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Will": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "SignWill",
+            "Condition": [
+                "e5",
+                "e6"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Will": [
+                "e8"
+            ],
+            "Date": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Attestation",
+            "Witness": [
+                "e2"
+            ],
+            "Condition": [
+                "e4"
+            ],
+            "SignWill": [
+                "v2"
+            ],
+            "Date": [
+                "e1"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "text": "4. After debts, costs, and expenses, I devise the residue of my estate equally to my sister, [Person-3], and to my brother, [Person-2]. In the event that [Person-2] should predecease me his devise shall go to his son, [Person-5]. In the event that [Person-3] should predecease me, her devise shall go to [Person-2] and if [Person-2] should predecease me then then to [Person-5].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "costs"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "After debts, costs, and expenses"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "the residue of my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my sister",
+                "[Person-3]",
+                "her"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my brother",
+                "[Person-2]",
+                "his"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "In the event that [Person-3] should predecease me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "his devise"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "his son",
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "In the event that [Person-2] should predecease me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "her devise"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "if [Person-2] should predecease me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e15",
+            "texts": [
+                "my",
+                "me",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e5"
+            ],
+            "Beneficiary": [
+                "e7",
+                "e8"
+            ],
+            "Testator": [
+                "e15"
+            ],
+            "Condition": [
+                "e4",
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Beneficiary": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Asset": [
+                "e10"
+            ],
+            "Beneficiary": [
+                "e11"
+            ],
+            "Condition": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Death",
+            "Beneficiary": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Bequest",
+            "Condition": [
+                "e9"
+            ],
+            "Asset": [
+                "e13"
+            ],
+            "Beneficiary": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Death",
+            "Beneficiary": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v7",
+            "type": "Bequest",
+            "Condition": [
+                "e14"
+            ],
+            "Asset": [
+                "e13"
+            ],
+            "Beneficiary": [
+                "e11"
+            ]
+        }
+    ]
+}

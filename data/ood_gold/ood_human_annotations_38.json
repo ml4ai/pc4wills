@@ -1,0 +1,220 @@
+{
+  "text": "FOURTH: In the event of the demise of my beloved spouse, [Person-2], and [Person-3], before my death, I give, devise and bequeath all my estate, both real and personal of whatever kind the same may be and wherever situated of which I may die possessed, or to which I may be entitled, to my children, [Person-4], [Person-5], and [Person-6] in equal shares, share and share alike. In the event of the death of any of my children without issue, prior to my death, I direct the share to which said beneficiary would be entitled had said beneficiary survived me be distributed in equal shares, share and share alike, to my remaining surviving children. ",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "In the event of the demise of my beloved spouse, [Person-2], and [Person-3]"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "before my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "all my estate, both real and personal of whatever kind the same may be and wherever situated of which I may die possessed, or to which I may be entitled"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my children",
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my children",
+        "[Person-5]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my children",
+        "[Person-6]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "in equal shares"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "share and share alike"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "In the event of the death of any of my children without issue"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "prior to my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "the share to which said beneficiary would be entitled"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "had said beneficiary survived me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e14",
+      "texts": [
+        "in equal shares"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e15",
+      "texts": [
+        "share and share alike"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e16",
+      "texts": [
+        "my remaining surviving children"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e17",
+      "texts": [
+        "my",
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e18",
+      "texts": [
+        "said beneficiary",
+        "any of my children"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e19",
+      "texts": [
+        "my beloved spouse",
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Condition": [
+        "e2",
+        "e8",
+        "e9",
+        "e10"
+      ],
+      "Asset": [
+        "e4"
+      ],
+      "Beneficiary": [
+        "e5",
+        "e6",
+        "e7"
+      ],
+      "Time": [
+        "e3"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Testator": [
+        "e17"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Beneficiary": [
+        "e19"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Death",
+      "Beneficiary": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Direction",
+      "Condition": [
+        "e10",
+        "e11"
+      ],
+      "Bequest": [
+        "v6"
+      ],
+      "Testator": [
+        "e17"
+      ]
+    },
+    {
+      "id": "v6",
+      "type": "Bequest",
+      "Asset": [
+        "e12"
+      ],
+      "Condition": [
+        "e14",
+        "e15"
+      ],
+      "Beneficiary": [
+        "e16"
+      ],
+      "Testator": [
+        "e19"
+      ]
+    }
+  ]
+}

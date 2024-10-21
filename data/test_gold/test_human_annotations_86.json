@@ -1,0 +1,131 @@
+{
+  "text": "II. I hereby authorize and direct my Co-Executors to pay any matured and enforceable debts for which valid claims may be filed against my estate, the expenses of the administration of my estate, funeral expenses, and any and all estate or inheritance taxes which may be owed at the time of my death without proration among my beneficiaries.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my Co-Executors"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "at the time of my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "without proration among my beneficiaries"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "any matured and enforceable debts"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "the expenses of the administration of my estate"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "funeral expenses"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "any and all estate or inheritance taxes"
+      ],
+      "type": "Tax"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "pay any matured and enforceable debts for which valid claims may be filed against my estate, the expenses of the administration of my estate, funeral expenses, and any and all estate or inheritance taxes which may be owed at the time of my death"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "pay any matured and enforceable debts for which valid claims may be filed against my estate, the expenses of the administration of my estate, funeral expenses, and any and all estate or inheritance taxes which may be owed at the time of my death"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "my beneficiaries"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "my estate"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Authorization",
+      "Executor": [
+        "e1"
+      ],
+      "Condition": [
+        "e3"
+      ],
+      "Right": [
+        "e8"
+      ],
+      "Testator": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Executor": [
+        "e1"
+      ],
+      "Condition": [
+        "e3"
+      ],
+      "Duty": [
+        "e9"
+      ],
+      "Testator": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Testator": [
+        "e11"
+      ]
+    }
+  ]
+}

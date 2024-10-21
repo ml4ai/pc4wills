@@ -1,0 +1,25 @@
+"""
+Your task is to classify a will text based on the events contained in it. Here’s the list of events: WillCreation, Direction, Bequest, Nomination, SignWill, Attestation, Authorization, Revocation, Excuse. Read the given will text carefully and evaluate if each event type is contained in the text. You should produce the output in a python list format containing 0 and 1. If a will text contains an event type, then it’s 1 and if it doesn’t, then it’s 0. The order of the list should be [WillCreation, Direction, Bequest, Nomination, SignWill, Attestation, Authorization, Revocation, Excuse]. For example, if a will text contains a WillCreation event and a Revocation event, the expected output is [1, 0, 0, 0, 0, 0, 0, 1, 0]. Let's consider a few example cases step by step.
+
+%%
+(1) Will text: I, [Person-1], domiciled in Ripley, Lauderdale County, Tennessee, do hereby make, publish, and declare this to be my Last Will and Testament, hereby revoking all wills and codicils heretofore made by me. (WillCreation, Revocation)
+
+Expected output: [1, 0, 0, 0, 0, 0, 0, 1, 0]
+
+Explanation: There’s a phrase “make, publish, and declare this to be my Last Will and Testament”. This suggests that the will text contains a WillCreation event. There’s another phrase “revoking all wills and codicils”. This shows that the will text contains a Revocation event.
+
+(2) Will text: I direct that the sums being paid to my grandchildren, [Person-8] and [Person-9], be held in trust for their future use and benefit until they reach the age of twenty-five (25). I direct that [Person-3] and wife, [Person-10], serve as Co-Trustees without bond, and specifically grant each of them all of the fiduciary powers set forth in Tennessee Code Annotated §35-50-110. (Direction, Nomination, Authorization, Excuse)
+
+Expected output: [0, 1, 0, 1, 0, 0, 1, 0, 1]
+
+Explanation: There’s a phrase “I direct”. This suggests that the will text contains a Direction event. There’s another phrase “I direct that [Person-3] and wife, [Person-10], serve as Co-Trustees”. This shows that the will text contains a Nomination event. There’s yet another phrase “without bond”, suggesting that the testator excuses the trustees from making bond. Therefore, it also contains an Excuse event. Lastly, there’s a phrase “grant each of them all of the fiduciary powers”, suggesting that the testator authorizes the trustees to have fiduciary powers. Therefore, it also contains an Authorization event.
+
+(3) Will text: We, the undersigned subscribing witnesses, do hereby certify that we witnessed the foregoing Last Will and Testament of [Person-1] at her request, in her presence and in the presence of each other, and that she signed the same in our presence, and in the presence of each of us, declaring the same to be her Last Will and Testament. (WillCreation, SignWill, Attestation)
+
+Expected output: [1, 0, 0, 0, 1, 1, 0, 0, 0]
+
+Explanation: There’s a phrase “do hereby certify that we witnessed”. This suggests that the will text contains an Attestation event. There’s another phrase “signed the same”, suggesting that there’s a SignWill event. There’s also a phrase “declaring the same to be her Last Will and Testament”. This shows that there’s a WillCreation event.
+%%
+
+Following the instructions above, classify the will text below and give me the result in a python list (only the list).
+"""

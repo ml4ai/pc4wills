@@ -1,0 +1,20 @@
+{
+    "text": "MY COMMISSION EXPIRES: 8-15-90",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "8-15-90"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "MY"
+            ],
+            "type": "NotaryPublic"
+        }
+    ],
+    "events": []
+}

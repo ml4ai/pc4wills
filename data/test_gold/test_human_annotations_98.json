@@ -1,0 +1,96 @@
+{
+  "text": "If either one of my sons should predecease me, then I direct that son's one-half share of my remaining estate shall pass in equal shares to his children, my grandchildren, who survive him.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "one-half share of my remaining estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "If either one of my sons should predecease me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "in equal shares"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "who survive him"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my",
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "that son",
+        "him",
+        "either one of my sons",
+        "his"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my grandchildren",
+        "his children"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Beneficiary": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Bequest": [
+        "v3"
+      ],
+      "Condition": [
+        "e2"
+      ],
+      "Testator": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Condition": [
+        "e3",
+        "e4"
+      ],
+      "Beneficiary": [
+        "e7"
+      ]
+    }
+  ]
+}

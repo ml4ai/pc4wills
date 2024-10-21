@@ -1,0 +1,131 @@
+{
+    "text": "We, the undersigned subscribing witnesses, do hereby certify that we witnessed the foregoing Last Will and Testament of [Person-1], at her request, in her presence, and in the presence of each other, and that she signed the same in our presence, and in the presence of each of us, declaring the same to be her Last Will and Testament. This 20 day of December, 2001.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "[Person-1]",
+                "her",
+                "she"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "our",
+                "each of us",
+                "We",
+                "we",
+                "the undersigned subscribing witnesses",
+                "each other"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "This 20 day of December, 2001"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "at her request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in her presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "in our presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "in the presence of each of us"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "her Last Will and Testament",
+                "the foregoing Last Will and Testament of [Person-1]",
+                "the same"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Attestation",
+            "Witness": [
+                "e2"
+            ],
+            "Attestation": [
+                "v2"
+            ],
+            "SignWill": [
+                "v3"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Attestation",
+            "Witness": [
+                "e2"
+            ],
+            "Will": [
+                "e9"
+            ],
+            "Condition": [
+                "e4",
+                "e5",
+                "e6"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "SignWill",
+            "Testator": [
+                "e1"
+            ],
+            "Condition": [
+                "e7",
+                "e8"
+            ],
+            "Will": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "WillCreation",
+            "Testator": [
+                "e1"
+            ],
+            "Will": [
+                "e9"
+            ]
+        }
+    ]
+}

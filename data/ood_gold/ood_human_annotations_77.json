@@ -1,0 +1,201 @@
+{
+  "text": "We, [Person-1], the Testator, and [Person-5] and [Person-6], the witnesses, respectively, whose names are signed to the attached or foregoing instrument, being first duly sworn, do hereby declare to the undersigned authority that the Testator signed and executed the instrument as his Last Will and Testament and that he had signed willingly, and that he executed it as his free and voluntary act for the purposes therein expressed; and that each of the witnesses, in the presence and hearing of the Testator, signed the will as witnesses and that to the best of his knowledge the Testator was at the time an adult, of sound mind and under no constraint or undue influence.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "the undersigned authority"
+      ],
+      "type": "NotaryPublic"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "willingly"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "free and voluntary act"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "to the best of his knowledge"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "an adult"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "of sound mind"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "under no constraint or undue influence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "in the presence and hearing of the Testator"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "being first duly sworn"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "his",
+        "the Testator",
+        "[Person-1]",
+        "he",
+        "We"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "the witnesses",
+        "[Person-5] and [Person-6]",
+        "witnesses",
+        "each of the witnesses",
+        "his",
+        "We"
+      ],
+      "type": "Witness"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "his Last Will and Testament",
+        "the instrument",
+        "it",
+        "the attached or foregoing instrument",
+        "the will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "at the time"
+      ],
+      "type": "Time"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Testator": [
+        "e10"
+      ],
+      "Witness": [
+        "e11"
+      ],
+      "Will": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Attestation",
+      "SignWill": [
+        "v3", "v5"
+      ],
+      "WillCreation": [
+        "v4"
+      ],
+      "Competence": [
+        "v6"
+      ],
+      "NotaryPublic": [
+        "e1"
+      ],
+      "Condition": [
+        "e9"
+      ],
+      "Testator": [
+        "e10"
+      ],
+      "Witness": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "SignWill",
+      "Testator": [
+        "e10"
+      ],
+      "Will": [
+        "e12"
+      ],
+      "Condition": [
+        "e2"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "WillCreation",
+      "Testator": [
+        "e10"
+      ],
+      "Will": [
+        "e12"
+      ],
+      "Condition": [
+        "e3"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "SignWill",
+      "Condition": [
+        "e8"
+      ],
+      "Witness": [
+        "e11"
+      ],
+      "Will": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v6",
+      "type": "Competence",
+      "Testator": [
+        "e10"
+      ],
+      "Condition": [
+        "e4",
+        "e5",
+        "e6",
+        "e7"
+      ]
+    }
+  ]
+}

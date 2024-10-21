@@ -1,0 +1,143 @@
+{
+    "text": "I name, nominate and appoint [Person-18] as Executor of this my will and estate, and direct that she be allowed to serve without bond. If for any reason she is unable to serve, then I name and appoint [Person-19] as Executor, also without bond.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Executor",
+                "[Person-19]"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "If for any reason she is unable to serve"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "this",
+                "my will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "she",
+                "[Person-18]",
+                "Executor"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Excuse",
+            "Bond": [
+                "e4"
+            ],
+            "Executor": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Excuse",
+            "Bond": [
+                "e3"
+            ],
+            "Executor": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Nomination",
+            "Testator": [
+                "e8"
+            ],
+            "Executor": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Direction",
+            "Excuse": [
+                "v1"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Nomination",
+            "Executor": [
+                "e1"
+            ],
+            "Condition": [
+                "e5",
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Disqualification",
+            "Executor": [
+                "e10"
+            ]
+        }
+    ]
+}

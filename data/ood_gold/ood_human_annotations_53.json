@@ -1,0 +1,52 @@
+{
+  "text": "I, [Person-1], a resident of Burley, Idaho, being of full legal age and sound and disposing mind and acting with freedom from fraud, duress or undue influence, do hereby make and declare this to be my Last Will and Testament.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "being of full legal age and sound and disposing mind and acting with freedom from fraud, duress or undue influence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "I",
+        "[Person-1]",
+        "a resident of Burley, Idaho",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "this",
+        "my Last Will and Testament"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Testator": [
+        "e3"
+      ],
+      "Will": [
+        "e4"
+      ],
+      "Condition": [
+        "e1"
+      ]
+    }
+  ]
+}

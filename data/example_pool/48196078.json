@@ -1,0 +1,32 @@
+{
+    "text": "SWORN TO AND SUBSCRIBED before me this the 13th day of October, 2000.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "me"
+            ],
+            "type": "NotaryPublic"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the 13th day of October, 2000",
+                "this"
+            ],
+            "type": "Date"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Notarization",
+            "NotaryPublic": [
+                "e1"
+            ],
+            "Date": [
+                "e2"
+            ]
+        }
+    ]
+}

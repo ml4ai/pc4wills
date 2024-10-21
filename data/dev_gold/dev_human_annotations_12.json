@@ -1,0 +1,116 @@
+{
+    "text": "My name is [Person-1]. I presently reside in Lauderdale County, Tennessee, and I declare this to be my Last Will and Testament, revoking all prior testamentary instruments. I have two children: [Person-2], born [Date-1], and [Person-3], born [Date-2].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "two children",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "two children",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Date-1]"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Date-2]"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "[Person-1]",
+                "My",
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "this",
+                "my Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "all prior testamentary instruments"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Testator": [
+                "e7"
+            ],
+            "Will": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Revocation",
+            "Testator": [
+                "e7"
+            ],
+            "Will": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Birth",
+            "Beneficiary": [
+                "e3"
+            ],
+            "Date": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Birth",
+            "Beneficiary": [
+                "e4"
+            ],
+            "Date": [
+                "e6"
+            ]
+        }
+    ]
+}

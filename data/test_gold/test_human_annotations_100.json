@@ -1,0 +1,143 @@
+{
+  "text": "Signed and declared by [Person-1], to be such person's Will in the presence of all of us at one and the same time, and we, at such person's request and in such person's presence and in the presence of each other, have subscribed our names as witnesses, and we do hereby attest to the sound and disposing mind of [Person-1] and to the performance of the aforesaid act of execution at the place and on the date hereinabove set out.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "such person's Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "in the presence of all of us at one and the same time"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "at such person's request"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "in such person's presence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "in the presence of each other"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "the sound and disposing mind"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "at the place"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "on the date hereinabove set out"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "such person",
+        "[Person-1]"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "we",
+        "our",
+        "witnesses",
+        "all of us",
+        "each other"
+      ],
+      "type": "Witness"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Will": [
+        "e1"
+      ],
+      "Condition": [
+        "e2"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "WillCreation",
+      "Will": [
+        "e1"
+      ],
+      "Condition": [
+        "e2"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "SignWill",
+      "Will": [
+        "e1"
+      ],
+      "Condition": [
+        "e3",
+        "e4",
+        "e5"
+      ],
+      "Witness": [
+        "e10"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Attestation",
+      "WillCreation": [
+        "v2"
+      ],
+      "SignWill": [
+        "v3"
+      ],
+      "Condition": [
+        "e6",
+        "e7"
+      ],
+      "Date": [
+        "e8"
+      ],
+      "Witness": [
+        "e10"
+      ]
+    }
+  ]
+}

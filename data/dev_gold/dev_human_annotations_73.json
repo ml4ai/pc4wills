@@ -1,0 +1,84 @@
+{
+    "text": "III I name, nominate and appoint my daughter, [Person-2], Executor of this my will and estate, and direct that she be allowed to serve without bond.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this", 
+                "my will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "she",
+                "Executor",
+                "[Person-2]",
+                "my daughter"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e5"
+            ],
+            "Executor": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Excuse": [
+                "v3"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Excuse",
+            "Bond": [
+                "e3"
+            ],
+            "Executor": [
+                "e6"
+            ]
+        }
+    ]
+}

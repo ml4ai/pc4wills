@@ -1,0 +1,85 @@
+{
+  "text": "IN WITNESS WHEREOF, I have hereunto signed my name and declare this to be my Last Will and testament, in the presence of the undersigned subscribing and attesting witnesses, on this 4th day of April, 2001.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "in the presence of the undersigned subscribing and attesting witnesses"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the undersigned subscribing and attesting witnesses"
+      ],
+      "type": "Witness"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "on this 4th day of April, 2001"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "IN WITNESS WHEREOF"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "this",
+        "my Last Will and testament"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Condition": [
+        "e1",
+        "e4"
+      ],
+      "Date": [
+        "e3"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Will": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "WillCreation",
+      "Condition": [
+        "e1",
+        "e4"
+      ],
+      "Date": [
+        "e3"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Will": [
+        "e6"
+      ]
+    }
+  ]
+}

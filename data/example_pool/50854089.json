@@ -1,0 +1,82 @@
+{
+    "text": "KNOW ALL MEN BY THESE PRESENTS: That I, [Person-1], being of sound mind and disposing memory, do hereby make and publish this my Last Will and Testament, hereby revoking all other wills heretofore by me made.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "being of sound mind and disposing memory"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all other wills"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "heretofore"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-1]",
+                "me",
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "this",
+                "my Last Will and Testament"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Testator": [
+                "e4"
+            ],
+            "Will": [
+                "e5"
+            ],
+            "Condition": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Revocation",
+            "Will": [
+                "e2"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "WillCreation",
+            "Will": [
+                "e2"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Time": [
+                "e3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "text": "4.2 Authority to Sell Real Property. My personal representative shall have the authority and discretion to buy or to sell or lease real property or any interest in real property which I may have and to use and apply the proceeds from a sale or lease to the payment of debts, taxes, and expenses of administration of my estate and may generally treat real property the same as personalty.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Authority to Sell Real Property",
+                "the authority and discretion to buy or to sell or lease real property or any interest in real property which I may have"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "My personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "to use and apply the proceeds from a sale or lease to the payment of debts, taxes, and expenses of administration of my estate"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "generally treat real property the same as personalty"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "the proceeds from a sale or lease"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "taxes"
+            ],
+            "type": "Tax"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "personalty"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "any interest in real property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "My",
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "Real Property",
+                "real property"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Executor": [
+                "e2"
+            ],
+            "Right": [
+                "e1",
+                "e3"
+            ],
+            "Testator": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Authorization",
+            "Executor": [
+                "e2"
+            ],
+            "Right": [
+                "e4"
+            ],
+            "Testator": [
+                "e12"
+            ]
+        }
+    ]
+}

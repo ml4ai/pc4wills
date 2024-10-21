@@ -1,0 +1,121 @@
+{
+    "text": "III I hereby direct my Executor to pay all of my just debts, funeral expenses, taxes and other expenses, which shall be probated, registered and allowed against my estate as soon after my death as can be conveniently done.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all of my just debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "to pay all of my just debts, funeral expenses, taxes and other expenses"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "funeral expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "taxes"
+            ],
+            "type": "Tax"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "other expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "as soon after my death as can be conveniently done"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "against my estate"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Executor": [
+                "e1"
+            ],
+            "Duty": [
+                "e3"
+            ],
+            "Time": [
+                "e8"
+            ],
+            "Testator": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Probate",
+            "Debt": [
+                "e2"
+            ],
+            "Expense": [
+                "e4",
+                "e6"
+            ],
+            "Tax": [
+                "e5"
+            ],
+            "Time": [
+                "e8"
+            ],
+            "Condition": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Testator": [
+                "e10"
+            ]
+        }
+    ]
+}

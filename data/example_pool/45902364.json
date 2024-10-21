@@ -1,0 +1,135 @@
+{
+    "text": "VI. POWERS OF EXECUTOR I authorize my Executor, in the exercise of a reasonable discretion with respect to all property, real and personal, at any time forming a part of my estate, to exercise any and all of the powers set forth in T.C.A. \u00a735-50-110 and \u00a735-3-117 to the extent applicable, (unless expressly forbidden hereinabove by this Last Will and Testament) all of which provisions and powers are incorporated herein by reference as fully as if copied herein verbatim. These powers are granted, notwithstanding that said Statutes may be amended hereafter or repealed at the time of my death.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "POWERS OF EXECUTOR"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all property, real and personal, at any time forming a part of my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "at any time"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "unless expressly forbidden hereinabove by this Last Will and Testament"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "this Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "by reference as fully as if copied herein verbatim"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "at the time"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "notwithstanding that said Statutes may be amended hereafter or repealed at the time of my death"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "hereafter"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "to exercise any and all of the powers set forth in T.C.A. \u00a735-50-110 and \u00a735-3-117 to the extent applicable"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "in the exercise of a reasonable discretion with respect to all property, real and personal, at any time forming a part of my estate"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "EXECUTOR",
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "all of which provisions and powers",
+                "These powers"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Condition": [
+                "e4",
+                "e6",
+                "e8",
+                "e11"
+            ],
+            "Right": [
+                "e10",
+                "e13"
+            ],
+            "Executor": [
+                "e12"
+            ],
+            "Testator": [
+                "e14"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Testator": [
+                "e14"
+            ]
+        }
+    ]
+}

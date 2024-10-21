@@ -1,0 +1,103 @@
+{
+  "text": "I further direct that such sale may be made without notice to the Court or application thereto and that the personal representative may employ real estate brokers for the purpose of assisting with the sale of said property and agree to pay the customary commission for such sale and that this, in turn, may be done without notice or application to the Court.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "without notice to the Court or application thereto"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "the personal representative"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "said property"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "without notice or application to the Court"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "employ real estate brokers for the purpose of assisting with the sale of said property and agree to pay the customary commission for such sale"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "such sale",
+        "this"
+      ],
+      "type": "Duty"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Authorization": [
+        "v2",
+        "v3"
+      ],
+      "Testator": [
+        "e2"
+      ],
+      "Executor": [
+        "e3"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Authorization",
+      "Condition": [
+        "e1"
+      ],
+      "Testator": [
+        "e2"
+      ],
+      "Executor": [
+        "e3"
+      ],
+      "Duty": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Authorization",
+      "Testator": [
+        "e2"
+      ],
+      "Trustee": [
+        "e3"
+      ],
+      "Right": [
+        "e6"
+      ],
+      "Condition": [
+        "e5"
+      ]
+    }
+  ]
+}

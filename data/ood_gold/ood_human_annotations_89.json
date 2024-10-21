@@ -1,0 +1,84 @@
+{
+  "text": "IN WITNESS WHEREOF, I, [Person-1], having hereunto set my hand and seal at the City of Burley, County of cassia, state of Idaho, do hereby publish and declare this to be my Last Will and Testament, this 20 day of October, 1987.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "County of cassia"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "state of Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "this 20 day of October, 1987"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "IN WITNESS WHEREOF"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-1]",
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my Last Will and Testament",
+        "this"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Date": [
+        "e3"
+      ],
+      "Condition": [
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Will": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "SignWill",
+      "Date": [
+        "e3"
+      ],
+      "Condition": [
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Will": [
+        "e6"
+      ]
+    }
+  ]
+}

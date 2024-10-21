@@ -1,0 +1,116 @@
+{
+    "text": "I authorize, empower and direct that my Executor hereinafter named, pay all my just debts, including my funeral and testamentary expenses, as soon after my decease as may be practicable, and to this end my entire estate is charged therewith.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my Executor hereinafter named"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all my just debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my funeral and testamentary expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "pay all my just debts, including my funeral and testamentary expenses"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "pay all my just debts, including my funeral and testamentary expenses"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "as soon after my decease as may be practicable"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my entire estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "to this end my entire estate is charged therewith"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Executor": [
+                "e1"
+            ],
+            "Right": [
+                "e5"
+            ],
+            "Time": [
+                "e6"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Condition": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Executor": [
+                "e1"
+            ],
+            "Duty": [
+                "e4"
+            ],
+            "Time": [
+                "e6"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Condition": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Testator": [
+                "e8"
+            ]
+        }
+    ]
+}

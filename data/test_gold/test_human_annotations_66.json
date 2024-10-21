@@ -1,0 +1,105 @@
+{
+  "text": "I [Person-1], a resident citizen of Ripley Lauderdale County, Tennessee, being of sound mind, disposing memory, and of legal age, do make, publish and declare this to be my Last Will and Testament, hereby revoking and making void any and all other wills by me at any time heretofore made.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "Lauderdale County"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Tennessee"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "being of sound mind, disposing memory"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "of legal age"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "any and all other wills"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "at any time heretofore"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "[Person-1]",
+        "my",
+        "me",
+        "I",
+        "a resident citizen"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "this",
+        "my Last Will and Testament"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Testator": [
+        "e7"
+      ],
+      "Will": [
+        "e8"
+      ],
+      "Condition": [
+        "e3",
+        "e4"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Revocation",
+      "Will": [
+        "e5"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "WillCreation",
+      "Will": [
+        "e5"
+      ],
+      "Testator": [
+        "e7"
+      ],
+      "Time": [
+        "e6"
+      ]
+    }
+  ]
+}

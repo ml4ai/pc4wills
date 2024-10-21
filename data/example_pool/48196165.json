@@ -1,0 +1,68 @@
+{
+    "text": "In the event that my said granddaughter does not survive me, then I hereby give, devise and bequeath said property to my great grandson, [Person-3]",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my said granddaughter"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "said property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "In the event that my said granddaughter does not survive me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "I",
+                "me",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my great grandson",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Asset": [
+                "e2"
+            ],
+            "Condition": [
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e5"
+            ]
+        }
+    ]
+}

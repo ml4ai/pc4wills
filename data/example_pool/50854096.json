@@ -1,0 +1,49 @@
+{
+    "text": "I hereby will and bequeath five (5) percent of my net estate to [Organization-1]] at Arp, Tennessee.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "five (5) percent of my net estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "[Organization-1]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Beneficiary": [
+                "e2"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        }
+    ]
+}

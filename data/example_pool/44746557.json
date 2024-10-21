@@ -1,0 +1,134 @@
+{
+    "text": "We, the undersigned subscribing witnesses, do hereby certify that we witnessed the foregoing Last Will and Testament of [Person-1] at his request, in his presence and in the presence of each other, and that he signed the same in our presence, and in the presence of each of us, declaring the same to be his Last Will and Testament. This 5th day of December, 2001.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "This 5th day of December, 2001"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "at his request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in his presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "in our presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in the presence of each of us"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "We",
+                "the undersigned subscribing witnesses",
+                "each of us",
+                "our",
+                "each other",
+                "we"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "his",
+                "[Person-1]",
+                "he"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "the same",
+                "the foregoing Last Will and Testament",
+                "his Last Will and Testament"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Attestation",
+            "Date": [
+                "e1"
+            ],
+            "Attestation": [
+                "v2"
+            ],
+            "SignWill": [
+                "v3"
+            ],
+            "Witness": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Attestation",
+            "Condition": [
+                "e2",
+                "e3",
+                "e5"
+            ],
+            "Witness": [
+                "e7"
+            ],
+            "Will": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "SignWill",
+            "Condition": [
+                "e4",
+                "e6"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Will": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "WillCreation",
+            "Testator": [
+                "e8"
+            ],
+            "Will": [
+                "e9"
+            ]
+        }
+    ]
+}

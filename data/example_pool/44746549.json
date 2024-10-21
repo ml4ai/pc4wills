@@ -1,0 +1,56 @@
+{
+    "text": "I further direct that my said Executor will not be required to file any inventory or final settlement of this estate.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my said Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "to file any inventory or final settlement of this estate"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "this estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Excuse",
+            "Executor": [
+                "e1"
+            ],
+            "Duty": [
+                "e2"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Excuse": [
+                "v1"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        }
+    ]
+}

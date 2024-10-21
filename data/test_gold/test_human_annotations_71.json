@@ -1,0 +1,59 @@
+{
+  "text": "ITEM V. I will, give, devise and bequeath unto my beloved daughter-in-law, [Person-5], the silver service promised to her years ago, along with the silver candlesticks.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "the silver service promised to her years ago"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the silver candlesticks"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "years ago"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-5]",
+        "her",
+        "my beloved daughter-in-law"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1",
+        "e2"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Beneficiary": [
+        "e5"
+      ]
+    }
+  ]
+}

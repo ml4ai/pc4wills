@@ -1,0 +1,164 @@
+{
+    "text": "IN TESTIMONY WHEREOF, I have hereunto subscribed my name this 7th day of April 1990, and do publish and declare this my LAST WILL AND TESTAMENT consisting of this and one (1) preceding typewritten pages, and for the purpose of identification I have initialed such page, in the presence of each and all of the subscribing witnesses whom I have requested to act as such by signing their names as attesting witnesses in my presence and in the presence of each other, and by signing the Affidavit below pursuant to the provisions of Tennessee Code Annotated 32-2-110.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this 7th day of April 1990"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "in the presence of each and all of the subscribing witnesses"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the Affidavit below"
+            ],
+            "type": "Affidavit"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in my presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "IN TESTIMONY WHEREOF"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my LAST WILL AND TESTAMENT",
+                "this and one (1) preceding typewritten pages",
+                "this"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "each and all of the subscribing witnesses",
+                "each other",
+                "their",
+                "such",
+                "witnesses"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "pursuant to the provisions of Tennessee Code Annotated 32-2-110"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Condition": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Will": [
+                "e9"
+            ],
+            "Date": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Condition": [
+                "e7",
+                "e2"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Will": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Direction",
+            "Testator": [
+                "e8"
+            ],
+            "Witness": [
+                "e10"
+            ],
+            "SignWill": [
+                "v4"
+            ],
+            "Attestation": [
+                "v5"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "SignWill",
+            "Condition": [
+                "e5",
+                "e6"
+            ],
+            "Will": [
+                "e9"
+            ],
+            "Witness": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Attestation",
+            "Affidavit": [
+                "e3"
+            ],
+            "Witness": [
+                "e10"
+            ],
+            "Condition": [
+                "e11"
+            ]
+        }
+    ]
+}

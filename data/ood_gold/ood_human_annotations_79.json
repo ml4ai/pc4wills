@@ -1,0 +1,110 @@
+{
+  "text": "I, [Person-1], a legal resident of Burley, Idaho, being of sound mind, do make publish and declare this to be my Last Will and Testament, hereby revoking all wills and codicils heretofore made by me.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "being of sound mind"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "all wills"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "codicils"
+      ],
+      "type": "Codicil"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "heretofore"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "[Person-1]",
+        "me",
+        "I",
+        "my",
+        "a legal resident of Burley, Idaho"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "this",
+        "my Last Will and Testament"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Condition": [
+        "e2"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Will": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Revocation",
+      "Will": [
+        "e3"
+      ],
+      "Codicil": [
+        "e4"
+      ],
+      "Time": [
+        "e5"
+      ],
+      "Testator": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Codicil",
+      "Testator": [
+        "e6"
+      ],
+      "Codicil": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "WillCreation",
+      "Will": [
+        "e3"
+      ],
+      "Testator": [
+        "e6"
+      ]
+    }
+  ]
+}

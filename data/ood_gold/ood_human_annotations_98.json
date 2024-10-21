@@ -1,0 +1,51 @@
+{
+  "text": "SEVENTH: I have purposely omitted my adopted son [Person-3] and my adopted daughter [Person-4] from this Will. I hereby intentionally disinherit each of them and leave nothing to either of them.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "either of them",
+        "each of them",
+        "my adopted son [Person-3]"
+      ],
+      "type": "NonBeneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my adopted daughter [Person-4]",
+        "either of them",
+        "each of them"
+      ],
+      "type": "NonBeneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Removal",
+      "Testator": [
+        "e2"
+      ],
+      "NonBeneficiary": [
+        "e3",
+        "e4"
+      ]
+    }
+  ]
+}

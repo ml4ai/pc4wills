@@ -1,0 +1,168 @@
+{
+    "text": "2.3 Ancillary Administration. If, at the time of my death, I own or have an interest in property located outside the state of my domicile and requiring ancillary proceedings, I authorize the payment from my domiciliary estate of the cost of ancillary and similar proceedings in other jurisdictions. To such extent as may be allowed by the laws of another jurisdiction, I authorize my personal representative to serve in the same or similar capacity, alone or with someone else, if required, and without bond unless required by law.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "property located outside the state of my domicile"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the state of my domicile"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "If, at the time of my death, I own or have an interest in property located outside the state of my domicile and requiring ancillary proceedings"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my domiciliary estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "To such extent as may be allowed by the laws of another jurisdiction"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "if required"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "the payment from my domiciliary estate of the cost of ancillary and similar proceedings in other jurisdictions"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "unless required by law"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "the cost of ancillary and similar proceedings in other jurisdictions"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "to serve in the same or similar capacity, alone or with someone else"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e15",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e15"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Authorization",
+            "Condition": [
+                "e4"
+            ],
+            "Executor": [
+                "e6"
+            ],
+            "Right": [
+                "e9"
+            ],
+            "Testator": [
+                "e15"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Authorization",
+            "Executor": [
+                "e6"
+            ],
+            "Condition": [
+                "e7",
+                "e8",
+                "e11",
+                "e14"
+            ],
+            "Right": [
+                "e13"
+            ],
+            "Testator": [
+                "e15"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Excuse",
+            "Executor": [
+                "e6"
+            ],
+            "Bond": [
+                "e10"
+            ],
+            "Testator": [
+                "e15"
+            ]
+        }
+    ]
+}

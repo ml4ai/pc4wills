@@ -1,0 +1,40 @@
+{
+    "text": "SWORN TO me before this 15 day of February, 2001. NOTARY PUBLIC My Commission expires: 2-23-04",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "2-23-04"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "15 day of February, 2001"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "My",
+                "NOTARY PUBLIC",
+                "me"
+            ],
+            "type": "NotaryPublic"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Notarization",
+            "Date": [
+                "e2"
+            ],
+            "NotaryPublic": [
+                "e3"
+            ]
+        }
+    ]
+}

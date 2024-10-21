@@ -1,0 +1,31 @@
+{
+    "text": "WITNESS my hand this 12th day of March 2001.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "this 12th day of March 2001"
+            ],
+            "type": "Date"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Attestation",
+            "Testator": [
+                "e1"
+            ],
+            "Date": [
+                "e2"
+            ]
+        }
+    ]
+}

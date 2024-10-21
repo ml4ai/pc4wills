@@ -1,0 +1,70 @@
+{
+    "text": "ARTICLE IV Subject to the provisions in Article III, I give, devise and bequeath all of my property, be it real, personal or mixed, of whatever nature and wheresoever situated, which I may own or have the right to dispose of, to my husband, [Person-2], absolutely, for his sole use and benefit.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all of my property, be it real, personal or mixed, of whatever nature and wheresoever situated, which I may own or have the right to dispose of"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Subject to the provisions in Article III"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my husband",
+                "[Person-2]",
+                "his"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "absolutely"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "for his sole use and benefit"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Condition": [
+                "e2",
+                "e5",
+                "e6"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Beneficiary": [
+                "e4"
+            ]
+        }
+    ]
+}

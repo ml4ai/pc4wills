@@ -1,0 +1,117 @@
+{
+    "text": "If at my death [Person-2] and [Person-5] are both deceased, then I request the Court appoint a Trustee to manage the property for these children, but specifically direct that the Trustee not be a step father or step mother.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "[Person-5]"
+            ],
+            "type": "Trustee"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "at my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "these children"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "to manage the property for these children"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "If at my death [Person-2] and [Person-5] are both deceased"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "the property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "the Trustee",
+                "a Trustee"
+            ],
+            "type": "Trustee"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "the Court appoint a Trustee to manage the property for these children"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "the Trustee not be a step father or step mother"
+            ],
+            "type": "Duty"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e1"
+            ],
+            "Trustee": [
+                "e2"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Direction",
+            "Duty": [
+                "e10",
+                "e11"
+            ],
+            "Condition": [
+                "e6"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        }
+    ]
+}

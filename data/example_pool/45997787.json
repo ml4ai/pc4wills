@@ -1,0 +1,61 @@
+{
+    "text": "I have a farm on the Curve Central Road in Lauderdale County, Tennessee, by deeds recorded in Book 101, page 110, and Book 30, page 141. It is my direction that this property can not be mortgaged or sold.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Lauderdale"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "this property",
+                "a farm on the Curve Central Road in Lauderdale County, Tennessee"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "by deeds recorded in Book 101, page 110, and Book 30, page 141"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "this property can not be mortgaged or sold"
+            ],
+            "type": "Duty"
+        }
+    ],
+    "events": [
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Testator": [
+                "e3"
+            ],
+            "Duty": [
+                "e6"
+            ]
+        }
+    ]
+}

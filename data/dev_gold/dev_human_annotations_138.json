@@ -1,0 +1,85 @@
+{
+    "text": "IN TESTIMONY WHEREOF, I have hereunto executed this my Last Will in the presence of the two attesting witnesses, this September 14, 2001.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "the two attesting witnesses"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "this September 14, 2001"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "IN TESTIMONY WHEREOF"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "in the presence of the two attesting witnesses"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my Last Will",
+                "this"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Date": [
+                "e2"
+            ],
+            "Condition": [
+                "e3",
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Will": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "SignWill",
+            "Date": [
+                "e2"
+            ],
+            "Condition": [
+                "e3",
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Will": [
+                "e6"
+            ]
+        }
+    ]
+}

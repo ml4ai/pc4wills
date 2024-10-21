@@ -1,0 +1,76 @@
+{
+    "text": "If for any reason that Memorandum is not found and properly identified as such by my Executor within thirty (30) days after the probate of my Will, then all of the aforesaid property shall become part of my residuary estate hereinafter disposed of.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "If for any reason that Memorandum is not found and properly identified as such by my Executor within thirty (30) days after the probate of my Will"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "within thirty (30) days after the probate of my Will"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my Will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "all of the aforesaid property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my residuary estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Probate",
+            "Will": [
+                "e5"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Residual",
+            "Condition": [
+                "e1"
+            ],
+            "Asset": [
+                "e6"
+            ]
+        }
+    ]
+}

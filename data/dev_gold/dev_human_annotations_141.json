@@ -1,0 +1,13 @@
+{
+    "text": "STATE OF TENNESSEE",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "STATE OF TENNESSEE"
+            ],
+            "type": "State"
+        }
+    ],
+    "events": []
+}

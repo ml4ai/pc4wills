@@ -1,0 +1,41 @@
+{
+    "text": "I hereby appoint and designate my son, [Person-3], to be the Executor of this, my Last Will and Testament.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the Executor",
+                "[Person-3]",
+                "my son"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Executor": [
+                "e2"
+            ],
+            "Testator": [
+                "e3"
+            ]
+        }
+    ]
+}

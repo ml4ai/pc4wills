@@ -1,0 +1,105 @@
+{
+    "text": "ARTICLE V If my husband, [Person-2], fails to survive me, then and in that event, I give, devise and bequeath my entire estate, real, personal, or mixed, of whatever nature and wheresoever situated, equally, per stirpes to: 1. [Person-3] (son); 2. [Person-4] (grandson); 3. [Person-5] (husband's daughter).",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my entire estate, real, personal, or mixed, of whatever nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "per stirpes"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "I",
+                "my",
+                "me"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my husband",
+                "[Person-2]",
+                "husband"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-3]",
+                "son"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "[Person-4]",
+                "grandson"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "husband's daughter",
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "If my husband, [Person-2], fails to survive me",
+                "in that event"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Condition": [
+                "e2",
+                "e3",
+                "e9"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e6",
+                "e7",
+                "e8"
+            ]
+        }
+    ]
+}

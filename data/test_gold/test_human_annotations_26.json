@@ -1,0 +1,120 @@
+{
+  "text": "I hereby name, nominate and appoint [Person-2] as Executrix of this my Last Will and Estate. I further direct that my Executrix be allowed to serve in this capacity without bond or other security for the faithful performance of her duties as Executrix. I direct that my Executrix not be required to make an accounting to the Court.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this my Last Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "other security for the faithful performance of her duties as Executrix"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "make an accounting to the Court"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "without bond or other security for the faithful performance of her duties as Executrix"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "[Person-2]",
+        "this capacity",
+        "my Executrix",
+        "her"
+      ],
+      "type": "Executor"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Nomination",
+      "Testator": [
+        "e7"
+      ],
+      "Executor": [
+        "e8"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Excuse": [
+        "v3"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Excuse",
+      "Executor": [
+        "e8"
+      ],
+      "Bond": [
+        "e3"
+      ],
+      "Duty": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Direction",
+      "Excuse": [
+        "v5"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Excuse",
+      "Duty": [
+        "e5"
+      ],
+      "Executor": [
+        "e8"
+      ]
+    }
+  ]
+}

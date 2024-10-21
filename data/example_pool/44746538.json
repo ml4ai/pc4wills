@@ -1,0 +1,134 @@
+{
+    "text": "Should my wife not survive me, or should we die at the same time, or as a result of a common disaster, then I will, devise and bequeath all my property to my children, [Person-3] and [Person-4], equally.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all my property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "we",
+                "my wife"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "at the same time"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "as a result of a common disaster"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "Should my wife not survive me, or should we die at the same time, or as a result of a common disaster"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my children",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "we",
+                "me",
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my children",
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e3"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e8"
+            ],
+            "Beneficiary": [
+                "e3"
+            ],
+            "Time": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Testator": [
+                "e8"
+            ],
+            "Beneficiary": [
+                "e3"
+            ],
+            "Condition": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e3"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Disqualification",
+            "Testator": [
+                "e8"
+            ],
+            "Beneficiary": [
+                "e7",
+                "e9"
+            ],
+            "Asset": [
+                "e1"
+            ],
+            "Condition": [
+                "e2",
+                "e6"
+            ]
+        }
+    ]
+}

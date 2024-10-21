@@ -1,0 +1,105 @@
+{
+  "text": "THE ABOVE and foregoing instrument was signed by the testatrix, [Person-1], and by her declared to be her Last Will and Testament in our presence, and we, at her request and in the presence of her and each other have hereunto subscribed our names as subscribing witnesses on the day and date above written.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "on the day and date above written"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "in our presence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "at her request"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "in the presence of her and each other"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "her Last Will and Testament",
+        "THE ABOVE and foregoing instrument"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "her",
+        "[Person-1]",
+        "the testatrix"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "our",
+        "we",
+        "subscribing witnesses",
+        "each other"
+      ],
+      "type": "Witness"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Date": [
+        "e1"
+      ],
+      "Will": [
+        "e5"
+      ],
+      "Testator": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "WillCreation",
+      "Condition": [
+        "e2"
+      ],
+      "Will": [
+        "e5"
+      ],
+      "Testator": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "SignWill",
+      "Date": [
+        "e1"
+      ],
+      "Condition": [
+        "e3",
+        "e4"
+      ],
+      "Will": [
+        "e5"
+      ],
+      "Witness": [
+        "e7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+    "text": "ARTICLE VI I nominate, constitute and appoint my son, [Person-3] as Executor of my Last Will and Testament. If my son should not qualify or complete the administration of my estate, I appoint [Person-4], my grandson, as Alternate Executor of this my Last Will and Testament.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "If my son should not qualify or complete the administration of my estate"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-4]",
+                "my grandson"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my Last Will and Testament",
+                "this"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my son",
+                "[Person-3]"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e3"
+            ],
+            "Executor": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Disqualification",
+            "Executor": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Nomination",
+            "Condition": [
+                "e2"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Executor": [
+                "e4"
+            ]
+        }
+    ]
+}

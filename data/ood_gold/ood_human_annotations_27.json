@@ -1,0 +1,97 @@
+{
+  "text": "I, [Person-1], over the age of eighteen (18) years, a citizen of the State of Idaho and a resident of the City of Burley, Cassia County, State of Idaho, being of sound and disposing mind and not under restraint or undue influence, do make, publish and declare this to be my Last Will and Testament, hereby revoking all other Wills by me made.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "over the age of eighteen (18) years"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the State of Idaho",
+        "State of Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "Cassia County"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "being of sound and disposing mind and not under restraint or undue influence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "all other Wills"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "a resident of the City of Burley",
+        "a citizen of the State of Idaho",
+        "[Person-1]",
+        "me",
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my Last Will and Testament",
+        "this"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Testator": [
+        "e6"
+      ],
+      "Will": [
+        "e7"
+      ],
+      "Condition": [
+        "e1", 
+        "e4"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Revocation",
+      "Will": [
+        "e5"
+      ],
+      "Testator": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "WillCreation",
+      "Will": [
+        "e5"
+      ],
+      "Testator": [
+        "e6"
+      ]
+    }
+  ]
+}

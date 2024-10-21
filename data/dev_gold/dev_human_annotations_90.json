@@ -1,0 +1,107 @@
+{
+    "text": "a) I will, devise and bequeath my $400.00 gold necklace, $1300.00 wedding ring set, $1200.00 loan that remained unpaid, Budweiser Horse and Wagon, Dog Picture, second $1000.00-$1500.00 wedding band set, Indian Carousel, Indian Head Bookends and jewelry box to my daughter, [Person-4].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my $400.00 gold necklace"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "$1300.00 wedding ring set"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "$1200.00 loan that remained unpaid"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "Budweiser Horse and Wagon"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "Dog Picture"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "second $1000.00-$1500.00 wedding band set"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "Indian Carousel"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "Indian Head Bookends"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "jewelry box"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "my daughter",
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1",
+                "e2",
+                "e3",
+                "e4",
+                "e5",
+                "e6",
+                "e7",
+                "e8",
+                "e9"
+            ],
+            "Beneficiary": [
+                "e10"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        }
+    ]
+}

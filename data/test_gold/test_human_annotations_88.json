@@ -1,0 +1,84 @@
+{
+  "text": "I vest my Co-Executors with all fiduciary powers specifically enumerated in Tennessee Code Annotated, Section 35-50-110, the same being incorporated herein by reference as though specifically set forth. Said powers may be exercised by my Co-Executors without any order of or request to or approval by any Court.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "as though specifically set forth"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "without any order of or request to or approval by any Court"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "Tennessee"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my Co-Executors"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "Said powers",
+        "the same",
+        "all fiduciary powers specifically enumerated in Tennessee Code Annotated, Section 35-50-110"
+      ],
+      "type": "Right"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Authorization",
+      "Condition": [
+        "e1"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Executor": [
+        "e5"
+      ],
+      "Right": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Authorization",
+      "Condition": [
+        "e2"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Executor": [
+        "e5"
+      ],
+      "Right": [
+        "e6"
+      ]
+    }
+  ]
+}

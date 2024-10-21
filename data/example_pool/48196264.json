@@ -1,0 +1,162 @@
+{
+    "text": "III. If my grandson, [Person-2], predeceases me, or if we should die at the same time, then I will, devise and bequeath one-half of my property both real and personal, tangible and intangible, of every nature and wheresoever situated to my daughter, [Person-3], and the other half of my property both real and personal, tangible and intangible, of every nature and wheresoever situated to [Person-4], my grandson, who resides in Florida and [Person-5], my granddaughter who resides in Lauderdale County, Tennessee to be divided equally between them.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at the same time"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "one-half of my property both real and personal, tangible and intangible, of every nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the other half of my property both real and personal, tangible and intangible, of every nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "Florida"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "If my grandson, [Person-2], predeceases me, or if we should die at the same time"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my",
+                "me",
+                "I",
+                "we"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "my grandson",
+                "we",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "my daughter",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "[Person-4]",
+                "my grandson",
+                "them"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "them",
+                "my granddaughter",
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Time": [
+                "e1"
+            ],
+            "Testator": [
+                "e9"
+            ],
+            "Beneficiary": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Asset": [
+                "e2"
+            ],
+            "Condition": [
+                "e8"
+            ],
+            "Testator": [
+                "e9"
+            ],
+            "Beneficiary": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Bequest",
+            "Asset": [
+                "e3"
+            ],
+            "Condition": [
+                "e7",
+                "e8"
+            ],
+            "Testator": [
+                "e9"
+            ],
+            "Beneficiary": [
+                "e12",
+                "e13"
+            ]
+        }
+    ]
+}

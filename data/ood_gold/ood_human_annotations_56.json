@@ -1,0 +1,34 @@
+{
+  "text": "It is my intention to dispose of all of my separate and community property by this Will.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "all of my separate and community property"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "by this Will"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": []
+}

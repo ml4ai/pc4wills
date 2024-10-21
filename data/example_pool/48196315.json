@@ -1,0 +1,65 @@
+{
+    "text": "III I am making certain specific bequests of personal items according to a letter which is attached and made a part of this will.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "personal items"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "according to a letter which is attached and made a part of this will"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "this will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "a letter which is attached and made a part of this will"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Testator": [
+                "e1"
+            ],
+            "Asset": [
+                "e2"
+            ],
+            "Condition": [
+                "e3"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Testator": [
+                "e1"
+            ],
+            "Will": [
+                "e5"
+            ]
+        }
+    ]
+}

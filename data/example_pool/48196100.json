@@ -1,0 +1,52 @@
+{
+    "text": "IV I give, devise and bequeath all the rest and residue of my property, real, personal and mixed, of whatever kind and nature and wheresoever situated, to my son, [Person-2], and my daughter-in-law, [Person-3].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all the rest and residue of my property, real, personal and mixed, of whatever kind and nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my son",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my daughter-in-law",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Testator": [
+                "e2"
+            ],
+            "Asset": [
+                "e1"
+            ],
+            "Beneficiary": [
+                "e3",
+                "e4"
+            ]
+        }
+    ]
+}

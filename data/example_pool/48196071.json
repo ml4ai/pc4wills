@@ -1,0 +1,179 @@
+{
+    "text": "ITEM VII. I hereby name, nominate, constitute and appoint my wife, [Person-2], as Executrix of this my Last Will and Testament. I do hereby expressly excuse them from the posting of any bond, inventory, reports or accounting and settlement of my estate with any Court. In the event that she should then be deceased, or should die while serving, then I name and appoint [Person-6] and [Person-9], as my Co-Executors. I further relieve them of any bond or inventory requirements.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "the posting of any bond, inventory, reports or accounting and settlement of my estate with any Court"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "any bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "In the event that she should then be deceased"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "while serving"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-6]",
+                "my Co-Executors",
+                "them"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "[Person-9]",
+                "my Co-Executors",
+                "them"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "any bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "inventory requirements"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "should die while serving"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "[Person-2]",
+                "my wife",
+                "she",
+                "them"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "my Last Will and Testament",
+                "this"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e11"
+            ],
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Excuse",
+            "Duty": [
+                "e1"
+            ],
+            "Testator": [
+                "e11"
+            ],
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Death",
+            "Executor": [
+                "e12"
+            ],
+            "Time": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Nomination",
+            "Executor": [
+                "e6",
+                "e7"
+            ],
+            "Testator": [
+                "e11"
+            ],
+            "Condition": [
+                "e4",
+                "e10"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Excuse",
+            "Executor": [
+                "e6",
+                "e7"
+            ],
+            "Bond": [
+                "e8"
+            ],
+            "Duty": [
+                "e9"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "text": "[Person-1], Testator",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "[Person-1]",
+                "Testator"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": []
+}

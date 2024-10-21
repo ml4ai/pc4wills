@@ -1,0 +1,88 @@
+{
+    "text": "IV Should for any reason my daughter, [Person-4], predecease me, her share shall be divided between my sons, [Person-5] and [Person-6], or their heirs.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Should for any reason my daughter, [Person-4], predecease me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "her share"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "their heirs"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my",
+                "me"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-4]",
+                "my daughter",
+                "her"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my sons",
+                "their",
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my sons",
+                "[Person-6]",
+                "their"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Beneficiary": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Condition": [
+                "e1"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e3",
+                "e6",
+                "e7"
+            ],
+            "Asset": [
+                "e2"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+  "text": "ITEM XI. All of the rest, residue and remainder of my estate I devise and bequeath equally to my children.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "All of the rest, residue and remainder of my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "equally"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my children"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Condition": [
+        "e2"
+      ],
+      "Beneficiary": [
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    }
+  ]
+}

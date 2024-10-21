@@ -1,0 +1,36 @@
+{
+  "text": "When only one devisee remains alive, this restriction shall be removed and released.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "When only one devisee remains alive"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "only one devisee"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "this restriction"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Removal",
+      "Condition": [
+        "e3",
+        "e4"
+      ]
+    }
+  ]
+}

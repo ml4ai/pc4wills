@@ -1,0 +1,31 @@
+{
+  "text": "WITNESS my hand this 23rd day of March, 1999.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "this 23rd day of March, 1999"
+      ],
+      "type": "Date"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Testator": [
+        "e1"
+      ],
+      "Date": [
+        "e2"
+      ]
+    }
+  ]
+}

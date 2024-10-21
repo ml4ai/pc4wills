@@ -1,0 +1,199 @@
+{
+  "text": "We, [Person-4] and [Person-5], the witnesses, sign our names to this instrument, being first duly sworn, and do hereby declare to the undersigned authority that the Testator signs and executes this instrument as his Last Will and Testament and that he signs it willingly and that each of us, in the presence and hearing of the Testator hereby signs this Will as witness to the Testator signing, and that to the best of our knowledge the Testator is eighteen (18) years of age or older, of sound mind, and under no constraint or undue influence.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "We",
+        "[Person-4]",
+        "the witnesses",
+        "our",
+        "each of us",
+        "witness"
+      ],
+      "type": "Witness"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "We",
+        "[Person-5]",
+        "the witnesses",
+        "our",
+        "each of us",
+        "witness"
+      ],
+      "type": "Witness"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "being first duly sworn"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "the undersigned authority"
+      ],
+      "type": "NotaryPublic"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "willingly"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "in the presence and hearing of the Testator"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "to the best of our knowledge"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "eighteen (18) years of age or older"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "of sound mind"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "under no constraint or undue influence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "his Last Will and Testament",
+        "it",
+        "this Will",
+        "this instrument"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "the Testator",
+        "he",
+        "his"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Condition": [
+        "e3"
+      ],
+      "Will": [
+        "e11"
+      ],
+      "Witness": [
+        "e1", "e2"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Attestation",
+      "NotaryPublic": [
+        "e4"
+      ],
+      "SignWill": [
+        "v3", "v5", "v6"
+      ],
+      "WillCreation": [
+        "v4"
+      ],
+      "Condition": [
+        "e7"
+      ],
+      "Competence": [
+        "v7"
+      ],
+      "Witness": [
+        "e1", "e2"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "SignWill",
+      "Will": [
+        "e11"
+      ],
+      "Testator": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "WillCreation",
+      "Will": [
+        "e11"
+      ],
+      "Testator": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "SignWill",
+      "Condition": [
+        "e5"
+      ],
+      "Will": [
+        "e11"
+      ],
+      "Testator": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v6",
+      "type": "SignWill",
+      "Condition": [
+        "e6"
+      ],
+      "Will": [
+        "e11"
+      ],
+      "Witness": [
+        "e1", "e2"
+      ]
+    },
+    {
+      "id": "v7",
+      "type": "Competence",
+      "Condition": [
+        "e8",
+        "e9",
+        "e10"
+      ],
+      "Testator": [
+        "e12"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "text": "II I will and bequeath the house and 10.27 acre [Person-2] tract of land in the [Address-2] of Lauderdale County, which was deeded to me by [Person-2] in Deed Book 52, page 122, Register's Office of Lauderdale County, Tennessee, to [Person-3] of Pontiac, Michigan, and [Person-4] of Detroit, Michigan, equally.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "the house and 10.27 acre [Person-2] tract of land in the [Address-2] of Lauderdale County"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "Michigan"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "I",
+                "me"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Beneficiary": [
+                "e4",
+                "e6"
+            ],
+            "Condition": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        }
+    ]
+}

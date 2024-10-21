@@ -1,0 +1,84 @@
+{
+    "text": "I will, devise and bequeath to my son, [Person-2], all my property of every kind and nature, including but not limited to my home & Lots #9 and #10 of [Address-2], as conveyed to me by deeds recorded in Deed Book 64, page 393, and Deed Book 52, page 53, Register's Office, Lauderdale County, all household contents, my two vehicles, a 1982 Ford LTD and a 1973 Ford truck, all being situate at my address at [Address-1].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all my property of every kind and nature"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my home & Lots #9 and #10 of [Address-2]"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "all household contents"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "all being situate at my address at [Address-1]"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "me",
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my son",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "a 1982 Ford LTD and a 1973 Ford truck",
+                "my two vehicles"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e2",
+                "e3",
+                "e4",
+                "e5",
+                "e8"
+            ],
+            "Testator": [
+                "e6"
+            ],
+            "Beneficiary": [
+                "e7"
+            ]
+        }
+    ]
+}

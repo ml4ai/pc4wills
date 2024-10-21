@@ -1,0 +1,32 @@
+{
+    "text": "Sworn to and subscribed before me on this, the 7th day of April, 1990.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "me"
+            ],
+            "type": "NotaryPublic"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "this",
+                "the 7th day of April, 1990"
+            ],
+            "type": "Date"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Notarization",
+            "NotaryPublic": [
+                "e1"
+            ],
+            "Date": [
+                "e2"
+            ]
+        }
+    ]
+}

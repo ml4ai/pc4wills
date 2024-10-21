@@ -1,0 +1,120 @@
+{
+    "text": "I hereby give, devise and bequeath all of my property real, personal or mixed, to my husband, [Person-2]. If my husband and I should die simultaneously, or my husband predecease me, all my property, real, personal or mixed, I give, devise and bequeath to my two children, [Person-3], and [Person-4], equally, share and share alike.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "equally, share and share alike"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "simultaneously"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "If my husband and I should die simultaneously, or my husband predecease me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "I",
+                "my",
+                "me"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my husband",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my two children",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my two children",
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "all of my property real, personal or mixed",
+                "all my property, real, personal or mixed"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Testator": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e5"
+            ],
+            "Asset": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Condition": [
+                "e1",
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e6",
+                "e7"
+            ],
+            "Asset": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Time": [
+                "e2"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Death",
+            "Beneficiary": [
+                "e5"
+            ]
+        }
+    ]
+}

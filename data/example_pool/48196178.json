@@ -1,0 +1,100 @@
+{
+    "text": "I I direct my Executor to pay all my just debts and all funeral expenses, which shall be probated, registered and allowed against my estate, as soon after my death as can conveniently be done.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "pay all my just debts and all funeral expenses"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "all my just debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "all funeral expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "as soon after my death as can conveniently be done"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "against my estate"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Executor": [
+                "e1"
+            ],
+            "Duty": [
+                "e2"
+            ],
+            "Time": [
+                "e6"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Probate",
+            "Debt": [
+                "e3"
+            ],
+            "Expense": [
+                "e4"
+            ],
+            "Condition": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Testator": [
+                "e8"
+            ]
+        }
+    ]
+}

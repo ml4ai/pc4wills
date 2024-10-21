@@ -1,0 +1,80 @@
+{
+  "text": "1.2. I intend only to make provision for [Person-6]. I intend to omit from the benefits of this will [Person-3], [Person-4], and [Person-7] and any other person or persons whether related to me or not.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "[Person-6]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "[Person-3]"
+      ],
+      "type": "NonBeneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "[Person-4]"
+      ],
+      "type": "NonBeneficiary"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-7]"
+      ],
+      "type": "NonBeneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "any other person or persons"
+      ],
+      "type": "NonBeneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "whether related to me or not"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Removal",
+      "NonBeneficiary": [
+        "e3",
+        "e4",
+        "e5",
+        "e6"
+      ],
+      "Testator": [
+        "e7"
+      ],
+      "Condition": [
+        "e8"
+      ]
+    }
+  ]
+}

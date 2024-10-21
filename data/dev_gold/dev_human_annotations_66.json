@@ -1,0 +1,131 @@
+{
+    "text": "I specifically authorize my Executor, Alternate Executor, or any person whom he may choose to serve with him, in the exercise of reasonable discretion, with respect to all property, real, personal or mixed, at any time forming part of my estate, to exercise any and all powers set forth at Tennessee Code Annotated, \u00a735-50-110, to the extent applicable, all of which provisions and powers are incorporated herein by reference as if fully copied herein verbatim.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "any person whom he may choose to serve with him"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in the exercise of reasonable discretion"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "all property, real, personal or mixed, at any time forming part of my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "at any time"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "as if fully copied herein verbatim"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "he",
+                "him",
+                "Alternate Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "all of which provisions and powers",
+                "exercise any and all powers set forth at Tennessee Code Annotated, \u00a735-50-110"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "with respect to all property, real, personal or mixed, at any time forming part of my estate"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "to the extent applicable"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "by reference"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Executor": [
+                "e1",
+                "e2",
+                "e10"
+            ],
+            "Condition": [
+                "e3",
+                "e7",
+                "e12",
+                "e13",
+                "e14"
+            ],
+            "Testator": [
+                "e9"
+            ],
+            "Right": [
+                "e11"
+            ]
+        }
+    ]
+}

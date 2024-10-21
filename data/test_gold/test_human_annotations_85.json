@@ -1,0 +1,93 @@
+{
+  "text": "If, for any reason, [Person-3] is unwilling or unable to serve in this capacity, then I nominate and appoint his daughter, [Person-5], to serve in his place as Co-Executor without bond.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "If, for any reason, [Person-3] is unwilling or unable to serve in this capacity"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "without bond"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-3]",
+        "his",
+        "this capacity"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "[Person-5]",
+        "his daughter",
+        "Co-Executor"
+      ],
+      "type": "Executor"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Renunciation",
+      "Executor": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Disqualification",
+      "Executor": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Nomination",
+      "Condition": [
+        "e1"
+      ],
+      "Testator": [
+        "e2"
+      ],
+      "Executor": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Excuse",
+      "Bond": [
+        "e3"
+      ],
+      "Testator": [
+        "e2"
+      ],
+      "Executor": [
+        "e6"
+      ]
+    }
+  ]
+}

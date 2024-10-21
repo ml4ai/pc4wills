@@ -1,0 +1,75 @@
+{
+    "text": "I hereby expressly revoke all former wills and codicils by me at any time heretofore made.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all former wills"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "codicils"
+            ],
+            "type": "Codicil"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "at any time heretofore"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "me",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Revocation",
+            "Will": [
+                "e1"
+            ],
+            "Codicil": [
+                "e2"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Will": [
+                "e1"
+            ],
+            "Time": [
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Codicil",
+            "Codicil": [
+                "e2"
+            ],
+            "Time": [
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        }
+    ]
+}

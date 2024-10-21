@@ -1,0 +1,53 @@
+{
+    "text": "II I incorporate by reference as fully as if set out verbatim herein, all of the provisions and powers set forth in T.C.A. Section 35-50-110, which section enumerates the administrative powers that I hereby confer upon my Executor.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "as fully as if set out verbatim herein"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "all of the provisions and powers set forth in T.C.A. Section 35-50-110",
+                "the administrative powers"
+            ],
+            "type": "Right"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Condition": [
+                "e1"
+            ],
+            "Testator": [
+                "e2"
+            ],
+            "Executor": [
+                "e3"
+            ],
+            "Right": [
+                "e4"
+            ]
+        }
+    ]
+}

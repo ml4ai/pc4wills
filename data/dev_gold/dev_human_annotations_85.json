@@ -1,0 +1,20 @@
+{
+    "text": "WILL AND TESTAMENT OF [Person-1]",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "WILL AND TESTAMENT"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "[Person-1]"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": []
+}

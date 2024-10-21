@@ -1,0 +1,140 @@
+{
+    "text": "3. After debts, costs, and expenses, I devise my entire estate to [Person-2] and appoint her Executrix, waiving bond, inventory, accounting, and settlement.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "costs"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my entire estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "inventory"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "accounting"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "settlement"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "After debts, costs, and expenses"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "[Person-2]",
+                "Executrix",
+                "her"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "[Person-2]",
+                "Executrix",
+                "her"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e4"
+            ],
+            "Condition": [
+                "e9"
+            ],
+            "Testator": [
+                "e10"
+            ],
+            "Beneficiary": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Nomination",
+            "Testator": [
+                "e10"
+            ],
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Excuse",
+            "Bond": [
+                "e5"
+            ],
+            "Duty": [
+                "e6",
+                "e7",
+                "e8"
+            ],
+            "Testator": [
+                "e10"
+            ],
+            "Executor": [
+                "e12"
+            ]
+        }
+    ]
+}

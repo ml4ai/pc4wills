@@ -1,0 +1,171 @@
+{
+  "text": "IN WITNESS WHEREOF, I, [Person-1], the Testator, sign my name to this instrument this 8-26-88 day of August, 1988, and being first duly sworn, do hereby declare to the undersigned authority that I sign and execute this instrument as my Last Will and that I sign it willingly, that I execute it as my free and voluntary act for the purposes therein expressed, and that I am eighteen (18) years of age or older, of sound mind, and under no constraint or undue influence.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this 8-26-88 day of August, 1988"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "being first duly sworn"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "the undersigned authority"
+      ],
+      "type": "NotaryPublic"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "willingly"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "eighteen (18) years of age or older"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "of sound mind"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "under no constraint or undue influence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "IN WITNESS WHEREOF"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "free and voluntary act"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "I",
+        "[Person-1]",
+        "my",
+        "the Testator"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "this instrument",
+        "it",
+        "my Last Will"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Date": [
+        "e1"
+      ],
+      "Condition": [
+        "e8"
+      ],
+      "Testator": [
+        "e10"
+      ],
+      "Will": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Attestation",
+      "SignWill": [
+        "v3", "v5"
+      ],
+      "WillCreation": [
+        "v4", "v6"
+      ],
+      "Condition": [
+        "e2",
+        "e5",
+        "e6",
+        "e7",
+        "e8"
+      ],
+      "Testator": [
+        "e10"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "SignWill",
+      "Testator": [
+        "e10"
+      ],
+      "Will": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "WillCreation",
+      "Testator": [
+        "e10"
+      ],
+      "Will": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "SignWill",
+      "Testator": [
+        "e10"
+      ],
+      "Will": [
+        "e11"
+      ],
+      "Condition": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v6",
+      "type": "WillCreation",
+      "Testator": [
+        "e10"
+      ],
+      "Will": [
+        "e11"
+      ],
+      "Condition": [
+        "e9"
+      ]
+    }
+  ]
+}

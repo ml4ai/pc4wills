@@ -1,0 +1,70 @@
+{
+  "text": "XV I direct that my Executor disburse my remaining personal belongings to my family, as he sees fit and in sole discretion.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my remaining personal belongings"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my family"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "as he sees fit and in sole discretion"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "he",
+        "my Executor"
+      ],
+      "type": "Executor"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Bequest": [
+        "v2"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e2"
+      ],
+      "Condition": [
+        "e3"
+      ],
+      "Executor": [
+        "e5"
+      ]
+    }
+  ]
+}

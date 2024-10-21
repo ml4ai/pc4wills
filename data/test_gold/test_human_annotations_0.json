@@ -1,0 +1,109 @@
+{
+  "text": "I, [Person-1], domiciled in Ripley, Lauderdale County, Tennessee, do hereby make, publish, and declare this to be my Last Will and Testament, hereby revoking all wills and codicils heretofore made by me.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "codicils"
+      ],
+      "type": "Codicil"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Lauderdale County"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "Tennessee"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "heretofore"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-1]",
+        "me",
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "this",
+        "my Last Will and Testament"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "all wills"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Testator": [
+        "e5"
+      ],
+      "Will": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Revocation",
+      "Codicil": [
+        "e1"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Will": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "WillCreation",
+      "Time": [
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Will": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Codicil",
+      "Time": [
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Codicil": [
+        "e1"
+      ]
+    }
+  ]
+}

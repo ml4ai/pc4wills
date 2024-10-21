@@ -1,0 +1,85 @@
+{
+    "text": "II. BEQUEST OF TANGIBLE PERSONAL PROPERTY I bequeath to my wife, [Person-2], in fee, all clothing, household goods, personal effects, and all other tangible personal property, not otherwise specifically bequeathed, owned by me at the time of my death.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "in fee"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "not otherwise specifically bequeathed"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "owned by me at the time of my death"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "me",
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-2]",
+                "my wife"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "TANGIBLE PERSONAL PROPERTY",
+                "all clothing, household goods, personal effects, and all other tangible personal property"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Condition": [
+                "e1",
+                "e2",
+                "e3"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Beneficiary": [
+                "e6"
+            ],
+            "Asset": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e5"
+            ]
+        }
+    ]
+}

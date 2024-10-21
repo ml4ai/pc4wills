@@ -1,0 +1,171 @@
+{
+  "text": "I direct that the sums being paid to my grandchildren, [Person-8] and [Person-9], be held in trust for their future use and benefit until they reach the age of twenty-five (25). I direct that [Person-3] and wife, [Person-10], serve as Co-Trustees without bond, and specifically grant each of them all of the fiduciary powers set forth in Tennessee Code Annotated \u00a735-50-110.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "the sums being paid to my grandchildren"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "trust"
+      ],
+      "type": "Trust"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "until they reach the age of twenty-five (25)"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "all of the fiduciary powers set forth in Tennessee Code Annotated \u00a735-50-110"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "Tennessee"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "without bond"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "[Person-8]",
+        "they",
+        "their",
+        "my grandchildren"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "their",
+        "they",
+        "my grandchildren",
+        "[Person-9]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "[Person-10]",
+        "each of them",
+        "wife",
+        "Co-Trustees",
+        "[Person-3]"
+      ],
+      "type": "Trustee"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "for their future use and benefit"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "NonProbateInstrumentCreation": [
+        "v2"
+      ],
+      "Testator": [
+        "e8"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "NonProbateInstrumentCreation",
+      "Asset": [
+        "e1"
+      ],
+      "Trust": [
+        "e2"
+      ],
+      "Time": [
+        "e3"
+      ],
+      "Condition": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Direction",
+      "Nomination": [
+        "v4"
+      ],
+      "Testator": [
+        "e8"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Nomination",
+      "Trustee": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Excuse",
+      "Bond": [
+        "e4"
+      ],
+      "Testator": [
+        "e8"
+      ],
+      "Trustee": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v6",
+      "type": "Authorization",
+      "Right": [
+        "e5"
+      ],
+      "Testator": [
+        "e8"
+      ],
+      "Trustee": [
+        "e11"
+      ]
+    }
+  ]
+}

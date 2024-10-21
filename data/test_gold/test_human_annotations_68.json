@@ -1,0 +1,75 @@
+{
+  "text": "ITEM II. I will, give, devise and bequeath unto my beloved son, [Person-2], the following property: my books, my horses (of any description); my egg collection, all my clocks the china cabinet located in the dining room along with all contents therein, and all gifts that he has given me over the years, including but not limited to the computer and desk and refrigerator. Furthermore, I will, give, devise and bequeath unto my beloved son, [Person-2], my most precious possession, my siamese cat, Sassy.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "over the years"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my",
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my beloved son",
+        "he",
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "the following property",
+        "my books, my horses (of any description); my egg collection, all my clocks the china cabinet located in the dining room along with all contents therein, and all gifts that he has given me over the years, including but not limited to the computer and desk and refrigerator"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my siamese cat",
+        "my most precious possession",
+        "Sassy"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Testator": [
+        "e2"
+      ],
+      "Beneficiary": [
+        "e3"
+      ],
+      "Asset": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Testator": [
+        "e2"
+      ],
+      "Beneficiary": [
+        "e3"
+      ],
+      "Asset": [
+        "e5"
+      ]
+    }
+  ]
+}

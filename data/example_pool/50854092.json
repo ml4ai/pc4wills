@@ -1,0 +1,154 @@
+{
+    "text": "In the event that he is deceased, unable or unwilling to act as such, I appoint [Person-3] as the Executor of this my Last Will and Testament and request that the Court permit him to serve without bond, and that he be relieved of the necessity of filing an inventory, settlement, or any other accounting at any time in any Court.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the necessity of filing an inventory, settlement, or any other accounting at any time in any Court"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "at any time"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "In the event that he is deceased, unable or unwilling to act as such"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "such",
+                "he"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "this",
+                "my Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "him",
+                "[Person-3]",
+                "he",
+                "Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "in any Court"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Executor": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Disqualification",
+            "Executor": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Renunciation",
+            "Executor": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Nomination",
+            "Condition": [
+                "e4"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Executor": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Direction",
+            "Excuse": [
+                "v6",
+                "v7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Excuse",
+            "Duty": [
+                "e2"
+            ],
+            "Time": [
+                "e3"
+            ],
+            "Executor": [
+                "e9"
+            ],
+            "Condition": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v7",
+            "type": "Excuse",
+            "Bond": [
+                "e1"
+            ],
+            "Executor": [
+                "e9"
+            ]
+        }
+    ]
+}

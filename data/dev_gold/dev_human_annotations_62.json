@@ -1,0 +1,91 @@
+{
+    "text": "In the event the law in the state wherein this Last Will and Testament is offered for probate requires that a resident of that state serve with my named Alternate Executor and my named Alternate Executor is not a resident of that state, then and in that event, I leave the choice of the person to serve with my named Alternate Executor in his sole and exclusive discretion.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the choice of the person to serve with my named Alternate Executor"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in his sole and exclusive discretion"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the person to serve with my named Alternate Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "that state",
+                "the state"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in that event",
+                "In the event the law in the state wherein this Last Will and Testament is offered for probate requires that a resident of that state serve with my named Alternate Executor and my named Alternate Executor is not a resident of that state"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my named Alternate Executor",
+                "his"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Probate",
+            "Will": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Authorization",
+            "Right": [
+                "e2"
+            ],
+            "Condition": [
+                "e3",
+                "e6"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Executor": [
+                "e8"
+            ]
+        }
+    ]
+}

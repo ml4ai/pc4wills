@@ -1,0 +1,38 @@
+{
+    "text": "VII. DISCLAIMER OF CONTRACT WITH SPOUSE Although my wife and I are executing our Wills at or about the same time with substantially similar dispositive provisions, I wish to make it clear that we have not entered into any contract regarding the disposition of our respective estates, and that each amend, or revoke our respective Wills.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at or about the same time"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "our respective estates"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I",
+                "my",
+                "we",
+                "our"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "our Wills",
+                "our respective Wills"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": []
+}

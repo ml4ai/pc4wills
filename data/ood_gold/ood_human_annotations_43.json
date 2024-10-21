@@ -1,0 +1,23 @@
+{
+  "text": "FIRST: I declare that I am married. That the name of my wife is [Person-2], and I do further declare that all of my property, both real and personal, of whatsoever kind and character and wheresoever found, is the community property of myself and my beloved wife, [Person-2].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my",
+        "I",
+        "myself"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "all of my property, both real and personal, of whatsoever kind and character and wheresoever found,",
+        "the community property of myself and my beloved wife, [Person-2]"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": []
+}

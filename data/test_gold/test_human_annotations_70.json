@@ -1,0 +1,66 @@
+{
+  "text": "ITEM IV. I will, give, devise and bequeath unto my beloved son, [Person-4], the following property: all outside yard equipment, the contents of my bank account at the Bank of Ripley, one-half(1/2) of the bank insurance, and all of my Vanguard IRA profit sharing. I further will, give, devise and bequeath unto my beloved son, [Person-4], the washer and dryer he gave to me.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "the washer and dryer he gave to me"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my",
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "he",
+        "my beloved son",
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "all outside yard equipment, the contents of my bank account at the Bank of Ripley, one-half(1/2) of the bank insurance, and all of my Vanguard IRA profit sharing",
+        "the following property"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Testator": [
+        "e2"
+      ],
+      "Beneficiary": [
+        "e3"
+      ],
+      "Asset": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Testator": [
+        "e2"
+      ],
+      "Beneficiary": [
+        "e3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+    "text": "4. I authorize my Executrix, in the exercise of a reasonable discretion with respect to all property, real and personal, at any time forming part of my estate or any trust, to exercise any or all powers set forth in Section 3 of Chapter 110 of the Tennessee General Assembly of 1963, T.C.A. \u00a735-50-110, to the extent applicable, all of which provisions and powers are incorporated herein by reference as fully as if copied herein verbatim. These powers (as set out in said statute on the date of the execution of this will) are granted, notwithstanding that said statute may be amended hereafter or repealed at the time of my death.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my Executrix"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "any trust"
+            ],
+            "type": "Trust"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "at any time"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "to the extent applicable"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "as fully as if copied herein verbatim"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "on the date of the execution of this will"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "this will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "as set out in said statute on the date of the execution of this will"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "notwithstanding that said statute may be amended hereafter or repealed at the time of my death"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "all property, real and personal, at any time forming part of my estate or any trust"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "in the exercise of a reasonable discretion"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e15",
+            "texts": [
+                "all of which provisions and powers",
+                "These powers",
+                "exercise any or all powers set forth in Section 3 of Chapter 110 of the Tennessee General Assembly of 1963, T.C.A. \u00a735-50-110"
+            ],
+            "type": "Right"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Executor": [
+                "e1"
+            ],
+            "Condition": [
+                "e5",
+                "e6",
+                "e9",
+                "e11",
+                "e13"
+            ],
+            "Testator": [
+                "e14"
+            ],
+            "Right": [
+                "e15"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e14"
+            ]
+        }
+    ]
+}

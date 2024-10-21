@@ -1,0 +1,148 @@
+{
+    "text": "I I hereby name, nominate and appoint my husband, [Person-2], as Executor of this my Last Will and Estate. In the event that my husband, [Person-2], should for any reason fail or cease to serve as Executor hereinunder, then in such event, I appoint [Person-3] as Executor of this my Last Will and Estate. I further direct that my Executor be allowed to serve in this capacity without bond or other security for the faithful performance of his duties as Executor.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "other security"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "his duties"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "this",
+                "my Last Will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "Estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "[Person-2]",
+                "my husband",
+                "my Executor",
+                "his"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "his",
+                "my Executor",
+                "[Person-3]"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "in such event",
+                "In the event that my husband, [Person-2], should for any reason fail or cease to serve as Executor hereinunder"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e5"
+            ],
+            "Executor": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Disqualification",
+            "Executor": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Renunciation",
+            "Executor": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Nomination",
+            "Testator": [
+                "e5"
+            ],
+            "Executor": [
+                "e9"
+            ],
+            "Condition": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Direction",
+            "Testator": [
+                "e5"
+            ],
+            "Executor": [
+                "e8",
+                "e9"
+            ],
+            "Excuse": [
+                "v6"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Excuse",
+            "Duty": [
+                "e1",
+                "e2"
+            ],
+            "Executor": [
+                "e8",
+                "e9"
+            ]
+        }
+    ]
+}

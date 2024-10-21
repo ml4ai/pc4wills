@@ -1,0 +1,50 @@
+{
+  "text": "I further give to my Personal Representative all of the powers of a Personal Representative under the laws of the state of Idaho as now in effect and as may hereafter be amended.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all of the powers of a Personal Representative under the laws of the state of Idaho as now in effect and as may hereafter be amended"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the state of Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my Personal Representative",
+        "a Personal Representative"
+      ],
+      "type": "Executor"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Authorization",
+      "Right": [
+        "e1"
+      ],
+      "Testator": [
+        "e3"
+      ],
+      "Executor": [
+        "e4"
+      ]
+    }
+  ]
+}

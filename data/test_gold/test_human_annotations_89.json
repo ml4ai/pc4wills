@@ -1,0 +1,105 @@
+{
+  "text": "IV. I give, devise and bequeath the sum of twenty-five thousand dollars  ($25,000.00) each to my grandchildren, [Person-6], [Person-4], [Person-7], [Person-5], [Person-8], and [Person-9], if they survive me.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "the sum of twenty-five thousand dollars ($25,000.00) each"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my grandchildren",
+        "they",
+        "[Person-6]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my grandchildren",
+        "they",
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my grandchildren",
+        "they",
+        "[Person-7]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my grandchildren",
+        "they",
+        "[Person-5]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my grandchildren",
+        "they",
+        "[Person-8]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my grandchildren",
+        "they",
+        "[Person-9]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "if they survive me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "me",
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e2",
+        "e3",
+        "e4",
+        "e5",
+        "e6",
+        "e7"
+      ],
+      "Condition": [
+        "e8"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    }
+  ]
+}

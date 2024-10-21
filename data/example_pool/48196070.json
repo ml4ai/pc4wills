@@ -1,0 +1,90 @@
+{
+    "text": "ITEM VI. All the rest, residue and remainder of my estate I will, give, devise and bequeath equally to [Person-10], [Person-3], [Person-9], [Person-5] and [Person-6].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "All the rest, residue and remainder of my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-10]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "[Person-9]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e2"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Condition": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e5",
+                "e6",
+                "e7",
+                "e8",
+                "e9"
+            ]
+        }
+    ]
+}

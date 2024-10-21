@@ -1,0 +1,50 @@
+{
+    "text": "II I give, devise and bequeath all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated, to my niece, [Person-2] of Dyersburg, Tennessee.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-2]",
+                "my niece"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Beneficiary": [
+                "e4"
+            ]
+        }
+    ]
+}

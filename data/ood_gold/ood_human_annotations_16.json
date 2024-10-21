@@ -1,0 +1,31 @@
+{
+  "text": "FIRST: I declare that my estate whereof I may die possessed is community property of my spouse, [Person-2], and myself.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "I",
+        "my",
+        "myself"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my estate whereof I may die possessed",
+        "community property of my spouse, [Person-2], and myself"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Testator": [
+        "e1"
+      ]
+    }
+  ]
+}

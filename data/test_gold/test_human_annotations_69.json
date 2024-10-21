@@ -1,0 +1,51 @@
+{
+  "text": "ITEM Ill. I will, give, devise and bequeath unto my beloved daughter-in-law, [Person-3], all my cat figurines and all my jewelry.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all my cat figurines"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "all my jewelry"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "[Person-3]",
+        "my beloved daughter-in-law"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1",
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ],
+      "Beneficiary": [
+        "e4"
+      ]
+    }
+  ]
+}

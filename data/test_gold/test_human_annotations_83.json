@@ -1,0 +1,125 @@
+{
+  "text": "I [Person-1], of Lauderdale County, Tennessee, being of sound mind and disposing memory, do hereby make, publish and declare this to be my Last Will and Testament, and I hereby revoke any other Wills or Codicils heretofore made by me.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "Lauderdale County"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Tennessee"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "being of sound mind and disposing memory"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "any other Wills"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "Codicils"
+      ],
+      "type": "Codicil"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "heretofore"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "I",
+        "my",
+        "[Person-1]"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "my Last Will and Testament",
+        "this"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Testator": [
+        "e8"
+      ],
+      "Will": [
+        "e9"
+      ],
+      "Condition": [
+        "e3"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Revocation",
+      "Will": [
+        "e4"
+      ],
+      "Codicil": [
+        "e5"
+      ],
+      "Testator": [
+        "e8"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "WillCreation",
+      "Will": [
+        "e4"
+      ],
+      "Time": [
+        "e6"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Codicil",
+      "Codicil": [
+        "e5"
+      ],
+      "Time": [
+        "e6"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    }
+  ]
+}

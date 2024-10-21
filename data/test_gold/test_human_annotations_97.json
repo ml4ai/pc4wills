@@ -1,0 +1,209 @@
+{
+  "text": "IX. I direct my Co-Executors, as soon as practicable after my death, to dispose of the rest and residue of my estate, whether it be real, personal or mixed property, by public sale, and I direct that the net proceeds from the sale of my assets shall be applied to pay my funeral expenses any valid claims which may be filed against my estate, all estate or inheritance taxes which may be due as a result of my death and the transfer of my assets to my named beneficiaries, and I direct that the remaining balance, if any, shall be equally divided between my two sons, [Person-2] and [Person-3], if they survive me.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my Co-Executors"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "as soon as practicable after my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "dispose of the rest and residue of my estate, whether it be real, personal or mixed property, by public sale"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "the net proceeds from the sale of my assets"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my funeral expenses"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "any valid claims which may be filed against my estate"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "all estate or inheritance taxes"
+      ],
+      "type": "Tax"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "my assets"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "my named beneficiaries"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "the remaining balance"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "if any"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "[Person-2]",
+        "they",
+        "my two sons"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "[Person-3]",
+        "they",
+        "my two sons"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e14",
+      "texts": [
+        "the net proceeds from the sale of my assets shall be applied to pay my funeral expenses any valid claims which may be filed against my estate, all estate or inheritance taxes which may be due as a result of my death and the transfer of my assets to my named beneficiaries"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e15",
+      "texts": [
+        "if they survive me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e16",
+      "texts": [
+        "my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e17",
+      "texts": [
+        "I",
+        "my",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e18",
+      "texts": [
+        "the rest and residue of my estate, whether it be real, personal or mixed property",
+        "my assets"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e19",
+      "texts": [
+        "equally"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Executor": [
+        "e1"
+      ],
+      "Time": [
+        "e2"
+      ],
+      "Duty": [
+        "e3"
+      ],
+      "Testator": [
+        "e17"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Duty": [
+        "e14"
+      ],
+      "Testator": [
+        "e17"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Testator": [
+        "e17"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Direction",
+      "Bequest": [
+        "v5"
+      ],
+      "Testator": [
+        "e17"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Bequest",
+      "Asset": [
+        "e10"
+      ],
+      "Condition": [
+        "e11",
+        "e15",
+        "e19"
+      ],
+      "Testator": [
+        "e17"
+      ],
+      "Beneficiary": [
+        "e12",
+        "e13"
+      ]
+    }
+  ]
+}

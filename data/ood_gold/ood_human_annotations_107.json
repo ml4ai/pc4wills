@@ -1,0 +1,104 @@
+{
+  "text": "STATE OF IDAHO County of Cassia ss Subscribed, sworn to and acknowledged before me by [Person-1], the testatrix, and subject and sworn to me by [Person-5] and [Person-6], the witnesses, this 25th day of July, 1989.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this 25th day of July, 1989"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "STATE OF IDAHO"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "County of Cassia"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "before me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "to me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "[Person-1]",
+        "the testatrix"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "[Person-5] and [Person-6]",
+        "the witnesses"
+      ],
+      "type": "Witness"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "me"
+      ],
+      "type": "NotaryPublic"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Date": [
+        "e1"
+      ],
+      "Condition": [
+        "e4"
+      ],
+      "Testator": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Attestation",
+      "Date": [
+        "e1"
+      ],
+      "Condition": [
+        "e4"
+      ],
+      "Testator": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Attestation",
+      "Date": [
+        "e1"
+      ],
+      "Condition": [
+        "e5"
+      ],
+      "Witness": [
+        "e7"
+      ]
+    }
+  ]
+}

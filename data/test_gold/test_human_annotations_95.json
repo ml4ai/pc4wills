@@ -1,0 +1,51 @@
+{
+  "text": "VII. I give, devise and bequeath the diamond ring that formerly belonged to my uncle, [Person-12], to my son, [Person-3].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "the diamond ring that formerly belonged to my uncle"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my uncle",
+        "[Person-12]"
+      ],
+      "type": "NonBeneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my son",
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Testator": [
+        "e2"
+      ],
+      "Beneficiary": [
+        "e4"
+      ]
+    }
+  ]
+}

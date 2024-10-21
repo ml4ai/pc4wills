@@ -1,0 +1,70 @@
+{
+  "text": "FIRST, It is my will, and I do order, that all by just debts and funeral expenses be duly paid and satisfied as soon as conveniently can be done after my decease. ",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "all by just debts"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "funeral expenses"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "as soon as conveniently can be done after my decease"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "all by just debts and funeral expenses be duly paid and satisfied"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Duty": [
+        "e5"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Time": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Testator": [
+        "e6"
+      ]
+    }
+  ]
+}

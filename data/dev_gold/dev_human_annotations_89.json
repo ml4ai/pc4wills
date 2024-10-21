@@ -1,0 +1,13 @@
+{
+    "text": "II I hereby make the following specific bequests:",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": []
+}

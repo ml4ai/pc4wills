@@ -1,0 +1,48 @@
+{
+    "text": "6. It is my desire that my body be cremated and for all aspects of that cremation and my memorial service that it be conducted as cost efficiently as possible.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "cost"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my body be cremated"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "for all aspects of that cremation and my memorial service that it be conducted as cost efficiently as possible"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Testator": [
+                "e1"
+            ],
+            "Duty": [
+                "e3"
+            ],
+            "Condition": [
+                "e4"
+            ]
+        }
+    ]
+}

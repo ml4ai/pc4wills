@@ -1,0 +1,77 @@
+{
+    "text": "II I direct that my household furnishings and contents be divided in kind equally between my son, [Person-2], and my daughter-in-law, [Person-3].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my household furnishings and contents"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "in kind"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-2]",
+                "my son"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my daughter-in-law",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Bequest": [
+                "v2"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Condition": [
+                "e2",
+                "e3"
+            ],
+            "Beneficiary": [
+                "e5",
+                "e6"
+            ]
+        }
+    ]
+}

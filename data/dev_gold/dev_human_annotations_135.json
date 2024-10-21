@@ -1,0 +1,50 @@
+{
+    "text": "2. I have two children, who are [Person-2] and [Person-3]. I lovingly remember my son but make no provision for him in this Will.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "[Person-2]",
+                "two children"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "this Will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "him",
+                "[Person-3]",
+                "my son",
+                "two children"
+            ],
+            "type": "NonBeneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Removal",
+            "Testator": [
+                "e3"
+            ],
+            "NonBeneficiary": [
+                "e4"
+            ]
+        }
+    ]
+}

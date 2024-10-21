@@ -1,0 +1,356 @@
+{
+    "text": "I hereby make the following specific bequests of personal property: A) [Person-3] - I give an antique oak rocker, an antique buffet and Grandma Sanders Truck, and a hanging lamp. B) [Person-4] - I give a walnut wardrobe with 5 shelves, and a wall lamp shelf with oil lamp. C) [Person-5] - I give 1 antique dining chair, my small coffee table, and 2 square end tables. D) [Person-6] - I give my antique dining table and 4 chairs. E) [Person-7] - I give my corner 6 shelves, a floor lamp with 1 round table and 4 folding chairs and card table. F) [Person-8] - I give my china cabinet and small rocker with carved back. G) [Person-2] - I give my blue lazy boy rocker, love seat, picnic table and a 3 drawer chest. H) [Person-9] - I give my bed side table, Singer Sewing Machine, 4 drawer chest of drawers, 4 chairs with carved backs and velvet seats and an antique table with bear claw feet. I) [Person-10] - I give my 6 drawer chest of drawers, a brass lamp with painted globe, gold color wing chair and compact disc audio CJD 19. J) [Person-11] - I give my cherry antique dresser, four poster bed with small 3 drawer bed side table, a little drop leaf table and a touch lamp. K) [Person-12] - I give my long coffee table, 2 end tables, long mirror, 2 lamps, 3 tier table, all in living room. L) [Person-13] - I give my blonde bed room suite consisting of double bed, dresser, stool and chiffarobe.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "personal property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "an antique oak rocker, an antique buffet and Grandma Sanders Truck, and a hanging lamp"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "a walnut wardrobe with 5 shelves, and a wall lamp shelf with oil lamp"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "1 antique dining chair, my small coffee table, and 2 square end tables"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my antique dining table and 4 chairs"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "[Person-7]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "my corner 6 shelves, a floor lamp with 1 round table and 4 folding chairs and card table"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "[Person-8]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "my china cabinet and small rocker with carved back"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e15",
+            "texts": [
+                "my blue lazy boy rocker, love seat, picnic table and a 3 drawer chest"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e16",
+            "texts": [
+                "[Person-9]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e17",
+            "texts": [
+                "my bed side table, Singer Sewing Machine, 4 drawer chest of drawers, 4 chairs with carved backs and velvet seats and an antique table with bear claw feet"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e18",
+            "texts": [
+                "[Person-10]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e19",
+            "texts": [
+                "my 6 drawer chest of drawers, a brass lamp with painted globe, gold color wing chair and compact disc audio CJD 19"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e20",
+            "texts": [
+                "[Person-11]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e21",
+            "texts": [
+                "my cherry antique dresser, four poster bed with small 3 drawer bed side table, a little drop leaf table and a touch lamp"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e22",
+            "texts": [
+                "[Person-12]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e23",
+            "texts": [
+                "my long coffee table, 2 end tables, long mirror, 2 lamps, 3 tier table, all in living room"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e24",
+            "texts": [
+                "[Person-13]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e25",
+            "texts": [
+                "my blonde bed room suite consisting of double bed, dresser, stool and chiffarobe"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e26",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e2"
+            ],
+            "Asset": [
+                "e3"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e4"
+            ],
+            "Asset": [
+                "e5"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e6"
+            ],
+            "Asset": [
+                "e7"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e8"
+            ],
+            "Asset": [
+                "e9"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e10"
+            ],
+            "Asset": [
+                "e11"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v7",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e12"
+            ],
+            "Asset": [
+                "e13"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v8",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e14"
+            ],
+            "Asset": [
+                "e15"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v9",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e16"
+            ],
+            "Asset": [
+                "e17"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v10",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e18"
+            ],
+            "Asset": [
+                "e19"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v11",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e20"
+            ],
+            "Asset": [
+                "e21"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v12",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e22"
+            ],
+            "Asset": [
+                "e23"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        },
+        {
+            "id": "v13",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e24"
+            ],
+            "Asset": [
+                "e25"
+            ],
+            "Testator": [
+                "e26"
+            ]
+        }
+    ]
+}

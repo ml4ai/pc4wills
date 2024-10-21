@@ -1,0 +1,78 @@
+{
+    "text": "I hereby authorize, direct and empower my Executor to sell my real estate and remaining personal property and convert same to cash.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my real estate",
+                "same"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "remaining personal property",
+                "same"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "to sell my real estate and remaining personal property and convert same to cash"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "to sell my real estate and remaining personal property and convert same to cash"
+            ],
+            "type": "Duty"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Testator": [
+                "e1"
+            ],
+            "Executor": [
+                "e2"
+            ],
+            "Right": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Testator": [
+                "e1"
+            ],
+            "Executor": [
+                "e2"
+            ],
+            "Duty": [
+                "e6"
+            ]
+        }
+    ]
+}

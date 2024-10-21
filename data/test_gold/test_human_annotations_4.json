@@ -1,0 +1,92 @@
+{
+  "text": "All the rest, residue, and remainder of my property and estate, real, personal, tangible, intangible, mixed of every nature and wheresoever situate, including all lapsed legacies and devises, all proceeds of insurance upon my life payable to my estate or to my executrix or to my administrator, all property with respect to which at the time of my death I shall have a general power of appointment exercisable by my will (hereby exercised) , and all property to which I may become entitled after the execution of this will, I hereby will, devise, and bequeath to my sister, [Person-2], in fee simple.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my executrix"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "at the time of my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "after the execution of this will"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "in fee simple"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "this will",
+        "my will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my sister",
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "all property to which I may become entitled after the execution of this will",
+        "all property with respect to which at the time of my death I shall have a general power of appointment exercisable by my will (hereby exercised)",
+        "all proceeds of insurance upon my life payable to my estate or to my executrix or to my administrator",
+        "All the rest, residue, and remainder of my property and estate, real, personal, tangible, intangible, mixed of every nature and wheresoever situate, including all lapsed legacies and devises"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Testator": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Condition": [
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Beneficiary": [
+        "e7"
+      ],
+      "Asset": [
+        "e8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "text": "I further provide that the person named above shall not be required to furnish bond or bonds in such capacity.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "the person named above"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "bond or bonds"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "in such capacity"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Excuse": [
+        "v2"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Excuse",
+      "Testator": [
+        "e4"
+      ],
+      "Executor": [
+        "e1"
+      ],
+      "Bond": [
+        "e2"
+      ],
+      "Condition": [
+        "e3"
+      ]
+    }
+  ]
+}

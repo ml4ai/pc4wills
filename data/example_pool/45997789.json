@@ -1,0 +1,56 @@
+{
+    "text": "I direct that any Trustee make periodic accountings to the Court, and that the Trust be Court supervised.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "any Trustee"
+            ],
+            "type": "Trustee"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the Trust"
+            ],
+            "type": "Trust"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the Trust be Court supervised"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "make periodic accountings to the Court"
+            ],
+            "type": "Duty"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Testator": [
+                "e1"
+            ],
+            "Trustee": [
+                "e2"
+            ],
+            "Duty": [
+                "e4",
+                "e5"
+            ]
+        }
+    ]
+}

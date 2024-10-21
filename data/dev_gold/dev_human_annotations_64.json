@@ -1,0 +1,152 @@
+{
+    "text": "I specifically give my named Executor, Alternate Executor, or any person whom he may choose to serve with him, full power, in his sole discretion, to do all things necessary for the complete administration of my estate, including but not limited to, the power to sell at public or private sale, and without the order of any Court, any real or personal property belonging to my estate, as well as to mortgage, lease, or give a security interest therein, and to compound, compromise and otherwise to settle or adjust any and all claims, charges, debts and demands, whatsoever, against or in favor of my estate, as fully as I could do if living.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "full power"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "in his sole discretion"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "any real or personal property belonging to my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "without the order of any Court"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "the power to sell at public or private sale, and without the order of any Court, any real or personal property belonging to my estate, as well as to mortgage, lease, or give a security interest therein"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "to compound, compromise and otherwise to settle or adjust any and all claims, charges, debts and demands"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "whatsoever"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "against or in favor of my estate"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "as fully as I could do if living"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "do all things necessary for the complete administration of my estate"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "my named Executor",
+                "his",
+                "him",
+                "he"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e15",
+            "texts": [
+                "him",
+                "he",
+                "his",
+                "Alternate Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e16",
+            "texts": [
+                "any person whom he may choose to serve with him",
+                "his"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Condition": [
+                "e2",
+                "e5",
+                "e8",
+                "e9",
+                "e10"
+            ],
+            "Testator": [
+                "e12"
+            ],
+            "Executor": [
+                "e14",
+                "e15",
+                "e16"
+            ],
+            "Right": [
+                "e1",
+                "e6",
+                "e7",
+                "e11"
+            ]
+        }
+    ]
+}

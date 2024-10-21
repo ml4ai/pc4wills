@@ -1,0 +1,120 @@
+{
+  "text": "I direct that my Executrix pay, as soon as practicable after my death, and out of the assets of my estate, all current debts, funeral expenses, and taxes legally due and owing by me, except for any mortgages secured by real estate, which real estate shall pass subject to mortgage, and any debts which, in the sole discretion of my Executrix, may provide tax benefits to my estate.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "the assets of my estate",
+        "my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "funeral expenses"
+      ],
+      "type": "Expense"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "taxes legally due and owing by me"
+      ],
+      "type": "Tax"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "any debts"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "as soon as practicable after my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "except for any mortgages secured by real estate, which real estate shall pass subject to mortgage, and any debts which, in the sole discretion of my Executrix, may provide tax benefits to my estate"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "all current debts"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "pay, as soon as practicable after my death, and out of the assets of my estate, all current debts, funeral expenses, and taxes legally due and owing by me"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "in the sole discretion of my Executrix"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "my",
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "my Executrix"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "real estate"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Time": [
+        "e5"
+      ],
+      "Condition": [
+        "e6"
+      ],
+      "Duty": [
+        "e8"
+      ],
+      "Testator": [
+        "e10"
+      ],
+      "Executor": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Testator": [
+        "e10"
+      ]
+    }
+  ]
+}

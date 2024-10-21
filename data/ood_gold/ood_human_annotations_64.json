@@ -1,0 +1,91 @@
+{
+  "text": "If the trust income is not sufficient to meet the reasonable living expenses of [Person-2] during her lifetime, taking into account her needs and other resources, I direct that the Trustee shall have the right to invade the principal of the trust to expend for the use and benefit of [Person-2].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the right to invade the principal of the trust to expend for the use and benefit of [Person-2]"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "the Trustee"
+      ],
+      "type": "Trustee"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "during her lifetime"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "If the trust income is not sufficient to meet the reasonable living expenses of [Person-2] during her lifetime"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "taking into account her needs and other resources"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "[Person-2]",
+        "her"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "the trust"
+      ],
+      "type": "Trust"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Testator": [
+        "e1"
+      ],
+      "Authorization": [
+        "v2"
+      ],
+      "Condition": [
+        "e5",
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Authorization",
+      "Testator": [
+        "e1"
+      ],
+      "Right": [
+        "e2"
+      ],
+      "Trustee": [
+        "e3"
+      ]
+    }
+  ]
+}

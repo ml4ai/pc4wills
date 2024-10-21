@@ -1,0 +1,58 @@
+{
+    "text": "1. I specifically devise my home located at [Address-1], Gates, Tennessee, to my brother [Person-2]. This devise also includes all the household contents.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my home located at [Address-1], Gates, Tennessee"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my brother",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "all the household contents"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e2",
+                "e4"
+            ],
+            "Beneficiary": [
+                "e3"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        }
+    ]
+}

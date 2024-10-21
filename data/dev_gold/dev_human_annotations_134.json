@@ -1,0 +1,66 @@
+{
+    "text": "1. My name is [Person-1] of Halls, Lauderdale County, Tennessee, and this is my Last Will; I revoke any prior testamentary instruments.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "any prior testamentary instruments"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "I",
+                "my",
+                "[Person-1]",
+                "My"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "this",
+                "my Last Will"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Testator": [
+                "e4"
+            ],
+            "Will": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Revocation",
+            "Will": [
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        }
+    ]
+}

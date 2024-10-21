@@ -1,0 +1,125 @@
+{
+    "text": "IT IS RECOMMENDED THAT YOU COPY THIS WILL AND KEEP THE COPY AT ANOTHER LOCATION OR WITH YOUR NAMED EXECUTOR. On the date shown above, [Person-1], produced to us the foregoing instrument declaring it to be her Last Will and Testament, and she signed the same in our sight and presence and we, the undersigned, at her request and in her sight and presence, and in the sight and presence of each other, have signed our names on the day and date above shown.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "YOUR NAMED EXECUTOR"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "On the date shown above",
+                "on the day and date above shown"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in our sight and presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "at her request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in her sight and presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in the sight and presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "the foregoing instrument",
+                "THIS WILL",
+                "the same",
+                "her Last Will and Testament",
+                "it"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "her",
+                "she",
+                "[Person-1]"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "our",
+                "each other",
+                "us",
+                "we",
+                "the undersigned"
+            ],
+            "type": "Witness"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Date": [
+                "e2"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "SignWill",
+            "Condition": [
+                "e3"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "SignWill",
+            "Date": [
+                "e2"
+            ],
+            "Condition": [
+                "e4",
+                "e5",
+                "e6"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Witness": [
+                "e9"
+            ]
+        }
+    ]
+}

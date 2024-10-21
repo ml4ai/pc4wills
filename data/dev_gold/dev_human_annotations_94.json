@@ -1,0 +1,43 @@
+{
+    "text": "e) I will, devise and bequeath one porcelain flower to my granddaughter, [Person-8].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "one porcelain flower"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my granddaughter",
+                "[Person-8]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Testator": [
+                "e2"
+            ],
+            "Beneficiary": [
+                "e3"
+            ]
+        }
+    ]
+}

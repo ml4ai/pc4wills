@@ -1,0 +1,77 @@
+{
+    "text": "ARTICLE I I direct that all of my just debts, my funeral expenses, and the costs of the administration of my estate be paid as soon as practicable after my death.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all of my just debts"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my funeral expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the costs of the administration of my estate"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "all of my just debts, my funeral expenses, and the costs of the administration of my estate be paid"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "as soon as practicable after my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Duty": [
+                "e5"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Time": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e7"
+            ]
+        }
+    ]
+}

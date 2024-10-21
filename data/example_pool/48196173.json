@@ -1,0 +1,178 @@
+{
+    "text": "We, the undersigned, being first duly sworn, make oath that [Person-1], on this 7th day of April, 1990, declared to us that this instrument is her LAST WILL AND TESTAMENT; that she then signed this instrument in our sight and presence, and in the sight and presence of each other, subscribe our names hereto as attesting witnesses; that at the time of execution the TESTARIX was more than 18 years of age, of sound mind and disposing memory and did not appear under any undue influence; and that the undersigned, each being more than 18 years of age, make and sign this Affidavit at the Testatrix's request on the day of date above written.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "in our sight and presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "in the sight and presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "at the time of execution"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "was more than 18 years of age"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "of sound mind and disposing memory"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "did not appear under any undue influence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "each being more than 18 years of age"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "this Affidavit"
+            ],
+            "type": "Affidavit"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "at the Testatrix's request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "being first duly sworn"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "We",
+                "attesting witnesses",
+                "our",
+                "each other",
+                "the undersigned",
+                "us"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "[Person-1]",
+                "her",
+                "the Testatrix",
+                "she",
+                "the TESTARIX"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "her LAST WILL AND TESTAMENT",
+                "this instrument"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "on this 7th day of April, 1990",
+                "on the day of date above written"
+            ],
+            "type": "Date"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Attestation",
+            "WillCreation": [
+                "v2"
+            ],
+            "SignWill": [
+                "v3",
+                "v4"
+            ],
+            "Witness": [
+                "e11"
+            ],
+            "Condition": [
+                "e4",
+                "e5",
+                "e6",
+                "e7",
+                "e9",
+                "e10"
+            ],
+            "Date": [
+                "e14"
+            ],
+            "Time": [
+                "e3"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Testator": [
+                "e12"
+            ],
+            "Will": [
+                "e13"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "SignWill",
+            "Condition": [
+                "e1",
+                "e2"
+            ],
+            "Testator": [
+                "e12"
+            ],
+            "Will": [
+                "e13"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "SignWill",
+            "Witness": [
+                "e11"
+            ],
+            "Will": [
+                "e13"
+            ]
+        }
+    ]
+}

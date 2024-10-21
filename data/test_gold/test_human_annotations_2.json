@@ -1,0 +1,154 @@
+{
+  "text": "In the event that [Person-2] is unable to serve as Executrix for any reason, I hereby nominate and appoint my nephew, [Person-3], of Lauderdale County, Tennessee, as substitute Executor of my estate and request that he be permitted to serve without bond, and that he be relieved of the necessity of filing an inventory, settlement, or any other accounting at any time in any Court.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-2]",
+        "Executrix"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Lauderdale County"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "Tennessee"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "the necessity of filing an inventory, settlement, or any other accounting"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "at any time"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "without bond"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "In the event that [Person-2] is unable to serve as Executrix for any reason"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "he",
+        "[Person-3]",
+        "my nephew",
+        "substitute Executor"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "in any Court"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Nomination",
+      "Condition": [
+        "e8",
+        "e9"
+      ],
+      "Executor": [
+        "e10"
+      ],
+      "Testator": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Excuse",
+      "Bond": [
+        "e5"
+      ],
+      "Executor": [
+        "e10"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Excuse",
+      "Duty": [
+        "e6"
+      ],
+      "Time": [
+        "e7"
+      ],
+      "Executor": [
+        "e10"
+      ],
+      "Condition": [
+        "e12"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Direction",
+      "Excuse": [
+        "v2",
+        "v3"
+      ],
+      "Testator": [
+        "e15"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Disqualification",
+      "Executor": [
+        "e1"
+      ]
+    }
+  ]
+}

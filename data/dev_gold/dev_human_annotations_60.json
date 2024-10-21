@@ -1,0 +1,30 @@
+{
+    "text": "I remember my husband's daughter [Person-6], but I consciously choose to leave her nothing herein.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my husband"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my husband's daughter",
+                "her",
+                "[Person-6]"
+            ],
+            "type": "NonBeneficiary"
+        }
+    ],
+    "events": []
+}

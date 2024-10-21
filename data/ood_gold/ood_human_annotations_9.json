@@ -1,0 +1,133 @@
+{
+  "text": "FOURTH: I give, devise and bequeath all of the property of which I die possessed, including real, personal or mixed property of whatever nature or kind, to my children, [Person-2], [Person-3], [Person-4], and [Person-5], in equal shares, share and share alike, the children of a deceased child of mine to take the parent's share in equal shares.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all of the property of which I die possessed, including real, personal or mixed property of whatever nature or kind"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my children",
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my children",
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my children",
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my children",
+        "[Person-5]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "in equal shares, share and share alike"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "the parent's share"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "in equal shares"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "the children of a deceased child of mine"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "the parent",
+        "a deceased child of mine"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "my",
+        "I",
+        "mine"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Beneficiary": [
+        "e10"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Condition": [
+        "e6"
+      ],
+      "Beneficiary": [
+        "e2",
+        "e3",
+        "e4",
+        "e5"
+      ],
+      "Testator": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Bequest",
+      "Asset": [
+        "e7"
+      ],
+      "Condition": [
+        "e8"
+      ],
+      "Beneficiary": [
+        "e9"
+      ],
+      "Testator": [
+        "e11"
+      ]
+    }
+  ]
+}

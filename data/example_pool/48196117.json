@@ -1,0 +1,94 @@
+{
+    "text": "B) I have attached a list of personal property and effects to my Last Will and Testament. I direct that each party honor my wishes, and that this said list be distributed accordingly.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "each party honor my wishes"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "this said list be distributed accordingly"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "a list of personal property and effects",
+                "this said list"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "personal property and effects"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "accordingly"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Testator": [
+                "e4"
+            ],
+            "Will": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Duty": [
+                "e2"
+            ],
+            "Bequest": [
+                "v3"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Testator": [
+                "e4"
+            ],
+            "Asset": [
+                "e6"
+            ],
+            "Condition": [
+                "e7"
+            ]
+        }
+    ]
+}

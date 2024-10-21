@@ -1,0 +1,44 @@
+{
+  "text": "FOURTH: I do hereby devise and bequeath to my beloved wife, [Person-2], all and the whole of my estate, both real and personal and of whatsoever kind or character and wheresoever found, to have and hold forever.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my beloved wife",
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "both real and personal and of whatsoever kind or character and wheresoever found",
+        "all and the whole of my estate"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Testator": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e2"
+      ],
+      "Asset": [
+        "e3"
+      ]
+    }
+  ]
+}

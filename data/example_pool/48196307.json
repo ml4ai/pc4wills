@@ -1,0 +1,191 @@
+{
+    "text": "I give, devise and bequeath all the rest, residue and remainder of my property, real, personal and mixed, of whatever kind and nature and wheresoever situated, as follows: (a) 50% to [Person-2]; (b) 25% to [Person-3]; (c) 25% to [Person-4]. (d) In the event [Person-3] or [Person-4] predecease me, their share of my estate shall go to [Organization-1], Jackson, Mississippi.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "as follows"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "In the event [Person-3] or [Person-4] predecease me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Organization-1]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "Jackson"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "Mississippi"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "I",
+                "my",
+                "me"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "[Person-3]",
+                "their"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "their",
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "all the rest, residue and remainder of my property, real, personal and mixed, of whatever kind and nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "all the rest, residue and remainder of my property, real, personal and mixed, of whatever kind and nature and wheresoever situated",
+                "their share of my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "all the rest, residue and remainder of my property, real, personal and mixed, of whatever kind and nature and wheresoever situated",
+                "their share of my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "50%"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "25%"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e15",
+            "texts": [
+                "25%"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e2"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Asset": [
+                "e10"
+            ],
+            "Condition": [
+                "e13"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Testator": [
+                "e7"
+            ],
+            "Beneficiary": [
+                "e8"
+            ],
+            "Asset": [
+                "e11"
+            ],
+            "Condition": [
+                "e14"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Testator": [
+                "e7"
+            ],
+            "Beneficiary": [
+                "e9"
+            ],
+            "Asset": [
+                "e12"
+            ],
+            "Condition": [
+                "e15"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Death",
+            "Beneficiary": [
+                "e8",
+                "e9"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Condition": [
+                "e3"
+            ],
+            "Beneficiary": [
+                "e4"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Asset": [
+                "e11",
+                "e12"
+            ]
+        }
+    ]
+}

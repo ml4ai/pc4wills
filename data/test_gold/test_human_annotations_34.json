@@ -1,0 +1,127 @@
+{
+  "text": "I I hereby name, nominate and appoint [Person-2], as Executor of this my Last Will and Estate. I further direct that my Executor be allowed to serve in this capacity without bond or other security for the faithful performance of his duties as Executor. I direct that my Executor not be required to make an accounting to the Court.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "Estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "other security"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "make an accounting to the Court"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "without bond"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "his duties"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "this",
+        "my Last Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "his",
+        "my Executor",
+        "[Person-2]"
+      ],
+      "type": "Executor"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Nomination",
+      "Testator": [
+        "e7"
+      ],
+      "Executor": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Excuse": [
+        "v3"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Excuse",
+      "Bond": [
+        "e2"
+      ],
+      "Duty": [
+        "e3"
+      ],
+      "Executor": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Direction",
+      "Excuse": [
+        "v5"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Excuse",
+      "Duty": [
+        "e4"
+      ],
+      "Executor": [
+        "e9"
+      ]
+    }
+  ]
+}

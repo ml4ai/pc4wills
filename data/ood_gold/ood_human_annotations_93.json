@@ -1,0 +1,140 @@
+{
+  "text": "I, [Person-1], of Burley, County of Twin Falls, State of Idaho, being of lawful age of 71 years and of sound and disposing mind and memory and not acting under duress, menace or undue influence of any person or persons whomsoever, do hereby make, publish and declare this to be My Last Will and Testament, hereby revoking all other and former wills and testamentary papers of any kind heretofore made by me, and I dispose of my property in the following manner, to wit:",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "County of Twin Falls"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "State of Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "being of lawful age of 71 years"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "of sound and disposing mind and memory"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "not acting under duress, menace or undue influence of any person or persons whomsoever"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "heretofore"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my property"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "in the following manner"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "I",
+        "My",
+        "[Person-1]",
+        "me",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "My Last Will and Testament",
+        "this"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "all other and former wills and testamentary papers of any kind"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "WillCreation",
+      "Testator": [
+        "e9"
+      ],
+      "Will": [
+        "e10"
+      ],
+      "Condition": [
+        "e3",
+        "e4",
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Revocation",
+      "Testator": [
+        "e9"
+      ],
+      "Will": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "WillCreation",
+      "Time": [
+        "e6"
+      ],
+      "Testator": [
+        "e9"
+      ],
+      "Will": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Bequest",
+      "Asset": [
+        "e7"
+      ],
+      "Condition": [
+        "e8"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    }
+  ]
+}

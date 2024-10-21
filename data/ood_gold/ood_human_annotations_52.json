@@ -1,0 +1,96 @@
+{
+  "text": "SUBSCRIBED, sworn to and acknowledged before me by [Person-1], the testator, and subscribed and sworn to before me by [Person-9] and [Person-10], witnesses, this 24th day of July, 1987.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this 24th day of July, 1987"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "before me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "[Person-1]",
+        "the testator"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "me"
+      ],
+      "type": "NotaryPublic"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-9] and [Person-10]",
+        "witnesses"
+      ],
+      "type": "Witness"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Date": [
+        "e1"
+      ],
+      "Condition": [
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ]
+    },
+    {
+      "id": "v1",
+      "type": "Attestation",
+      "Date": [
+        "e1"
+      ],
+      "Condition": [
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "SignWill",
+      "Date": [
+        "e1"
+      ],
+      "Condition": [
+        "e2"
+      ],
+      "Witness": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Attestation",
+      "Date": [
+        "e1"
+      ],
+      "Condition": [
+        "e2"
+      ],
+      "Witness": [
+        "e5"
+      ]
+    }
+  ]
+}

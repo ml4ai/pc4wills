@@ -1,0 +1,40 @@
+{
+  "text": "SIXTH: I nominate and appoint [Person-4] as Personal Representative of my estate.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-4]",
+        "Personal Representative"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Nomination",
+      "Executor": [
+        "e1"
+      ],
+      "Testator": [
+        "e3"
+      ]
+    }
+  ]
+}

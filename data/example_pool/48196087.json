@@ -1,0 +1,82 @@
+{
+    "text": "1) I hereby give my one-fifth interest in my [Location-1] (276 acres) located in the [Address-1] of Lauderdale County, Tennessee to be divided equally between [Person-4], [Person-5] and [Person-6].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my one-fifth interest in my [Location-1] (276 acres) located in the [Address-1] of Lauderdale County"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Beneficiary": [
+                "e4",
+                "e5",
+                "e6"
+            ],
+            "Condition": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        }
+    ]
+}

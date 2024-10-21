@@ -1,0 +1,131 @@
+{
+    "text": "We, the undersigned and subscribing witnesses, do hereby certify that we witnessed the foregoing Last Will and Testament of [Person-1], at her request, in her presence, and in the presence of each other, and that she signed the same in our presence, and in the presence of each of us, declaring the same to be her Last Will and Testament. This 30th day of November, 1989.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "This 30th day of November, 1989"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "at her request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in her presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in our presence"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in the presence of each of us"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "her Last Will and Testament",
+                "the same",
+                "the foregoing Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "her",
+                "[Person-1]",
+                "she"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "our",
+                "each of us",
+                "We",
+                "each other",
+                "we",
+                "the undersigned and subscribing witnesses"
+            ],
+            "type": "Witness"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Attestation",
+            "Attestation": [
+                "v2"
+            ],
+            "SignWill": [
+                "v3"
+            ],
+            "Witness": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Attestation",
+            "Condition": [
+                "e2",
+                "e3",
+                "e4"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Witness": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "SignWill",
+            "Condition": [
+                "e5",
+                "e6"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "WillCreation",
+            "Will": [
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        }
+    ]
+}

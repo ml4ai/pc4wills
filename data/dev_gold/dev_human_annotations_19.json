@@ -1,0 +1,100 @@
+{
+    "text": "All inheritance, estate, and similar taxes assessed by reason of my death shall be paid in respect of all property and interest required to be included in my estate for tax purposes whether the same passes under this Will or otherwise and without contribution from any recipient of any property required to be included for tax purposes.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "All inheritance, estate, and similar taxes assessed by reason of my death"
+            ],
+            "type": "Tax"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "this Will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "any recipient"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "interest"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "All inheritance, estate, and similar taxes assessed by reason of my death shall be paid"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "in respect of all property and interest required to be included in my estate for tax purposes"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "without contribution from any recipient of any property required to be included for tax purposes"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "any property",
+                "same",
+                "my estate"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Testator": [
+                "e9"
+            ],
+            "Duty": [
+                "e6"
+            ],
+            "Condition": [
+                "e7",
+                "e8"
+            ]
+        }
+    ]
+}

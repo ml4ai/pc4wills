@@ -1,0 +1,79 @@
+{
+    "text": "I specifically excuse my named Executor or Alternate Executor, or any person whom he may choose to serve with him, from the necessity of filing any bond, inventory or accounting in this or any other jurisdiction.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "he",
+                "my named Executor",
+                "him"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "any person whom he may choose to serve with him"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the necessity of filing any bond, inventory or accounting"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in this or any other jurisdiction"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "he",
+                "Alternate Executor",
+                "him"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Excuse",
+            "Executor": [
+                "e1",
+                "e2",
+                "e7"
+            ],
+            "Duty": [
+                "e3"
+            ],
+            "Condition": [
+                "e5"
+            ],
+            "Testator": [
+                "e6"
+            ]
+        }
+    ]
+}

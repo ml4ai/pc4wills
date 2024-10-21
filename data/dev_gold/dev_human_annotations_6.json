@@ -1,0 +1,74 @@
+{
+    "text": "If there is any question about designation of any personal property, my Executor shall have full authority to determine the beneficiary and her decision shall be final.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "any personal property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the beneficiary"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "If there is any question about designation of any personal property"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "her decision shall be final"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "her",
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "full authority to determine the beneficiary"
+            ],
+            "type": "Right"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Testator": [
+                "e2"
+            ],
+            "Condition": [
+                "e4",
+                "e5"
+            ],
+            "Executor": [
+                "e6"
+            ],
+            "Right": [
+                "e7"
+            ]
+        }
+    ]
+}

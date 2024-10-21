@@ -1,0 +1,13 @@
+{
+    "text": "COUNTY OF DYER",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "COUNTY OF DYER"
+            ],
+            "type": "County"
+        }
+    ],
+    "events": []
+}

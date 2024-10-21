@@ -1,0 +1,76 @@
+{
+  "text": "SUBSCRIBED, SWORN TO, AND ACKNOWLEDGED before me, by [Person-1], the Testatrix, and [Person-9], [Person-10], and [Person-11], the witnesses this 20th day of October, 1987.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "me"
+      ],
+      "type": "NotaryPublic"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "before me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "this 20th day of October, 1987"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "the Testatrix",
+        "[Person-1]"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-9], [Person-10], and [Person-11]",
+        "the witnesses"
+      ],
+      "type": "Witness"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Condition": [
+        "e2"
+      ],
+      "Date": [
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Witness": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Attestation",
+      "Condition": [
+        "e2"
+      ],
+      "Date": [
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Witness": [
+        "e5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "text": "I recognize that the present statutes place certain limitations on this provision and therefore in the event the court and the law in effect at the time prohibits such forfeiture, then in such event to such contesting party I give the sum of Ten Dollars ($10.00) in lieu of any other provision made for him or her under this will so that there will not be an absolute forfeiture but will be the benefit going to that person or those persons so contesting.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "any other provision made for him or her under this will"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "in lieu of any other provision made for him or her under this will"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "this will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "in the event the court and the law in effect at the time prohibits such forfeiture",
+        "in such event"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "him",
+        "her",
+        "that person or those persons so contesting",
+        "such contesting party"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "the sum of Ten Dollars ($10.00)",
+        "the benefit"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Condition": [
+        "e2",
+        "e5"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Beneficiary": [
+        "e6"
+      ],
+      "Asset": [
+        "e7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "text": "STATE OF TENNESSEE COUNTY OF LAUDERDALE",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "STATE OF TENNESSEE"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "COUNTY OF LAUDERDALE"
+            ],
+            "type": "County"
+        }
+    ],
+    "events": []
+}

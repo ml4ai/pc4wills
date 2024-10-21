@@ -1,0 +1,57 @@
+{
+    "text": "I direct that no bond be required of my said Executor for the faithful performance of his duties.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "duties"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "his",
+                "my said Executor"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Excuse": [
+                "v2"
+            ],
+            "Testator": [
+                "e3"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Excuse",
+            "Executor": [
+                "e4"
+            ],
+            "Bond": [
+                "e1"
+            ]
+        }
+    ]
+}

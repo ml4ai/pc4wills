@@ -1,0 +1,48 @@
+{
+    "text": "I, [Person-1], of Crossville, Cumberland County, Tennessee, do hereby make, publish and declare this to be my Last Will and Testament.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Cumberland County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "[Person-1]",
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my Last Will and Testament",
+                "this"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Testator": [
+                "e3"
+            ],
+            "Will": [
+                "e4"
+            ]
+        }
+    ]
+}

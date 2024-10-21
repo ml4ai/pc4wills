@@ -1,0 +1,85 @@
+{
+  "text": "THIRD: I give and devise all of my estate, both separate and community, both real and personal, in the following manner: I hereby give, devise and bequeath unto my beloved spouse, [Person-2], all of my estate, real, personal and mixed, of every nature, kind and description, wherever situated and however held, which is or may be subject to my testamentary disposition at the time of my death. ",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "in the following manner"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my testamentary disposition"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "at the time of my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my beloved spouse",
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "all of my estate, both separate and community, both real and personal",
+        "all of my estate, real, personal and mixed, of every nature, kind and description, wherever situated and however held, which is or may be subject to my testamentary disposition at the time of my death"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Condition": [
+        "e1"
+      ],
+      "Testator": [
+        "e4"
+      ],
+      "Asset": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Testator": [
+        "e4"
+      ],
+      "Beneficiary": [
+        "e5"
+      ],
+      "Asset": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Testator": [
+        "e4"
+      ]
+    }
+  ]
+}

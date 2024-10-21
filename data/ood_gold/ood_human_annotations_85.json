@@ -1,0 +1,86 @@
+{
+  "text": "I direct that my Personal Representative in the administration of my estate and the execution of this will shall not be required to post bond for the performance of the duties of the office.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my Personal Representative"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "this will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "in the administration of my estate and the execution of this will"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "to post bond for the performance of the duties of the office"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Executor": [
+        "e1"
+      ],
+      "Excuse": [
+        "v2"
+      ],
+      "Condition": [
+        "e5"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Excuse",
+      "Executor": [
+        "e1"
+      ],
+      "Duty": [
+        "e6"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    }
+  ]
+}

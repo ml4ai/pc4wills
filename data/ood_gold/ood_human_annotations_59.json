@@ -1,0 +1,113 @@
+{
+  "text": "FOURTH: I give and bequeath all of my estate of every kind and nature whatsoever to my wife [Person-2] to be placed in trust for her use and benefit under the terms and conditions set forth below. If [Person-2] does not survive me, I give and bequeath all the rest, residue and remainder of my estate to [Person-3].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "all of my estate of every kind and nature whatsoever",
+        "all the rest, residue and remainder of my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "trust"
+      ],
+      "type": "Trust"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "If [Person-2] does not survive me"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "to be placed in trust for her use and benefit under the terms and conditions set forth below"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my",
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "her",
+        "[Person-2]",
+        "my wife"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e2"
+      ],
+      "Condition": [
+        "e5"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Beneficiary": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Beneficiary": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e1"
+      ],
+      "Asset": [
+        "e2"
+      ],
+      "Condition": [
+        "e4"
+      ],
+      "Testator": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "NonProbateInstrumentCreation",
+      "Trust": [
+        "e3"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Beneficiary": [
+        "e7"
+      ]
+    }
+  ]
+}

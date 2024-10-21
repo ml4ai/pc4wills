@@ -1,0 +1,66 @@
+{
+    "text": "I hereby give, devise and bequeath all of my property, real, personal or mixed, to [Person-2], if living at the time of my death.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "if living at the time of my death"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "all of my property, real, personal or mixed"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e1"
+            ],
+            "Condition": [
+                "e2"
+            ],
+            "Asset": [
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        }
+    ]
+}

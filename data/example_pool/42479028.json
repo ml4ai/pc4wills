@@ -1,0 +1,13 @@
+{
+    "text": "This 6 day of January, 1986.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "This 6 day of January, 1986"
+            ],
+            "type": "Date"
+        }
+    ],
+    "events": []
+}

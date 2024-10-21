@@ -1,0 +1,86 @@
+{
+  "text": "5. PERSONAL REPRESENTATIVE: I appoint [Person-6] to be my Personal Representative and in the event [Person-6] shall predecease me, fail to qualify or for any other reason not serve as Personal Representative, then I nominate and appoint [Person-8] as my Personal Representative.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "PERSONAL REPRESENTATIVE",
+        "[Person-6]",
+        "my Personal Representative",
+        "Personal Representative"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "PERSONAL REPRESENTATIVE",
+        "[Person-8]",
+        "my Personal Representative"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "in the event [Person-6] shall predecease me, fail to qualify or for any other reason not serve as Personal Representative"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my",
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Nomination",
+      "Executor": [
+        "e1"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Executor": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Disqualification",
+      "Executor": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Renunciation",
+      "Executor": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Nomination",
+      "Executor": [
+        "e2"
+      ],
+      "Condition": [
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    }
+  ]
+}

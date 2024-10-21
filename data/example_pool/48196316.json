@@ -1,0 +1,77 @@
+{
+    "text": "IV Other than said specific bequests, I give, devise and bequeath all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated, to my three sons, namely, [Person-3], [Person-4] and [Person-2], in equal shares.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my three sons",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my three sons",
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my three sons",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "in equal shares"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "Other than said specific bequests"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e1"
+            ],
+            "Condition": [
+                "e4",
+                "e5"
+            ],
+            "Testator": [
+                "e6"
+            ],
+            "Asset": [
+                "e7"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+  "text": "THIRD: It is my intention to make a separate written instrument, leaving items of tangible personal property to various people, as allowed by \u00a715-2-513 of the Idaho Code. If I leave no such separate written instrument, then said property shall pass as it would under my Will without such instrument.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "various people"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Idaho"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "If I leave no such separate written instrument"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "as it would under my Will without such instrument"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "items of tangible personal property",
+        "said property",
+        "it"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "as allowed by \u00a715-2-513 of the Idaho Code"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e1"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Asset": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Bequest",
+      "Condition": [
+        "e4",
+        "e5"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Asset": [
+        "e7"
+      ]
+    }
+  ]
+}

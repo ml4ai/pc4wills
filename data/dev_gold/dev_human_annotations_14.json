@@ -1,0 +1,104 @@
+{
+    "text": "1.1 Appointment of Personal Representative. I appoint [Person-2] as Executor of my estate. If [Person-2] should be unable or unwilling to serve for any reason, I then appoint [Person-3] as Executor of my estate. These persons and any successor fiduciaries are referred to generally herein as my \"personal representative.\"",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Personal Representative",
+                "[Person-2]",
+                "Executor of my estate",
+                "These persons",
+                "my \"personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "If [Person-2] should be unable or unwilling to serve for any reason"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "Personal Representative",
+                "[Person-3]",
+                "Executor of my estate",
+                "These persons",
+                "my \"personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "Personal Representative",
+                "any successor fiduciaries",
+                "my \"personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Executor": [
+                "e1"
+            ],
+            "Testator": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Nomination",
+            "Executor": [
+                "e3"
+            ],
+            "Testator": [
+                "e6"
+            ],
+            "Condition": [
+                "e2"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Disqualification",
+            "Executor": [
+                "e1"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Renunciation",
+            "Executor": [
+                "e1"
+            ]
+        }
+    ]
+}

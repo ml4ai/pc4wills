@@ -1,0 +1,32 @@
+{
+    "text": "(A) The designated Certificate of Deposit No. [Number-1] in Union Planters Bank is to be given to the designated beneficiary, [Person-2].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "The designated Certificate of Deposit No. [Number-1] in Union Planters Bank"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the designated beneficiary",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Beneficiary": [
+                "e2"
+            ]
+        }
+    ]
+}

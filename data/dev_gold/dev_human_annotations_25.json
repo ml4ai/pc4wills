@@ -1,0 +1,106 @@
+{
+    "text": "4.1 Fiduciary Powers. My personal representative shall have all of the powers set forth in Section 35-50-110, Tennessee Code Annotated, which are incorporated into this Will by specific reference. In addition to the foregoing powers incorporated by reference, my personal representative and Trustees shall have the powers and duties set forth in the balance of this Article.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this Will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "which are incorporated into this Will by specific reference"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "Trustees"
+            ],
+            "type": "Trustee"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the powers"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "duties set forth in the balance of this Article"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "the foregoing powers incorporated by reference",
+                "all of the powers set forth in Section 35-50-110, Tennessee Code Annotated",
+                "Fiduciary Powers"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my",
+                "My"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "My personal representative",
+                "my personal representative"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Condition": [
+                "e2"
+            ],
+            "Right": [
+                "e6"
+            ],
+            "Executor": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Trustee": [
+                "e3"
+            ],
+            "Duty": [
+                "e5"
+            ],
+            "Executor": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Authorization",
+            "Trustee": [
+                "e3"
+            ],
+            "Right": [
+                "e4"
+            ],
+            "Executor": [
+                "e8"
+            ]
+        }
+    ]
+}

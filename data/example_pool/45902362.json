@@ -1,0 +1,145 @@
+{
+    "text": "III. DEVISES I hereby devise my farm located in Ripley, Tennessee, consisting of approximately 58-60 acres, to my wife, [Person-2], in fee, if she should be living at the time of my death. If my wife should not be living at my death, then in such event, I devise my said farm to my daughter, [Person-3]. It is my hope and desire that this property remain in my family and not be sold.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "in fee"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "if she should be living at the time of my death"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "at my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "If my wife should not be living at my death"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "then in such event"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "this property",
+                "my farm",
+                "my said farm"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "my wife",
+                "she",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "my daughter",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Condition": [
+                "e2",
+                "e4"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Asset": [
+                "e9"
+            ],
+            "Beneficiary": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Beneficiary": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Death",
+            "Testator": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Bequest",
+            "Condition": [
+                "e6",
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Asset": [
+                "e9"
+            ],
+            "Beneficiary": [
+                "e11"
+            ]
+        }
+    ]
+}

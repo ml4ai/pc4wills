@@ -1,0 +1,71 @@
+{
+  "text": "I give, devise and bequeath all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated, to my two children, [Person-3] and [Person-4], and my granddaughter, [Person-5], in equal shares, an undivided one-third interest each.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "all my property, real, personal and mixed, of whatever kind and nature and wheresoever situated"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my two children",
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my two children",
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "in equal shares, an undivided one-third interest each"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "[Person-5]",
+        "my granddaughter"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e2",
+        "e3",
+        "e6"
+      ],
+      "Condition": [
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ]
+    }
+  ]
+}

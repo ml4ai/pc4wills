@@ -1,0 +1,62 @@
+{
+  "text": "The Trustee shall have all of the powers of a Trustee under the Uniform Trustee's Powers Act of the State of Idaho including any amendments thereto, and all principal and interest shall be accounted for according to the Uniform Principal and Income Act of the State of Idaho.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "The Trustee"
+      ],
+      "type": "Trustee"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "all principal and interest"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "all of the powers of a Trustee under the Uniform Trustee's Powers Act of the State of Idaho including any amendments thereto"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "interest shall be accounted for according to the Uniform Principal and Income Act of the State of Idaho"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "the State of Idaho"
+      ],
+      "type": "State"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Authorization",
+      "Trustee": [
+        "e1"
+      ],
+      "Right": [
+        "e3"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Trustee": [
+        "e1"
+      ],
+      "Duty": [
+        "e4"
+      ]
+    }
+  ]
+}

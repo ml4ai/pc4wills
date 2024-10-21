@@ -1,0 +1,61 @@
+{
+    "text": "ITEM VIII. I incorporate by reference, as fully as if copied verbatim, all the provisions and powers set forth in Tennessee Code Annotated, Section 35-50-110, which section enumerates the administrative powers that I hereby confer upon any of my legal representatives and all substitutes.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "as fully as if copied verbatim"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all substitutes"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "any of my legal representatives"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "all the provisions and powers set forth in Tennessee Code Annotated, Section 35-50-110",
+                "the administrative powers"
+            ],
+            "type": "Right"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Condition": [
+                "e1"
+            ],
+            "Executor": [
+                "e2",
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Right": [
+                "e5"
+            ]
+        }
+    ]
+}

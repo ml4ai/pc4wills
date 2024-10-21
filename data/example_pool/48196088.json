@@ -1,0 +1,50 @@
+{
+    "text": "2) I hereby give my Lakeland stock and AT&T stock to [Person-7].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "[Person-7]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my Lakeland stock"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "AT&T stock"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e1"
+            ],
+            "Asset": [
+                "e2",
+                "e3"
+            ],
+            "Testator": [
+                "e4"
+            ]
+        }
+    ]
+}

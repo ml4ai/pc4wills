@@ -1,0 +1,132 @@
+{
+  "text": "I nominate and appoint my sister, [Person-2], of Lauderdale County, Tennessee, as Executrix of this my Last Will and Testament, and request that she be permitted to serve as Executrix without bond, and that she be relieved of the necessity of filing an inventory, settlement, or any other accounting at any time in any Court.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "Lauderdale County"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "Tennessee"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "at any time"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "the necessity of filing an inventory, settlement, or any other accounting"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "without bond"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "my Last Will and Testament",
+        "this"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "she",
+        "my sister",
+        "[Person-2]",
+        "Executrix"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "in any court"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Nomination",
+      "Testator": [
+        "e7"
+      ],
+      "Executor": [
+        "e9"
+      ],
+      "Condition": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Excuse": [
+        "v3",
+        "v4"
+      ],
+      "Testator": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Excuse",
+      "Bond": [
+        "e5"
+      ],
+      "Executor": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Excuse",
+      "Time": [
+        "e3"
+      ],
+      "Duty": [
+        "e4"
+      ],
+      "Executor": [
+        "e9"
+      ],
+      "Condition": [
+        "e10"
+      ]
+    }
+  ]
+}

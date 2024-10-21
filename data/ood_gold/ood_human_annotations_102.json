@@ -1,0 +1,100 @@
+{
+  "text": "I further provide that the person named as personal representative serve in this capacity without intervention of the Court and that such personal representative shall have the authority and power to sell at public or private sale as said personal representative deems appropriate any real or personal property of which I may die possessed.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "any real or personal property of which I may die possessed"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the authority and power to sell at public or private sale as said personal representative deems appropriate any real or personal property of which I may die possessed"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "intervention of the Court"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "in this capacity"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "such personal representative",
+        "the person named as personal representative",
+        "said personal representative"
+      ],
+      "type": "Executor"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Testator": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Authorization": [
+        "v3"
+      ],
+      "Excuse": [
+        "v4"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Executor": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Authorization",
+      "Right": [
+        "e2"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Executor": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Excuse",
+      "Duty": [
+        "e3"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Executor": [
+        "e7"
+      ]
+    }
+  ]
+}

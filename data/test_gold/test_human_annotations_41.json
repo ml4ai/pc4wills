@@ -1,0 +1,50 @@
+{
+  "text": "VIII I hereby give, devise and bequeath to [Person-7] one ceramic bird picture and all of my pots, pans and dishes.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-7]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "one ceramic bird picture"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "all of my pots, pans and dishes"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e1"
+      ],
+      "Asset": [
+        "e2",
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    }
+  ]
+}

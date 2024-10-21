@@ -1,0 +1,125 @@
+{
+  "text": "I specifically direct that the items of furniture or personal property selected by each grandchild or their representative shall be of approximately equal appraised value and, if any recipient should select an item that is greater in value than that selected by any of the other beneficiaries under this paragraph, then that beneficiary shall have the right to choose additional items so as to approximately equalize the value of furniture or personal items being received by each grandchild.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "their representative"
+      ],
+      "type": "Guardian"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "if any recipient should select an item that is greater in value than that selected by any of the other beneficiaries under this paragraph"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "any recipient"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "any of the other beneficiaries",
+        "that beneficiary"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "the right to choose additional items"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "the items of furniture or personal property selected by each grandchild or their representative shall be of approximately equal appraised value"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "an item that is greater in value"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "that"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "additional items"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "furniture or personal items",
+        "the items of furniture or personal property"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "each grandchild",
+        "their"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e14",
+      "texts": [
+        "so as to approximately equalize the value of furniture or personal items being received by each grandchild"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Testator": [
+        "e1"
+      ],
+      "Duty": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Authorization",
+      "Condition": [
+        "e3",
+        "e14"
+      ],
+      "Beneficiary": [
+        "e5"
+      ],
+      "Right": [
+        "e6"
+      ]
+    }
+  ]
+}

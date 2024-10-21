@@ -1,0 +1,68 @@
+{
+    "text": "III I have a Trust Account. I bequeath to [Person-5] the sum of $3000.00 and to [Person-6] the sum of $3000.00, both sums to be paid first from the Trust funds.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the Trust funds",
+                "a Trust Account"
+            ],
+            "type": "Trust"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "the sum of $3000.00",
+                "both sums"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "both sums to be paid first from the Trust funds"
+            ],
+            "type": "Condition"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e1",
+                "e2"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Asset": [
+                "e5"
+            ],
+            "Condition": [
+                "e6"
+            ]
+        }
+    ]
+}

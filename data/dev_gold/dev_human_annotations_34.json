@@ -1,0 +1,102 @@
+{
+    "text": "IN WITNESS WHEREOF, I have executed this my Last Will at Ripley, Tennessee this 13th day of September, 2001 and request the attesting witnesses to make the Affidavit set out below.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this my Last Will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "this 13th day of September, 2001"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the attesting witnesses"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "to make the Affidavit set out below"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "IN WITNESS WHEREOF"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Will": [
+                "e1"
+            ],
+            "Condition": [
+                "e6"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Date": [
+                "e3"
+            ]
+        },
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Will": [
+                "e1"
+            ],
+            "Condition": [
+                "e6"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Date": [
+                "e3"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Direction",
+            "Witness": [
+                "e4"
+            ],
+            "Duty": [
+                "e5"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        }
+    ]
+}

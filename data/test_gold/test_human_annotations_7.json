@@ -1,0 +1,117 @@
+{
+  "text": "The foregoing paper writing consisting of Four (IV.) Articles and three (3) pages, was upon this the 23rd day of March, 1999, by the said [Person-1], signed, sealed, published and declared to be his Last Will and Testament, in the presence of us, who at the Testatrix's request and in her presence, and in the presence of each other, hereto affix our signatures as witnesses.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "at the Testatrix's request"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "in her presence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "in the presence of each other"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "upon this the 23rd day of March, 1999"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "in the presence of us"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "the Testatrix",
+        "his",
+        "her",
+        "the said [Person-1]"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "The foregoing paper writing consisting of Four (IV.) Articles and three (3) pages",
+        "his Last Will and Testament"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "witnesses",
+        "our",
+        "us",
+        "each other"
+      ],
+      "type": "Witness"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Condition": [
+        "e5"
+      ],
+      "Time": [
+        "e4"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Will": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "WillCreation",
+      "Condition": [
+        "e5"
+      ],
+      "Time": [
+        "e4"
+      ],
+      "Testator": [
+        "e6"
+      ],
+      "Will": [
+        "e7"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "SignWill",
+      "Condition": [
+        "e1",
+        "e2",
+        "e3"
+      ],
+      "Time": [
+        "e4"
+      ],
+      "Witness": [
+        "e8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+    "text": "All of my property and estate, real, personal, and mixed of every nature, kind, and wheresoever situate, including all lapsed legacies and devises, all proceeds of insurance upon my life payable to my estate or to my executor or to my administrator, all property with respect to which at the time of my death I shall have a general power of appointment exercisable by my will (hereby exercised) and all property to which I may become entitled after the execution of this will, I give, devise, and bequeath to my wife, [Person-2], in fee simple.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "All of my property and estate, real, personal, and mixed of every nature, kind, and wheresoever situate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all lapsed legacies and devises"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "all proceeds of insurance upon my life payable to my estate or to my executor or to my administrator"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "all property with respect to which at the time of my death I shall have a general power of appointment exercisable by my will (hereby exercised)"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "all property to which I may become entitled after the execution of this will"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in fee simple"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "after the execution of this will"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "my will",
+                "this will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "[Person-2]",
+                "my wife"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Asset": [
+                "e1",
+                "e2",
+                "e3",
+                "e4",
+                "e5"
+            ],
+            "Condition": [
+                "e6"
+            ],
+            "Testator": [
+                "e11"
+            ],
+            "Beneficiary": [
+                "e13"
+            ]
+        }
+    ]
+}

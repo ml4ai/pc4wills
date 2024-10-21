@@ -1,0 +1,287 @@
+{
+    "text": "IV. RESIDUARY ESTATE All the rest, residue and remainder of the property which I may own at the time of my death, real, personal, and mixed, tangible and intangible, of whatsoever nature and wheresoever situated, including all property which I may acquire or become entitled to after the execution of this will, including all lapsed legacies and devises, and all life insurance payable to my estate, bequeath and devise in fee to my wife, [Person-2]. If my said wife, [Person-2], should not survive me, then I bequeath and devise the remainder of said property in my estate in fee and in equal shares to my two daughters, [Person-3] and [Person-4]. If either of my said daughters should not be living at my death, then and in such event I bequeath and devise the interest which my deceased daughter would have received, per stirpes, and in fee, unto her issue who shall be living at my death.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all property which I may acquire or become entitled to after the execution of this will"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "after the execution of this will"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "this will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "all lapsed legacies and devises"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "all life insurance payable to my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "in fee"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "If my said wife, [Person-2], should not survive me"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "in fee"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "in equal shares"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "my said daughters",
+                "my two daughters",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "my said daughters",
+                "my two daughters",
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "the interest which my deceased daughter would have received"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "per stirpes"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e15",
+            "texts": [
+                "in fee"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e16",
+            "texts": [
+                "at my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e17",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e18",
+            "texts": [
+                "at my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e19",
+            "texts": [
+                "If either of my said daughters should not be living at my death, then and in such event"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e20",
+            "texts": [
+                "the remainder of said property in my estate",
+                "RESIDUARY ESTATE",
+                "All the rest, residue and remainder of the property which I may own at the time of my death, real, personal, and mixed, tangible and intangible, of whatsoever nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e21",
+            "texts": [
+                "I",
+                "my",
+                "me"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e22",
+            "texts": [
+                "[Person-2]",
+                "my said wife",
+                "my wife"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e23",
+            "texts": [
+                "her issue"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e24",
+            "texts": [
+                "my deceased daughter",
+                "either of my said daughters",
+                "her"
+            ],
+            "type": "NonBeneficiary"
+        },
+        {
+            "id": "e25",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e21"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Beneficiary": [
+                "e22"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Death",
+            "Time": [
+                "e18"
+            ],
+            "NonBeneficiary": [
+                "e24"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Death",
+            "Testator": [
+                "e21"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Death",
+            "Testator": [
+                "e21"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Bequest",
+            "Condition": [
+                "e7"
+            ],
+            "Testator": [
+                "e21"
+            ],
+            "Beneficiary": [
+                "e22"
+            ],
+            "Asset": [
+                "e2",
+                "e5",
+                "e6",
+                "e20"
+            ]
+        },
+        {
+            "id": "v7",
+            "type": "Bequest",
+            "Condition": [
+                "e8",
+                "e9",
+                "e10"
+            ],
+            "Asset": [
+                "e20"
+            ],
+            "Testator": [
+                "e21"
+            ],
+            "Beneficiary": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v8",
+            "type": "Bequest",
+            "Asset": [
+                "e13"
+            ],
+            "Condition": [
+                "e14",
+                "e15",
+                "e19"
+            ],
+            "Beneficiary": [
+                "e23"
+            ],
+            "Testator": [
+                "e21"
+            ]
+        }
+    ]
+}

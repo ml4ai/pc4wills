@@ -1,0 +1,82 @@
+{
+    "text": "ARTICLE II All of the property which I may own at the time of my death, real, personal and mixed, tangible and intangible, of whatsoever nature and wheresoever situated, including all property which I may acquire or become entitled to after the execution of this Will, I hereby give, devise and bequeath in fee to my granddaughter, [Person-2].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "in fee"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "after the execution of this Will"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "this Will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "All of the property which I may own at the time of my death, real, personal and mixed, tangible and intangible, of whatsoever nature and wheresoever situated",
+                "all property which I may acquire or become entitled to after the execution of this Will"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my granddaughter",
+                "[Person-2]"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Condition": [
+                "e2"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Asset": [
+                "e6"
+            ],
+            "Beneficiary": [
+                "e7"
+            ]
+        }
+    ]
+}

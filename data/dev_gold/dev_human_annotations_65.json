@@ -1,0 +1,72 @@
+{
+    "text": "I specifically grant to my Executor, Alternate Executor, or any other person whom he may choose to serve with him, the power to execute bills of sale and deeds of conveyance, if necessary.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my Executor",
+                "he",
+                "him"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "any other person whom he may choose to serve with him"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the power to execute bills of sale and deeds of conveyance"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "if necessary"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "he",
+                "Alternate Executor",
+                "him"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Executor": [
+                "e1",
+                "e2",
+                "e6"
+            ],
+            "Right": [
+                "e3"
+            ],
+            "Condition": [
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ]
+        }
+    ]
+}

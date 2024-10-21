@@ -1,0 +1,42 @@
+{
+    "text": "In Testimony whereof, I have hereunto subscribed my name and signature, this the 10th day of April, 1996.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this the 10th day of April, 1996"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "In Testimony whereof"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Date": [
+                "e1"
+            ],
+            "Condition": [
+                "e2"
+            ],
+            "Testator": [
+                "e3"
+            ]
+        }
+    ]
+}

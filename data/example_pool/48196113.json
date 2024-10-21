@@ -1,0 +1,152 @@
+{
+    "text": "I I hereby name, nominate and appoint [Person-2], [Person-3] and [Person-4], as Co-Executors of this my Last Will and Estate. I further direct that my Co-Executors be allowed to serve in this capacity without bond or other security for the faithful performance of their duties as Co-Executors. I direct that my CoExecutors not be required to make an accounting to the Court.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "[Person-2]",
+                "this capacity",
+                "Co-Executors",
+                "their",
+                "my Co-Executors",
+                "my CoExecutors"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "[Person-3]",
+                "this capacity",
+                "Co-Executors",
+                "their",
+                "my Co-Executors",
+                "my CoExecutors"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "[Person-4]",
+                "this capacity",
+                "Co-Executors",
+                "their",
+                "my Co-Executors",
+                "my CoExecutors"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "this my Last Will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "Estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "other security for the faithful performance of their duties as Co-Executors"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "to make an accounting to the Court"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "without bond or other security for the faithful performance of their duties as Co-Executors"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Executor": [
+                "e1",
+                "e2",
+                "e3"
+            ],
+            "Testator": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Testator": [
+                "e10"
+            ],
+            "Excuse": [
+                "v3"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Excuse",
+            "Bond": [
+                "e6"
+            ],
+            "Duty": [
+                "e7"
+            ],
+            "Executor": [
+                "e1",
+                "e2",
+                "e3"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Direction",
+            "Excuse": [
+                "v5"
+            ],
+            "Testator": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Excuse",
+            "Duty": [
+                "e8"
+            ],
+            "Executor": [
+                "e1",
+                "e2",
+                "e3"
+            ]
+        }
+    ]
+}

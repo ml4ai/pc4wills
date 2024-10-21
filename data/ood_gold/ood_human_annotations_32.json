@@ -1,0 +1,47 @@
+{
+  "text": "SIXTH: I have omitted from the provisions of this Will my brothers and any other persons who are or who may claim to be my heirs and such omission is intentional and not accidental.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my brothers"
+      ],
+      "type": "NonBeneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "any other persons who are or who may claim to be my heirs"
+      ],
+      "type": "NonBeneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Removal",
+      "NonBeneficiary": [
+        "e2",
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    }
+  ]
+}

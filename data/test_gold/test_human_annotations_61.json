@@ -1,0 +1,35 @@
+{
+  "text": "It is my desire that the real property be kept in the family and enjoyed by them as long as possible.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the real property"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "as long as possible"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "the family",
+        "them"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,52 @@
+{
+  "text": "IN WITNESS WHEREOF, I hereunto set my hand and seal this 24th day of July, 1987.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "IN WITNESS WHEREOF"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "this"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "this 24th day of July, 1987"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Condition": [
+        "e1"
+      ],
+      "Will": [
+        "e2"
+      ],
+      "Date": [
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "text": "I direct my Executor to reimburse [Person-2] for any expenditures he has made on my behalf. No verification of these amounts shall be required by my Executor.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "any expenditures he has made on my behalf",
+                "these amounts"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "verification of these amounts"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "he",
+                "[Person-2]"
+            ],
+            "type": "NonBeneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Give": [
+                "v2"
+            ],
+            "Testator": [
+                "e3"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Give",
+            "Expense": [
+                "e1"
+            ],
+            "Executor": [
+                "e4"
+            ],
+            "NonBeneficiary": [
+                "e5"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Excuse",
+            "Duty": [
+                "e2"
+            ],
+            "Executor": [
+                "e4"
+            ],
+            "NonBeneficiary": [
+                "e5"
+            ]
+        }
+    ]
+}

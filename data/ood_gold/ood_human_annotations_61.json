@@ -1,0 +1,88 @@
+{
+  "text": "FIFTH: If my wife, [Person-2], is living at my death, I direct that all of the assets of my estate which may be distributed to her be placed in trust to be used for her support and care during her lifetime.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "at my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "to be used for her support and care during her lifetime"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "If my wife, [Person-2], is living at my death"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "all of the assets of my estate which may be distributed to her"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my wife",
+        "her",
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "trust"
+      ],
+      "type": "Trust"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "NonProbateInstrumentCreation": [
+        "v2"
+      ],
+      "Testator": [
+        "e5"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "NonProbateInstrumentCreation",
+      "Condition": [
+        "e2", "e3"
+      ],
+      "Asset": [
+        "e4"
+      ],
+      "Testator": [
+        "e5"
+      ],
+      "Beneficiary": [
+        "e6"
+      ],
+      "Trust": [
+        "e7"
+      ]
+    }
+  ]
+}

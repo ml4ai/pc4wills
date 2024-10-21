@@ -1,0 +1,163 @@
+{
+  "text": "FIFTH: I hereby nominate, constitute and appoint [Person-2] to serve as Personal Representative without bond of this my Last Will and Testament and in the event he is not living at the time of my death, or declines to act or is disabled from acting, I hereby nominate, constitute and appoint [Person-3] to serve as Personal Representative, without bond, in place of [Person-2]",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-2]",
+        "Personal Representative",
+        "he"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "at the time of my death"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "in the event he is not living at the time of my death, or declines to act or is disabled from acting"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-3]",
+        "Personal Representative"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "bond"
+      ],
+      "type": "Bond"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "without bond"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "without bond, in place of [Person-2]"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "my Last Will and Testament",
+        "this"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Nomination",
+      "Executor": [
+        "e1"
+      ],
+      "Condition": [
+        "e7"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Executor": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Death",
+      "Testator": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Renunciation",
+      "Executor": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "Disqualification",
+      "Executor": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v6",
+      "type": "Nomination",
+      "Condition": [
+        "e4",
+        "e8"
+      ],
+      "Executor": [
+        "e5"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v7",
+      "type": "Excuse",
+      "Executor": [
+        "e1"
+      ],
+      "Bond": [
+        "e2"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v8",
+      "type": "Excuse",
+      "Executor": [
+        "e5"
+      ],
+      "Bond": [
+        "e6"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "text": "II I give, devise and bequeath all of my property, real, personal and mixed, of whatever kind and nature and wheresoever situated, to [Person-2].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-2]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "all of my property, real, personal and mixed, of whatever kind and nature and wheresoever situated"
+      ],
+      "type": "Asset"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e1"
+      ],
+      "Testator": [
+        "e2"
+      ],
+      "Asset": [
+        "e3"
+      ]
+    }
+  ]
+}

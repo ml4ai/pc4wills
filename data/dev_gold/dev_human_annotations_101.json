@@ -1,0 +1,71 @@
+{
+    "text": "VII All the rest and remainder of my property, of whatever kind and nature and wheresoever situated, I will, devise and bequeath to my children, [Person-4], [Person-5] and [Person-6], in equal shares.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "All the rest and remainder of my property, of whatever kind and nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my children",
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my children",
+                "[Person-5]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my children",
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in equal shares"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e2",
+                "e3",
+                "e4"
+            ],
+            "Condition": [
+                "e5"
+            ],
+            "Testator": [
+                "e6"
+            ],
+            "Asset": [
+                "e1"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+  "text": "IX I hereby give, devise and bequeath to [Person-8] my dining room table, and the entire contents of the outside wooden shed.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "[Person-8]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my dining room table"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "the entire contents of the outside wooden shed"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "I",
+        "my"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e1"
+      ],
+      "Asset": [
+        "e2",
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    }
+  ]
+}

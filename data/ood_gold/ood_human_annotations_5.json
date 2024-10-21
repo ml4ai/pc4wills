@@ -1,0 +1,160 @@
+{
+  "text": "The foregoing instrument, was this 2nd day of December, 1987 subscribed by the testator in our presence and was at the same time declared by him to be his Last Will and Testament, and we at the same time, in his presence, at his request and in the presence of each other have hereunto subscribed our names as attesting witnesses. And we do hereby certify that at the time of the execution of said Will the said testator, [Person-1] was of sound and disposing mind, memory and understanding. ",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "this 2nd day of December, 1987"
+      ],
+      "type": "Date"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "at the same time"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "at the same time"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "at the time of the execution of said Will"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "of sound and disposing mind, memory and understanding"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "in our presence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "in his presence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "at his request"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "in the presence of each other"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "The foregoing instrument",
+        "his Last Will and Testament",
+        "said Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "his",
+        "him",
+        "the said testator",
+        "[Person-1]",
+        "the testator"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "our",
+        "we",
+        "each other",
+        "witnesses"
+      ],
+      "type": "Witness"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Date": [
+        "e1"
+      ],
+      "Condition": [
+        "e6"
+      ],
+      "Will": [
+        "e10"
+      ],
+      "Testator": [
+        "e11"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "WillCreation",
+      "Date": [
+        "e1"
+      ],
+      "Will": [
+        "e10"
+      ],
+      "Testator": [
+        "e11"
+      ],
+      "Time": [
+        "e2"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "SignWill",
+      "Condition": [
+        "e7",
+        "e8",
+        "e9"
+      ],
+      "Witness": [
+        "e12"
+      ],
+      "Time": [
+        "e3"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "Attestation",
+      "Condition": [
+        "e5"
+      ],
+      "Time": [
+        "e4"
+      ],
+      "Witness": [
+        "e12"
+      ]
+    }
+  ]
+}

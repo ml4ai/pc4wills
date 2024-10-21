@@ -1,0 +1,222 @@
+{
+  "text": "STATE OF IDAHO County of Cassia ss We, [Person-1], the Testatrix, and [Person-9], [Person-10] and [Person-11], the witnesses, respectively, whose names are signed to the attached or foregoing instrument, being first duly sworn, do hereby declare to the undersigned authority that the Testatrix signed and executed the instrument as her Last Will and Testament and that she had signed willingly, and that she executed it as her free and voluntary act for the purposes therein expresed; and that each of the witnesses, in the presence and hearing of the Testatrix, signed the will as witness and that to the best of his knowledge the Testatrix was at the time an adult, of sound mind and under no constraint or undue influence.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "County of Cassia"
+      ],
+      "type": "County"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "STATE OF IDAHO"
+      ],
+      "type": "State"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "willingly"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "free and voluntary act"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "being first duly sworn"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "the undersigned authority"
+      ],
+      "type": "NotaryPublic"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "to the best of his knowledge"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "an adult"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "of sound mind"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "under no constraint or undue influence"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "at the time"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e12",
+      "texts": [
+        "in the presence and hearing of the Testatrix"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e13",
+      "texts": [
+        "she",
+        "the Testatrix",
+        "her",
+        "We",
+        "[Person-1]"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e14",
+      "texts": [
+        "[Person-9], [Person-10] and [Person-11]",
+        "each of the witnesses",
+        "witness",
+        "his",
+        "the witnesses",
+        "We"
+      ],
+      "type": "Witness"
+    },
+    {
+      "id": "e15",
+      "texts": [
+        "the attached or foregoing instrument",
+        "her Last Will and Testament",
+        "the will",
+        "the instrument"
+      ],
+      "type": "Will"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "SignWill",
+      "Witness": [
+        "e14"
+      ],
+      "Testator": [
+        "e13"
+      ],
+      "Will": [
+        "e15"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Attestation",
+      "SignWill": [
+        "v3", "v5", "v7"
+      ],
+      "WillCreation": [
+        "v4", "v6"
+      ],
+      "Condition": [
+        "e5", 
+        "e7", 
+        "e8", 
+        "e9", 
+        "e10"
+      ],
+      "NotaryPublic": [
+        "e6"
+      ],
+      "Witness": [
+        "e14"
+      ],
+      "Testator": [
+        "e13"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "SignWill",
+      "Testator": [
+        "e13"
+      ],
+      "Will": [
+        "e15"
+      ]
+    },
+    {
+      "id": "v4",
+      "type": "WillCreation",
+      "Testator": [
+        "e13"
+      ],
+      "Will": [
+        "e15"
+      ]
+    },
+    {
+      "id": "v5",
+      "type": "SignWill",
+      "Condition": [
+        "e3"
+      ],
+      "Testator": [
+        "e13"
+      ],
+      "Will": [
+        "e15"
+      ]
+    },
+    {
+      "id": "v6",
+      "type": "WillCreation",
+      "Testator": [
+        "e13"
+      ],
+      "Will": [
+        "e15"
+      ],
+      "Condition": [
+        "e4"
+      ]
+    },
+    {
+      "id": "v7",
+      "type": "SignWill",
+      "Condition": [
+        "e12"
+      ],
+      "Witness": [
+        "e14"
+      ],
+      "Will": [
+        "e15"
+      ]
+    }
+  ]
+}

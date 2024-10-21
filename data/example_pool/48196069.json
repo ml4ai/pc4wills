@@ -1,0 +1,160 @@
+{
+    "text": "ITEM V. My spouse and I may have a promissory note payable to us by [Person-10] and wife, [Person-11]. If any monies are due at the time of my death, then I hereby cancel same and grant unto my legal representative the power to cancel said note and Deed of Trust. I direct said representative to do the cancellations at my death.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "[Person-10]"
+            ],
+            "type": "NonBeneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "at the time of my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "If any monies are due at the time of my death"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the power to cancel said note and Deed of Trust"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "Deed of Trust"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "at my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "My",
+                "my",
+                "I",
+                "us"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "My spouse",
+                "us"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "wife",
+                "[Person-11]"
+            ],
+            "type": "NonBeneficiary"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "a promissory note",
+                "said note",
+                "any monies",
+                "same"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "my legal representative",
+                "said representative"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Death",
+            "Testator": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Removal",
+            "Condition": [
+                "e3"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Asset": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Authorization",
+            "Right": [
+                "e4"
+            ],
+            "Testator": [
+                "e7"
+            ],
+            "Executor": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Removal",
+            "Asset": [
+                "e5",
+                "e10"
+            ],
+            "Executor": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Direction",
+            "Testator": [
+                "e7"
+            ],
+            "Executor": [
+                "e11"
+            ],
+            "Removal": [
+                "v4"
+            ],
+            "Time": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Death",
+            "Testator": [
+                "e7"
+            ]
+        }
+    ]
+}

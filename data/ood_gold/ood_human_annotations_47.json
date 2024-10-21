@@ -1,0 +1,136 @@
+{
+  "text": "FIFTH: That in the event my beloved wife, [Person-2], should precede me in death or in the event of our simultaneous deaths, then and in that event I do hereby devise and bequeath to my beloved children, [Person-3], [Person-4], [Person-5], [Person-6], [Person-7], and [Person-8], all and the whole of my estate, both real and personal and of whatsoever kind or character and wheresoever found, to have and hold, share and share alike.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my beloved children",
+        "[Person-3]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my beloved children",
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my beloved children",
+        "[Person-5]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my beloved children",
+        "[Person-6]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "my beloved children",
+        "[Person-7]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "my beloved children",
+        "[Person-8]"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "share and share alike"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "our",
+        "me",
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "both real and personal and of whatsoever kind or character and wheresoever found",
+        "all and the whole of my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e10",
+      "texts": [
+        "[Person-2]",
+        "my beloved wife",
+        "our"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e11",
+      "texts": [
+        "in that event",
+        "in the event my beloved wife, [Person-2], should precede me in death or in the event of our simultaneous deaths"
+      ],
+      "type": "Condition"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Death",
+      "Beneficiary": [
+        "e10"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Death",
+      "Testator": [
+        "e8"
+      ],
+      "Beneficiary": [
+        "e10"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Bequest",
+      "Beneficiary": [
+        "e1",
+        "e2",
+        "e3",
+        "e4",
+        "e5",
+        "e6"
+      ],
+      "Condition": [
+        "e7",
+        "e11"
+      ],
+      "Testator": [
+        "e8"
+      ],
+      "Asset": [
+        "e9"
+      ]
+    }
+  ]
+}

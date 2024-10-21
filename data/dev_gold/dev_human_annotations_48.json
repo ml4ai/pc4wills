@@ -1,0 +1,43 @@
+{
+    "text": "All the rest, residue and remainder of my property, I hereby give, devise and bequeath to my husband, [Person-2].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "All the rest, residue and remainder of my property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "[Person-2]",
+                "my husband"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Testator": [
+                "e2"
+            ],
+            "Beneficiary": [
+                "e3"
+            ]
+        }
+    ]
+}

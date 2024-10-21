@@ -1,0 +1,54 @@
+{
+  "text": "I hereby revoke any will or codicil I may have previously made.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "any will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "codicil"
+      ],
+      "type": "Codicil"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Revocation",
+      "Will": [
+        "e1"
+      ],
+      "Codicil": [
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "WillCreation",
+      "Will": [
+        "e1"
+      ],
+      "Codicil": [
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ]
+    }
+  ]
+}

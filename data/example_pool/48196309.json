@@ -1,0 +1,83 @@
+{
+    "text": "IN WITNESS WHEREOF, I have hereunto signed, published and declared this instrument as my Last Will and Testament, in Lauderdale County, Tennessee, on this 8 of June, 2001.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "on this 8 of June, 2001"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "IN WITNESS WHEREOF"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my Last Will and Testament",
+                "this instrument"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Date": [
+                "e3"
+            ],
+            "Condition": [
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Will": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "WillCreation",
+            "Date": [
+                "e3"
+            ],
+            "Condition": [
+                "e4"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Will": [
+                "e6"
+            ]
+        }
+    ]
+}

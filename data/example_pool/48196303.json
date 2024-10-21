@@ -1,0 +1,105 @@
+{
+    "text": "I, [Person-1], an adult resident citizen of [Address-1], Ripley, Lauderdale County, Tennessee, being of sound and disposing mind, memory and understanding, do hereby make, declare and publish this instrument as my Last Will and Testament, expressly revoking any and all testamentary dispositions heretofore made by me.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "adult"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "being of sound and disposing mind, memory and understanding"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "any and all testamentary dispositions"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "heretofore"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "an adult resident citizen",
+                "me",
+                "my",
+                "I",
+                "[Person-1]"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my Last Will and Testament",
+                "this instrument"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Testator": [
+                "e7"
+            ],
+            "Will": [
+                "e8"
+            ],
+            "Condition": [
+                "e1",
+                "e4"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Revocation",
+            "Will": [
+                "e5"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "WillCreation",
+            "Will": [
+                "e5"
+            ],
+            "Time": [
+                "e6"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        }
+    ]
+}

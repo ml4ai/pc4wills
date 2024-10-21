@@ -1,0 +1,51 @@
+{
+  "text": "I further will, give, devise and bequeath unto my beloved son, [Person-6], one-half (1/2) of the bank insurance and my tool box and tools.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "one-half (1/2) of the bank insurance"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my tool box and tools"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my beloved son",
+        "[Person-6]"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Bequest",
+      "Asset": [
+        "e1",
+        "e2"
+      ],
+      "Testator": [
+        "e3"
+      ],
+      "Beneficiary": [
+        "e4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+    "text": "4.8 Disposition of Life Insurance Proceeds. My personal representative shall distribute life insurance proceeds according to the provisions of this Will or, in his or her discretion, use all or a part of the proceeds for the payment of funeral and administration expenses, death taxes, and my lawful debts.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "distribute life insurance proceeds according to the provisions of this Will"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "use all or a part of the proceeds for the payment of funeral and administration expenses, death taxes, and my lawful debts"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "funeral and administration expenses"
+            ],
+            "type": "Expense"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "death taxes"
+            ],
+            "type": "Tax"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my lawful debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "in his or her discretion"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "this Will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "all or a part of the proceeds",
+                "Life Insurance Proceeds",
+                "life insurance proceeds"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my",
+                "My"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "My personal representative",
+                "her",
+                "his"
+            ],
+            "type": "Executor"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Duty": [
+                "e1"
+            ],
+            "Executor": [
+                "e10"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Authorization",
+            "Right": [
+                "e2"
+            ],
+            "Condition": [
+                "e6"
+            ],
+            "Executor": [
+                "e10"
+            ]
+        }
+    ]
+}

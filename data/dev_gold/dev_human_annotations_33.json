@@ -1,0 +1,108 @@
+{
+    "text": "4.9 Payment of Penalties and Interest. I authorize my personal representative to pay from my general estate any interest which may accrue on debts or taxes due from my estate. Provided also, I authorize the payment of any penalties assessed as a charge against my estate so long as they are not the result of willful dereliction of duty by my personal representative.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Payment of Penalties and Interest"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "to pay from my general estate any interest which may accrue on debts or taxes due from my estate"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the payment of any penalties assessed as a charge against my estate"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "so long as they are not the result of willful dereliction of duty by my personal representative"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "taxes"
+            ],
+            "type": "Tax"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "duty"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "my personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "my estate",
+                "my general estate"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Right": [
+                "e2"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Executor": [
+                "e9"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Authorization",
+            "Right": [
+                "e3"
+            ],
+            "Condition": [
+                "e4"
+            ],
+            "Testator": [
+                "e8"
+            ],
+            "Executor": [
+                "e9"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "text": "3. Any royalties that might be received after my death from any musical composition are devised as follows: 50% to my sister [Person-3], 25% to [Person-4], and 25% to my brother [Person-2].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "after my death"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "[Person-4]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "as follows"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my sister",
+                "[Person-3]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-2]",
+                "my brother"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "Any royalties that might be received after my death from any musical composition",
+                "50%"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "Any royalties that might be received after my death from any musical composition",
+                "25%"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "Any royalties that might be received after my death from any musical composition",
+                "25%"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Testator": [
+                "e4"
+            ],
+            "Beneficiary": [
+                "e5"
+            ],
+            "Asset": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e2"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Asset": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e6"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Asset": [
+                "e9"
+            ]
+        }
+    ]
+}

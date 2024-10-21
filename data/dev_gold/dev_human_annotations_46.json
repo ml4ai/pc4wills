@@ -1,0 +1,74 @@
+{
+    "text": "I direct that my Trustee pay to or on behalf of my children so much of the income and principal in such trusts as my Trustee in his sole and absolute discretion may determine is necessary for health, education and welfare or other needs of my children.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "trusts"
+            ],
+            "type": "Trust"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "pay to or on behalf of my children so much of the income and principal in such trusts"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "as my Trustee in his sole and absolute discretion may determine is necessary for health, education and welfare or other needs of my children"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the income and principal in such trusts"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "his",
+                "my Trustee"
+            ],
+            "type": "Trustee"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my children"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Duty": [
+                "e2"
+            ],
+            "Condition": [
+                "e3"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Trustee": [
+                "e6"
+            ]
+        }
+    ]
+}

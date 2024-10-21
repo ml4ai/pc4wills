@@ -1,0 +1,25 @@
+{
+  "text": "ITEM IX. I furthermore want to state to each member of my beloved family that I love you each very much and how proud I am of each of you. I want to further state how grateful I am to my son, [Person-4], for his diligence in always remembering my birthday and Mother's day, and thank him for always making me feel special.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my",
+        "I",
+        "me"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "my son",
+        "him",
+        "his",
+        "[Person-4]"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": []
+}

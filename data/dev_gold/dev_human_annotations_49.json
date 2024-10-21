@@ -1,0 +1,177 @@
+{
+    "text": "I appoint my husband, [Person-2], as Executor of my estate, (or in the alternative should my husband not be able to served, I appoint [Person-5]) to be allowed to serve as such without making bond, with full powers to sell and convey any of my property, to serve as such without making inventory of my estate or filing inventory of my estate with any Court, or making settlement with any Court",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "alternative",
+                "[Person-5]"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "should my husband not be able to served"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "full powers to sell and convey any of my property"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "making inventory of my estate"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "filing inventory of my estate with any Court"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "making settlement with any Court"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "without making bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "with full powers to sell and convey any of my property"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "without making inventory of my estate or filing inventory of my estate with any Court, or making settlement with any Court"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "my husband",
+                "[Person-2]",
+                "Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "any of my property",
+                "my estate"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e11"
+            ],
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Disqualification",
+            "Executor": [
+                "e12"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Nomination",
+            "Executor": [
+                "e1"
+            ],
+            "Condition": [
+                "e2"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Authorization",
+            "Executor": [
+                "e1",
+                "e12"
+            ],
+            "Right": [
+                "e4"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Excuse",
+            "Executor": [
+                "e1",
+                "e12"
+            ],
+            "Bond": [
+                "e3"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        },
+        {
+            "id": "v6",
+            "type": "Excuse",
+            "Executor": [
+                "e1",
+                "e12"
+            ],
+            "Duty": [
+                "e5",
+                "e6",
+                "e7"
+            ],
+            "Testator": [
+                "e11"
+            ]
+        }
+    ]
+}

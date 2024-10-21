@@ -1,0 +1,71 @@
+{
+    "text": "4.3 Powers of Appointment. I am not aware of any powers of appointment vested in me, but to such extent as I am allowed to do so, I authorize my personal representative to exercise or decline to exercise such powers of appointment as he or she determines to be in the best interest of my estate and the beneficiaries of my estate.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Powers of Appointment",
+                "any powers of appointment vested in me",
+                "such powers of appointment"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "to such extent as I am allowed to do so"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "the beneficiaries"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "I",
+                "my",
+                "me"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "she",
+                "he",
+                "my personal representative"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my estate"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Condition": [
+                "e2"
+            ],
+            "Right": [
+                "e1"
+            ],
+            "Testator": [
+                "e4"
+            ],
+            "Executor": [
+                "e5"
+            ]
+        }
+    ]
+}

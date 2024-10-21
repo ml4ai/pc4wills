@@ -1,0 +1,13 @@
+{
+    "text": "LAST WILL AND TESTAMENT:",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "LAST WILL AND TESTAMENT"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": []
+}

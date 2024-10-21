@@ -1,0 +1,52 @@
+{
+    "text": "SWORN TO before me this September 14, 2001. NOTARY PUBLIC My Commission expires: 6/19/06",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "me"
+            ],
+            "type": "NotaryPublic"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "this September 14, 2001"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "NOTARY PUBLIC"
+            ],
+            "type": "NotaryPublic"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "My"
+            ],
+            "type": "NotaryPublic"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "6/19/06"
+            ],
+            "type": "Date"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Notarization",
+            "NotaryPublic": [
+                "e1"
+            ],
+            "Date": [
+                "e2"
+            ]
+        }
+    ]
+}

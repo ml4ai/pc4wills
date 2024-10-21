@@ -1,0 +1,85 @@
+{
+    "text": "I incorporate by reference, as fully as if copied verbatim, all the provisions and powers set forth in Tennessee Code Annotated Section 35-50-110, which section enumerates the administrative powers that I hereby confer upon my Executor and my Trustee.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "as fully as if copied verbatim"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my Trustee"
+            ],
+            "type": "Trustee"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "by reference"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "the administrative powers"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "all the provisions and powers set forth in Tennessee Code Annotated Section 35-50-110,"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Condition": [
+                "e1",
+                "e5"
+            ],
+            "Executor": [
+                "e3"
+            ],
+            "Trustee": [
+                "e4"
+            ],
+            "Right": [
+                "e6",
+                "e7"
+            ],
+            "Testator": [
+                "e8"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+  "text": "The Trustee is directed to pay all of the net income from the trust each year for the use and benefit of my wife, [Person-2].",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "The Trustee"
+      ],
+      "type": "Trustee"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "the trust"
+      ],
+      "type": "Trust"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "to pay all of the net income from the trust each year for the use and benefit of my wife, [Person-2]"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "[Person-2]",
+        "my wife"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Trustee": [
+        "e1"
+      ],
+      "Duty": [
+        "e3"
+      ],
+      "Testator": [
+        "e4"
+      ]
+    }
+  ]
+}

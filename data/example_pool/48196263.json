@@ -1,0 +1,54 @@
+{
+    "text": "II. I hereby will, devise and bequeath all of my property, both real and personal, tangible and intangible, of every nature and wheresoever situated, to my grandson, [Person-2], to do with as he sees fit.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "all of my property, both real and personal, tangible and intangible, of every nature and wheresoever situated"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "to do with as he sees fit"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "[Person-2]",
+                "he",
+                "my grandson"
+            ],
+            "type": "Beneficiary"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Asset": [
+                "e1"
+            ],
+            "Condition": [
+                "e2"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Beneficiary": [
+                "e4"
+            ]
+        }
+    ]
+}

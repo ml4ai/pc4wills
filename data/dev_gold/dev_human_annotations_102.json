@@ -1,0 +1,84 @@
+{
+    "text": "VIII I name, nominate and appoint my brother, [Person-2], as Executor of this my will and estate direct that he be allowed to serve without bond.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "this",
+                "my will"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "my brother",
+                "Executor",
+                "he",
+                "[Person-2]"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "estate"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "bond"
+            ],
+            "type": "Bond"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "without bond"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Nomination",
+            "Testator": [
+                "e6"
+            ],
+            "Executor": [
+                "e2"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Direction",
+            "Excuse": [
+                "v3"
+            ],
+            "Testator": [
+                "e6"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Excuse",
+            "Bond": [
+                "e4"
+            ],
+            "Executor": [
+                "e2"
+            ]
+        }
+    ]
+}

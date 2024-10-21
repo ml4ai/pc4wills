@@ -1,0 +1,103 @@
+{
+  "text": "I further direct that if any beneficiary under this Will should contest the terms of this Will they shall receive nothing by the terms of this Will and that share which they would have received shall be divided among the remaining beneficiaries of my estate in the same manner as though they had predeceased me without issue.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "if any beneficiary under this Will should contest the terms of this Will"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "that share which they would have received"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "the remaining beneficiaries"
+      ],
+      "type": "Beneficiary"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "my estate"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "in the same manner as though they had predeceased me without issue"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "me",
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "this Will"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "they",
+        "any beneficiary under this Will"
+      ],
+      "type": "Beneficiary"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Direction",
+      "Removal": [
+        "v2"
+      ],
+      "Bequest": [
+        "v3"
+      ],
+      "Testator": [
+        "e6"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Removal",
+      "Condition": [
+        "e1"
+      ],
+      "Beneficiary": [
+        "e8"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Bequest",
+      "Condition": [
+        "e1",
+        "e5"
+      ],
+      "Asset": [
+        "e2"
+      ],
+      "Beneficiary": [
+        "e3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "text": "MY COMMISSION EXPIRES: 3/28/2004",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "MY"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "3/28/2004"
+            ],
+            "type": "Date"
+        }
+    ],
+    "events": []
+}

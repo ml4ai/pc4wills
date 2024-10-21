@@ -1,0 +1,50 @@
+{
+    "text": "III All the rest of my property, including any furnishings inside the house, any money I have, and any other property of any kind, I will and bequeath to [Person-6] of Maury City, Tennessee.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "[Person-6]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "I",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "All the rest of my property",
+                "any furnishings inside the house, any money I have, and any other property of any kind"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Bequest",
+            "Beneficiary": [
+                "e1"
+            ],
+            "Testator": [
+                "e3"
+            ],
+            "Asset": [
+                "e4"
+            ]
+        }
+    ]
+}

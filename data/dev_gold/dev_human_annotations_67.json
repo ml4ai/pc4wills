@@ -1,0 +1,91 @@
+{
+    "text": "IN TESTIMONY WHEREOF, I have hereunto subscribed my name to my Last Will and Testament, consisting of this and two (2) preceding typewritten pages, and for the purpose of identification I have initialed each such page, all in the presence of the persons witnessing this, my Last Will and Testament, at my request, this the 22 day of Oct, 2001",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "IN TESTIMONY WHEREOF"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "all in the presence of the persons witnessing this"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "at my request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "the persons"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "this",
+                "each such page",
+                "my Last Will and Testament",
+                "this and two (2) preceding typewritten pages"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "this",
+                "the 22 day of Oct, 2001"
+            ],
+            "type": "Date"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Condition": [
+                "e1",
+                "e2"
+            ],
+            "Testator": [
+                "e5"
+            ],
+            "Will": [
+                "e6"
+            ],
+            "Date": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Attestation",
+            "Condition": [
+                "e3"
+            ],
+            "Witness": [
+                "e4"
+            ],
+            "Will": [
+                "e6"
+            ]
+        }
+    ]
+}

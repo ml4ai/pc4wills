@@ -1,0 +1,211 @@
+{
+    "text": "4) I hereby direct my Executor to sell all of the rest and residue of my property, real, personal and mixed, and wheresoever situated, including vehicles, furniture and my real estate located at [Address-2] in Ripley, Tennessee, as soon after my death as can conveniently be done. I hereby convey unto my Executor all of such title as is necessary to convert this property to cash. After my estate is converted to cash, then I hereby direct that the net proceeds from the sale after the said debts are paid are to be equally to [Person-7], [Person-15] and [Person-16].",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "to sell all of the rest and residue of my property, real, personal and mixed, and wheresoever situated"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "vehicles"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "furniture"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "my real estate located at [Address-2] in Ripley, Tennessee"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "as soon after my death as can conveniently be done"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "all of such title"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "as is necessary to convert this property to cash"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e9",
+            "texts": [
+                "After my estate is converted to cash"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e10",
+            "texts": [
+                "the said debts"
+            ],
+            "type": "Debt"
+        },
+        {
+            "id": "e11",
+            "texts": [
+                "equally"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e12",
+            "texts": [
+                "[Person-15]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e13",
+            "texts": [
+                "[Person-16]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e14",
+            "texts": [
+                "[Person-7]"
+            ],
+            "type": "Beneficiary"
+        },
+        {
+            "id": "e15",
+            "texts": [
+                "after the said debts are paid"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e16",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e17",
+            "texts": [
+                "my Executor"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e18",
+            "texts": [
+                "all of the rest and residue of my property, real, personal and mixed, and wheresoever situated",
+                "my estate",
+                "this property"
+            ],
+            "type": "Asset"
+        },
+        {
+            "id": "e19",
+            "texts": [
+                "cash",
+                "the net proceeds from the sale"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Direction",
+            "Duty": [
+                "e1"
+            ],
+            "Time": [
+                "e6"
+            ],
+            "Testator": [
+                "e16"
+            ],
+            "Executor": [
+                "e17"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Death",
+            "Testator": [
+                "e16"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "Authorization",
+            "Right": [
+                "e7"
+            ],
+            "Condition": [
+                "e8"
+            ],
+            "Testator": [
+                "e16"
+            ],
+            "Executor": [
+                "e17"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Direction",
+            "Bequest": [
+                "v5"
+            ],
+            "Testator": [
+                "e16"
+            ]
+        },
+        {
+            "id": "v5",
+            "type": "Bequest",
+            "Condition": [
+                "e11"
+            ],
+            "Beneficiary": [
+                "e12",
+                "e13",
+                "e14"
+            ],
+            "Asset": [
+                "e19"
+            ],
+            "Time": [
+                "e15"
+            ]
+        }
+    ]
+}

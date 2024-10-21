@@ -1,0 +1,91 @@
+{
+    "text": "Signed by the said [Person-1], as and for her Last Will and Testament in the presence of us, the undersigned, who at her request and in her presence and in the presence of each other have hereunto signed our names as attesting witnesses the day and year above written.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "her Last Will and Testament"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "the day and year above written"
+            ],
+            "type": "Date"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "in the presence of us"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "at her request"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "in her presence and in the presence of each other"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "witnesses",
+                "each other",
+                "us",
+                "the undersigned",
+                "our"
+            ],
+            "type": "Witness"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "her",
+                "the said [Person-1]"
+            ],
+            "type": "Testator"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "SignWill",
+            "Will": [
+                "e1"
+            ],
+            "Condition": [
+                "e3"
+            ],
+            "Testator": [
+                "e7"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "SignWill",
+            "Will": [
+                "e1"
+            ],
+            "Date": [
+                "e2"
+            ],
+            "Condition": [
+                "e4",
+                "e5"
+            ],
+            "Witness": [
+                "e6"
+            ]
+        }
+    ]
+}

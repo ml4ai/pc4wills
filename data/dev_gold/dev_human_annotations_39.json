@@ -1,0 +1,13 @@
+{
+    "text": "LAUDERDALE COUNTY",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "LAUDERDALE COUNTY"
+            ],
+            "type": "County"
+        }
+    ],
+    "events": []
+}

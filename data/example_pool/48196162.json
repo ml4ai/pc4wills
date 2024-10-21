@@ -1,0 +1,119 @@
+{
+    "text": "I, [Person-1], of Gates, Lauderdale County, Tennessee, being of sound and disposing mind and memory, do hereby make, publish, and declare this instrument as my LAST WILL AND TESTAMENT, hereby revoking all wills and codicils to wills heretofore made by me.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "Lauderdale County"
+            ],
+            "type": "County"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "Tennessee"
+            ],
+            "type": "State"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "being of sound and disposing mind and memory"
+            ],
+            "type": "Condition"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "codicils to wills"
+            ],
+            "type": "Codicil"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "heretofore"
+            ],
+            "type": "Time"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "[Person-1]",
+                "I",
+                "me",
+                "my"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "this instrument",
+                "my LAST WILL AND TESTAMENT"
+            ],
+            "type": "Will"
+        },
+        {
+            "id": "e8",
+            "texts": [
+                "all wills"
+            ],
+            "type": "Will"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "WillCreation",
+            "Testator": [
+                "e6"
+            ],
+            "Will": [
+                "e7"
+            ],
+            "Condition": [
+                "e3"
+            ]
+        },
+        {
+            "id": "v2",
+            "type": "Revocation",
+            "Codicil": [
+                "e4"
+            ],
+            "Testator": [
+                "e6"
+            ],
+            "Will": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v3",
+            "type": "WillCreation",
+            "Time": [
+                "e5"
+            ],
+            "Testator": [
+                "e6"
+            ],
+            "Will": [
+                "e8"
+            ]
+        },
+        {
+            "id": "v4",
+            "type": "Codicil",
+            "Codicil": [
+                "e4"
+            ],
+            "Time": [
+                "e5"
+            ],
+            "Testator": [
+                "e6"
+            ]
+        }
+    ]
+}

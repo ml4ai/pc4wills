@@ -1,0 +1,73 @@
+{
+    "text": "I vest my said Executrix and substitute respectively with full power and authority to sell, transfer, encumber, mortgage, invest or otherwise dispose of any and all of my property, real or personal, which I may own at the time of my death, and to do every other act and thing necessary or appropriate for the complete administration of my estate.",
+    "entities": [
+        {
+            "id": "e1",
+            "texts": [
+                "my said Executrix"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e2",
+            "texts": [
+                "substitute"
+            ],
+            "type": "Executor"
+        },
+        {
+            "id": "e3",
+            "texts": [
+                "full power and authority to sell, transfer, encumber, mortgage, invest or otherwise dispose of any and all of my property, real or personal, which I may own at the time of my death"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e4",
+            "texts": [
+                "do every other act and thing necessary or appropriate for the complete administration of my estate"
+            ],
+            "type": "Right"
+        },
+        {
+            "id": "e5",
+            "texts": [
+                "the complete administration of my estate"
+            ],
+            "type": "Duty"
+        },
+        {
+            "id": "e6",
+            "texts": [
+                "my",
+                "I"
+            ],
+            "type": "Testator"
+        },
+        {
+            "id": "e7",
+            "texts": [
+                "my property, real or personal, which I may own at the time of my death",
+                "my estate"
+            ],
+            "type": "Asset"
+        }
+    ],
+    "events": [
+        {
+            "id": "v1",
+            "type": "Authorization",
+            "Executor": [
+                "e1",
+                "e2"
+            ],
+            "Right": [
+                "e3",
+                "e4"
+            ],
+            "Testator": [
+                "e6"
+            ]
+        }
+    ]
+}

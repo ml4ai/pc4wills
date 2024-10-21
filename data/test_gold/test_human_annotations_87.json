@@ -1,0 +1,117 @@
+{
+  "text": "III. I hereby authorize and direct my Co-Executors take charge of any and all of my property promptly after causing my Last Will and Testament to be probated and further make demand for payment of all outstanding debts due me.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "my Co-Executors"
+      ],
+      "type": "Executor"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "take charge of any and all of my property"
+      ],
+      "type": "Right"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "take charge of any and all of my property"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "any and all of my property"
+      ],
+      "type": "Asset"
+    },
+    {
+      "id": "e5",
+      "texts": [
+        "promptly after causing my Last Will and Testament to be probated"
+      ],
+      "type": "Time"
+    },
+    {
+      "id": "e6",
+      "texts": [
+        "payment of all outstanding debts due me"
+      ],
+      "type": "Duty"
+    },
+    {
+      "id": "e7",
+      "texts": [
+        "all outstanding debts due me"
+      ],
+      "type": "Debt"
+    },
+    {
+      "id": "e8",
+      "texts": [
+        "my Last Will and Testament"
+      ],
+      "type": "Will"
+    },
+    {
+      "id": "e9",
+      "texts": [
+        "me",
+        "my",
+        "I"
+      ],
+      "type": "Testator"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Authorization",
+      "Executor": [
+        "e1"
+      ],
+      "Right": [
+        "e2"
+      ],
+      "Time": [
+        "e5"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Direction",
+      "Executor": [
+        "e1"
+      ],
+      "Duty": [
+        "e3"
+      ],
+      "Time": [
+        "e5"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Direction",
+      "Executor": [
+        "e1"
+      ],
+      "Duty": [
+        "e6"
+      ],
+      "Testator": [
+        "e9"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "text": "If he also declines or is unable to act, I nominate the [Organization-3] as the Trustee.",
+  "entities": [
+    {
+      "id": "e1",
+      "texts": [
+        "he"
+      ],
+      "type": "Trustee"
+    },
+    {
+      "id": "e2",
+      "texts": [
+        "I"
+      ],
+      "type": "Testator"
+    },
+    {
+      "id": "e3",
+      "texts": [
+        "If he also declines or is unable to act"
+      ],
+      "type": "Condition"
+    },
+    {
+      "id": "e4",
+      "texts": [
+        "the Trustee",
+        "[Organization-3]"
+      ],
+      "type": "Trustee"
+    }
+  ],
+  "events": [
+    {
+      "id": "v1",
+      "type": "Disqualification",
+      "Trustee": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v2",
+      "type": "Renunciation",
+      "Trustee": [
+        "e1"
+      ]
+    },
+    {
+      "id": "v3",
+      "type": "Nomination",
+      "Testator": [
+        "e2"
+      ],
+      "Condition": [
+        "e3"
+      ],
+      "Trustee": [
+        "e4"
+      ]
+    }
+  ]
+}
